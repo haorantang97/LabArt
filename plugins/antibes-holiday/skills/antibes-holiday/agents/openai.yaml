@@ -1,0 +1,4 @@
+interface:
+  display_name: "Antibes Holiday"
+  short_description: "Create relaxed black-pen scenes, illustrations, and marks"
+  default_prompt: "Use $antibes-holiday to turn this concept into an original relaxed black-pen illustration, story scene, or logo."

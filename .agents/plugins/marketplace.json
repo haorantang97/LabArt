@@ -1,0 +1,20 @@
+{
+  "name": "antibes-holiday",
+  "interface": {
+    "displayName": "Antibes Holiday"
+  },
+  "plugins": [
+    {
+      "name": "antibes-holiday",
+      "source": {
+        "source": "local",
+        "path": "./plugins/antibes-holiday"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

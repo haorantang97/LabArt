@@ -1,0 +1,41 @@
+{
+  "name": "antibes-holiday",
+  "version": "0.1.0",
+  "description": "Create original relaxed black-pen illustrations, narrative scenes, and expressive marks.",
+  "author": {
+    "name": "Antibes Holiday"
+  },
+  "license": "MIT",
+  "keywords": [
+    "illustration",
+    "line-art",
+    "storytelling",
+    "logo",
+    "image-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Antibes Holiday",
+    "shortDescription": "Relaxed black-pen scenes, illustrations, and marks",
+    "longDescription": "A transferable black-pen drawing system for sparse illustrations, causal story scenes, non-equilibrium composition, expressive marks, and logo exploration. It adapts to the rendering tools available in the current environment.",
+    "developerName": "Antibes Holiday",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/oversized-sofa.png",
+      "./assets/examples/fragile-cooperation.png",
+      "./assets/examples/dog-and-deck-chair.png",
+      "./assets/examples/giant-kite.png",
+      "./assets/examples/pasta-machine.png",
+      "./assets/examples/giant-dog-and-planter.png"
+    ],
+    "defaultPrompt": [
+      "Draw a relaxed black-pen story scene from this idea.",
+      "Turn this concept into an expressive line illustration.",
+      "Explore an original hand-drawn logo mark."
+    ]
+  }
+}
