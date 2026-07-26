@@ -17,36 +17,43 @@ not runtime style references.
 <table>
   <tr>
     <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/oversized-sofa.png" alt="Two movers carrying an oversized sofa">
+      <img src="plugins/antibes-holiday/assets/examples/waiter-and-tray.jpg" alt="A waiter balancing a tilted tray and airborne cups">
+      <br><strong>Precarious timing</strong><br>
+      A tilted tray and airborne cups turn bodily counterforce into the event.
+    </td>
+    <td width="50%">
+      <img src="plugins/antibes-holiday/assets/examples/oversized-sofa.jpg" alt="Two movers carrying an oversized sofa">
       <br><strong>Dominant mass</strong><br>
       Scale distortion turns an ordinary action into the scene's visual cause.
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/fragile-cooperation.png" alt="Two profiles holding a suspended drop">
+      <img src="plugins/antibes-holiday/assets/examples/dog-and-deck-chair.jpg" alt="A small dog dragging a large deck chair between two people">
+      <br><strong>Multi-actor causality</strong><br>
+      Unequal detail and scale keep a complex event readable.
+    </td>
+    <td width="50%">
+      <img src="plugins/antibes-holiday/assets/examples/suspended-drop.jpg" alt="A suspended drop held by converging lines">
       <br><strong>Abstract relationship</strong><br>
       One long tension line and a compact recognition knot carry the idea.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/dog-and-deck-chair.png" alt="A small dog dragging a large deck chair between two people">
-      <br><strong>Multi-actor causality</strong><br>
-      Unequal detail and scale keep a complex event readable.
-    </td>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/giant-kite.png" alt="Two people being pulled by a giant kite">
+      <img src="plugins/antibes-holiday/assets/examples/giant-kite.jpg" alt="Two people being pulled by a giant kite">
       <br><strong>Active blank space</strong><br>
       Distance and force are staged through a single causal sweep.
     </td>
-  </tr>
-  <tr>
     <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/pasta-machine.png" alt="A pasta machine producing one long ribbon">
+      <img src="plugins/antibes-holiday/assets/examples/pasta-machine.jpg" alt="A pasta machine producing one long ribbon">
       <br><strong>Operational shorthand</strong><br>
       The mechanism is abbreviated while its material path is exaggerated.
     </td>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/giant-dog-and-planter.png" alt="A giant dog pulling a person past a falling planter">
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img width="50%" src="plugins/antibes-holiday/assets/examples/giant-dog-and-planter.jpg" alt="A giant dog pulling a person past a falling planter">
       <br><strong>Mixed line density</strong><br>
       Sparse story marks coexist with a rougher, more physical focal mass.
     </td>
@@ -60,7 +67,7 @@ not runtime style references.
 - `references/style-system.md`: detailed drawing and composition system.
 - `references/prompt-recipes.md`: renderer-neutral prompt scaffolds.
 - `assets/stroke-calibration.png`: original non-semantic stroke calibration asset.
-- `plugins/antibes-holiday/assets/examples/`: six original public outputs.
+- `plugins/antibes-holiday/assets/examples/`: seven selected original public outputs.
 
 Third-party screenshots, source identities, copied compositions, and private local
 paths are not included.

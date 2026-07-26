@@ -23,15 +23,16 @@ props, poses, scale ratios, hinge positions, or layouts. Choose a different
 composition family and build the new event independently.
 ```
 
-When only the bundled calibration sheet is supplied, prepend:
+When the bundled calibration sheet is supplied, prepend:
 
 ```text
-The reference is an original non-semantic pen-stroke calibration sheet. Ignore
-all swatch shapes, positions, and composition. Do not turn them into objects,
-symbols, borders, or decorations. Use only the physical line behavior: quick
-committed sweeps, slight pressure and speed changes, shallow kinks, selective
-retracing, local ink darkening, dry or blunt terminals, and restrained paper
-tooth. Construct the requested subject independently.
+The reference is an original non-semantic pen-stroke calibration sheet. It controls
+only physical pen behavior: committed sweeps that drift or lurch, uneven pressure
+and speed, missed junctions, overshoots, displaced restarts, retracing, local ink
+darkening, dry breaks, and blunt terminals. Ignore every shape, position, and
+composition in the sheet. Do not turn its marks into objects, symbols, borders,
+motifs, or decorations. Construct the requested subject independently from the
+text prompt.
 ```
 
 ## Relaxed Illustration
@@ -41,18 +42,32 @@ Create an original quick black-pen drawing of [subject] [action or state].
 It should look drawn in one alert sitting with a real fine black pen on plain
 uncoated warm-white paper, not rendered as clean digital line art.
 
-Begin with one or two fast structural sweeps. Preserve slight changes in pressure,
-curve tension, and speed; allow an abrupt terminal and one shallow kink. Add a
-compact knot of short shorthand marks only at [action/contact/recognition point].
-Let one selected overlap or retrace become darker because the pen slowed down.
-Leave recoverable boundaries unfinished. Allow no more than two incomplete search
-marks when they support the main movement. Stop before the subject is fully
-described, corrected, centered, or polished.
+Begin with one or two fast structural sweeps, as if an alert observer were drawing
+after one drink too many. Let one sweep visibly lose its destination through a
+broad drift, sudden lurch, overshoot, or early stop. Preserve uneven changes in
+pressure, curve tension, and speed. Make one intended junction miss, overlap, or
+resume slightly displaced. Build one feature from two fragments that do not quite
+agree. Add a compact knot of short shorthand marks only at
+[action/contact/recognition point]. Let one selected overlap or retrace become
+darker because the pen slowed down. Leave recoverable boundaries unfinished.
+Permit one to four false starts or corrective fragments when they record discovery.
+Omit boundaries the viewer can infer, but retain enough uneven local specificity
+for the subject to feel observed rather than reduced to a stick symbol. Do not let
+one continuous contour competently explain the whole form. Stop before the subject
+is fully described, corrected, centered, or polished.
+
+Concentrate duplicate lines, scribbled density, and dark correction at one
+recognition knot. Outside that knot, make one imperfect attempt and leave it;
+do not repeatedly redraw the figure into generic loose-sketch texture.
 
 Keep subtle authentic ink deposition and paper tooth at close range, but no heavy
 paper texture, camera shadow, pencil shading, wash, brush effect, sketch filter,
-uniform wobble, vector-perfect curves, decorative distress, signature, or text.
-Do not import subjects or motifs from the references.
+uniform micro-wobble, vector-perfect curves, graceful fashion-sketch anatomy,
+polished period-illustration elegance, decorative distress, signature, or text.
+Do not import subjects or motifs from the references. Structural instability must
+change the inferred form; it cannot be a roughness filter placed over clean drawing.
+Do not spend marks on eyes, fingers, shoelaces, seams, cuffs, pockets, or complete
+footwear unless one is the recognition knot.
 ```
 
 ## Non-Human Living Form
@@ -105,12 +120,20 @@ feature / dominant cropped mass / tiny displaced counteractor / off-center hinge
 edge-reaching contour]. Let scale follow narrative importance rather than realistic
 perspective. Give the actors unequal detail density. Keep recognition marks compact
 at the hinge and let blank paper carry distance, pause, anticipation, or release.
+Build the principal actor from unequal purposeful fragments. Reduce supporting
+actors to crooked posture plus one observed recognition feature, but do not turn
+them into generic stick symbols. Let posture, spacing, and active gaps carry the action.
 
 Do not complete every body, prop, or setting. No symmetrical tableau, centered
 triangle, equal-size actors, repeated accessories, scenic filling, background
 architecture, perspective grid, caption, or decorative marks. Preserve fast
-committed sweeps, local retracing, open contours, and independent terminals. Stop
-when what just happened or will happen next is inferable.
+committed but drifting sweeps, one missed or overrun junction, local retracing,
+crooked supporting figures, open contours, and independent terminals. Stop when
+what just happened or will happen next is inferable.
+
+If the event is funny, make the humor visible through disproportion, posture,
+timing, and physical consequence. Do not add sweat drops, surprise ticks,
+exclamation marks, speed marks, or other cartoon punctuation unless requested.
 ```
 
 ## Disproportionate Portrait Or Object
@@ -146,6 +169,25 @@ close expressive gaps, or make the mark globally thicker. Create a display maste
 first, then an optically adjusted small-size production master if needed.
 ```
 
+## Bounded Decontrol Edit
+
+```text
+Edit the readable draft without changing its subject, action, text, composition,
+hierarchy, scale relationships, or blank space. Change only evidence of excessive
+drawing competence.
+
+Break one clean continuous contour into partially incompatible fragments. Let one
+major line drift enough to alter the silhouette, then recover abruptly. Displace
+one restart, miss or overrun one intended junction, remove conventional anatomy or
+product detail, and add one local out-of-register retrace with darker ink. Preserve
+readability through posture, mass, and the recognition knot. Do not add uniform
+wobble, decorative scribbling, new objects, or extra texture.
+
+Reject the edit if the subject becomes a stick symbol, meaning is lost, text
+changes, or the result looks intentionally damaged. Keep the readable draft and
+edit one smaller region instead.
+```
+
 ## Diagnostics
 
 If it looks like clean vector minimalism:
@@ -155,11 +197,22 @@ If it looks like clean vector minimalism:
 - add one local retrace and one abrupt terminal;
 - remove perfect curves, constant-width paths, and geometric centering.
 
+If it looks like a trained period, fashion, or editorial sketch:
+
+- remove anatomical competence rather than merely deleting detail;
+- redraw one major contour with a broad drift and abrupt recovery;
+- make one intended junction visibly miss or overrun;
+- replace the clean face, hand, or object edge with incompatible shorthand fragments;
+- delete shoelaces, fingers, pockets, cuffs, and other proof of drawing competence;
+- keep one confidently wrong exploratory line;
+- preserve the changed silhouette instead of correcting it back to elegance.
+
 If it looks generically sketchy:
 
 - remove uniform wobble and decorative roughness;
-- keep only one or two search marks;
+- keep only consequential search marks;
 - strengthen the fast-sweep versus slow-knot contrast;
+- collapse duplicate contours outside the recognition knot into one imperfect attempt;
 - delete crosshatching and texture outside the recognition knot.
 
 If it is too complete:
@@ -189,3 +242,9 @@ If a scene looks staged or generic:
 - move the densest knot away from the geometric center;
 - let a causal sweep or active gap replace balanced grouping;
 - remove arrows, speed marks, and equal-detail rendering.
+
+If humor becomes cartoon shorthand:
+
+- remove sweat drops, surprise ticks, exclamation marks, and speed marks;
+- preserve the event, then strengthen the disproportion or bodily counterforce;
+- let the contact knot and consequence carry the joke without graphic punctuation.

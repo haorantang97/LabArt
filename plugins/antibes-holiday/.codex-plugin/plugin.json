@@ -1,6 +1,6 @@
 {
   "name": "antibes-holiday",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create original relaxed black-pen illustrations, narrative scenes, and expressive marks.",
   "author": {
     "name": "Antibes Holiday"
@@ -25,12 +25,13 @@
       "Write"
     ],
     "screenshots": [
-      "./assets/examples/oversized-sofa.png",
-      "./assets/examples/fragile-cooperation.png",
-      "./assets/examples/dog-and-deck-chair.png",
-      "./assets/examples/giant-kite.png",
-      "./assets/examples/pasta-machine.png",
-      "./assets/examples/giant-dog-and-planter.png"
+      "./assets/examples/waiter-and-tray.jpg",
+      "./assets/examples/oversized-sofa.jpg",
+      "./assets/examples/dog-and-deck-chair.jpg",
+      "./assets/examples/suspended-drop.jpg",
+      "./assets/examples/giant-kite.jpg",
+      "./assets/examples/pasta-machine.jpg",
+      "./assets/examples/giant-dog-and-planter.jpg"
     ],
     "defaultPrompt": [
       "Draw a relaxed black-pen story scene from this idea.",

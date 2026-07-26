@@ -6,17 +6,41 @@ This system describes how the pen moves. It is not a motif library.
 
 The high-weight mature work reads as quick black-pen notation on plain paper:
 
-- long contours appear to be drawn in one committed pass;
-- curves contain small changes in speed, tension, and direction;
+- long contours launch decisively but may drift, lurch, overshoot, or lose their
+  destination before recovering;
+- curves contain changes in speed, tension, and direction large enough to alter
+  the inferred structure, not only decorate its edge;
 - short recognition marks behave like visual shorthand;
 - line weight is mostly restrained but darkens at a few stops, overlaps, or retraces;
+- intended junctions may miss, cross too far, or resume slightly displaced;
+- anatomy and object construction may be assembled from fragments that do not
+  fully agree in perspective or proportion;
 - contours often stop where the viewer can complete them;
 - local clusters can be busy while the surrounding page remains quiet;
 - proportions are freely distorted around the action or recognition knot;
 - residual partial marks sometimes remain near the main figure;
 - the drawing stops before anatomy, objects, or space are fully resolved.
 
-The relaxed effect does not come from random wobble, beige paper, or low accuracy. It comes from confident incompletion.
+The relaxed effect does not come from random wobble, beige paper, or low accuracy.
+It comes from confident incompletion plus visible loss and recovery of control.
+
+## Structural Instability
+
+This line system must not merely simplify a well-drawn contour. Its construction
+should remain slightly unstable at the scale of the form.
+
+Use a small number of consequential irregularities:
+
+- one long contour drifts far enough to change the silhouette before recovering;
+- one intended meeting misses, overlaps, or restarts several pen-widths away;
+- one feature is built from two fragments that disagree slightly;
+- one exploratory line remains confidently wrong instead of being erased;
+- one slow knot accumulates ink while nearby contours stay thin and under-described.
+
+Do not distribute these effects evenly. One broad lurch is more useful than
+twenty tiny wiggles. The hand may seem lightly tipsy, but the observation remains
+alert. Preserve readability through posture, action, and shorthand rather than
+through clean anatomy.
 
 ## Stroke Anatomy
 
@@ -30,10 +54,10 @@ Purpose:
 
 Behavior:
 
-- mostly single-pass;
-- small unevenness from changing speed;
-- occasional shallow kink rather than a perfect arc;
-- beginning may be blunt, tentative, or lightly overshot;
+- launched as a single pass but allowed to lose its path;
+- one broad lateral drift, abrupt correction, or uneven change of curvature;
+- occasional visible lurch rather than only a shallow cosmetic kink;
+- beginning may be blunt, tentative, false, or clearly overshot;
 - ending often stops abruptly without decorative taper.
 
 Avoid:
@@ -41,6 +65,7 @@ Avoid:
 - mathematically smooth curves;
 - constant-width vector paths;
 - repeated digital jitter;
+- correcting a drifting contour back into anatomical elegance;
 - polishing the curve until all tension disappears.
 
 ### Shorthand fragment
@@ -72,27 +97,34 @@ Behavior:
 - one overlap or retrace may become visibly darker;
 - small closure errors are acceptable;
 - detail falls away quickly outside the knot.
+- repeated correction belongs here; the rest of the drawing should retain single,
+  imperfect attempts rather than hairy duplicate contours.
 
 Examples of knots include contact, grasp, opening, mechanism, impact, exchange, or transformation. They are not fixed objects.
 
 ### Residual search mark
 
-One or two incomplete marks may remain when they:
+One to four incomplete or corrective marks may remain in an expressive
+illustration when they:
 
 - preserve the feeling of active discovery;
 - echo the direction of the main gesture;
 - suggest a neighboring form or abandoned continuation.
 
-Delete them when they look like decoration, motion icons, or manufactured roughness.
+Delete them when they look like decoration, motion icons, evenly distributed
+roughness, or a generic sketch overlay. Logos and very small marks may need fewer.
 
 ## Tempo
 
-A successful drawing contains at least two speeds:
+A successful drawing contains at least three states:
 
-1. `fast`: long structural sweeps with low information density;
-2. `slow`: compact shorthand and retracing at the recognition knot.
+1. `launch`: a fast structural sweep with low information density;
+2. `loss`: a drift, lurch, missed meeting, displaced restart, or false path;
+3. `recovery`: compact shorthand and retracing at the recognition knot.
 
-The transition between speeds creates relaxation. Uniformly careful drawing feels stiff; uniformly loose drawing feels careless.
+The transition between these states creates relaxation. Uniformly careful drawing
+feels stiff; uniformly loose drawing feels careless; clean fast lines plus neat
+details feel like professional editorial sketching.
 
 ## Completion
 
@@ -113,11 +145,32 @@ Do not continue merely to:
 - distribute detail evenly;
 - make the result look professionally finished.
 
+## Contour Discipline
+
+Omission must affect construction, not only decoration:
+
+- avoid a single continuous contour that explains head, torso, limb, and clothing
+  in one competent chain;
+- let each mark carry a role: gesture, recognition, contact, correction, or release;
+- spend detail on one recognition knot rather than distributing proof of drawing
+  competence across the form;
+- give supporting figures enough crooked specificity to read as observed people or
+  things, not generic sticks or pictograms;
+- vary omission by subject and action instead of enforcing a percentage or line count;
+- when the image remains readable after removing a descriptive line, remove it.
+
+Never compensate for excessive description by adding more wobble, and never
+compensate for clean lines by deleting the subject until only symbols remain.
+
 ## Subject Transfer
 
 ### Living forms
 
-Begin with center of gravity and movement. Preserve one distinctive anatomical rhythm. Omit anatomy that does not affect the action.
+Begin with center of gravity and movement. Preserve one distinctive anatomical
+rhythm, but allow one structural mismatch where two fragments do not fully agree.
+Omit anatomy that does not affect the action. A living form should not resolve
+into a graceful fashion figure or academically competent gesture drawing. A face
+usually needs only a profile break, hair mass, tilt, or one directional mark.
 
 ### Objects
 
@@ -152,11 +205,13 @@ Target:
 
 - black fine pen, gel-pen-like, or fineliner-like mark;
 - plain warm-white or white uncoated paper;
-- subtle paper tooth visible only at close range;
+- subtle paper tooth and mild uneven exposure visible at close range;
 - minor ink pooling at selected stops;
 - no pencil shading, brush calligraphy, marker fill, or digital outline effect.
 
-For clean digital delivery, preserve the stroke edge and pressure behavior while removing camera cast, page borders, shadows, and excessive grain.
+For clean digital delivery, preserve the stroke edge, mild paper irregularity, and
+pressure behavior while removing heavy camera cast, page borders, shadows, and
+excessive grain. Do not polish the page until the line resembles archival editorial art.
 
 ## Composition
 
@@ -186,7 +241,8 @@ physically small but visually dense.
 ### Information hierarchy
 
 - Use high detail only at the narrative hinge and one recognition point per actor.
-- Let supporting figures collapse into posture plus one distinctive fragment.
+- Let supporting figures collapse into crooked posture plus one distinctive
+  fragment; do not turn them into clean pictograms.
 - Keep environmental detail to the minimum needed for contact, scale, or direction.
 - Separate actors with blank paper rather than background objects.
 - Let one long contour belong simultaneously to an actor and the event path.
@@ -253,6 +309,8 @@ Reject a scene when:
 - empty space has been filled decoratively;
 - the image reads as unrelated icons rather than one event;
 - a dramatic accessory appears without being required by the new story.
+- every body part and object edge joins correctly;
+- the figures read as elegant trained sketches rather than unstable notation.
 
 ## Color
 

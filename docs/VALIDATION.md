@@ -21,7 +21,7 @@ The following checks must pass before release:
 2. Codex `validate_plugin.py` accepts the Plugin.
 3. `.agents/plugins/marketplace.json` parses and discovers the Plugin.
 4. A clean ZIP extraction contains `SKILL.md`, both reference files, the calibration
-   asset, six selected example outputs, UI metadata, and the plugin manifest.
+   asset, seven selected example outputs, UI metadata, and the plugin manifest.
 5. Installed Plugin files match the release source.
 6. Repository-wide scans find no private paths, credentials, or source-platform URLs.
 
@@ -47,6 +47,8 @@ Every generated candidate must pass:
 
 - physical pen behavior;
 - contrast between fast sweeps and slower recognition marks;
+- structural drift plus visible loss and recovery of control;
+- at least one imperfectly registered junction or displaced restart;
 - shorthand recognition through incomplete forms;
 - unforced proportion, spacing, and terminals;
 - transfer without imported motifs;
