@@ -1,7 +1,7 @@
 ---
 name: antibes-holiday
 description: Create original relaxed black-pen graphics from concepts or visual references, including sparse illustrations, narrative scenes, animals, objects, abstract relationships, icons, and logo marks. Use when the user wants quick hand-drawn line energy, causal story staging, non-equilibrium proportion, shorthand forms, open contours, structural line drift, misregistered junctions, selective retracing, physical pen texture, or a transferable illustration system that must not collapse into clean vector minimalism or polished period-sketch drawing.
-license: MIT
+license: PolyForm-Noncommercial-1.0.0
 ---
 
 # Antibes Holiday

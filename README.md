@@ -144,7 +144,7 @@ References are evidence for general line and composition mechanisms only.
 ## License
 
 The plugin instructions and bundled original calibration asset are distributed
-under the MIT License. See `LICENSE`.
+under the PolyForm Noncommercial License 1.0.0. See `LICENSE`.
 
 ## Validation
 
