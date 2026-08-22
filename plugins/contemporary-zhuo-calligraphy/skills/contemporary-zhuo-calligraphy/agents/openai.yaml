@@ -1,0 +1,7 @@
+interface:
+  display_name: "当代拙书生成"
+  short_description: "用蒸馏的结构、笔性与关系章法生成任意中文拙书。"
+  default_prompt: "请用 $contemporary-zhuo-calligraphy 把这段中文生成一幅当代拙书作品，并严格检查文字与风格。"
+  brand_color: "#3B241B"
+policy:
+  allow_implicit_invocation: true

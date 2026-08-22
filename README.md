@@ -1,153 +1,73 @@
-# Antibes Holiday
+# TArt
 
-Antibes Holiday is a portable visual-creation skill for original relaxed
-black-pen illustrations, narrative scenes, expressive marks, and early logo
-exploration.
+TArt is a collection of original visual-creation skills: relaxed black-pen illustration, contemporary Chinese brush writing, and deconstructive ink translation.
 
-It focuses on physical stroke behavior, shorthand recognition, confident
-incompletion, causal story staging, active blank space, and non-equilibrium
-proportion. It is a general visual grammar, not an identity-bound imitation
-package.
+The collection is organized around visual grammar and generative behavior rather than imitation of a named artist or source image.
 
-## Examples
+## Skills
 
-These original outputs show the range of the system. They are release examples,
-not runtime style references.
+### Antibes Holiday
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/waiter-and-tray.jpg" alt="A waiter balancing a tilted tray and airborne cups">
-      <br><strong>Precarious timing</strong><br>
-      A tilted tray and airborne cups turn bodily counterforce into the event.
-    </td>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/oversized-sofa.jpg" alt="Two movers carrying an oversized sofa">
-      <br><strong>Dominant mass</strong><br>
-      Scale distortion turns an ordinary action into the scene's visual cause.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/dog-and-deck-chair.jpg" alt="A small dog dragging a large deck chair between two people">
-      <br><strong>Multi-actor causality</strong><br>
-      Unequal detail and scale keep a complex event readable.
-    </td>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/suspended-drop.jpg" alt="A suspended drop held by converging lines">
-      <br><strong>Abstract relationship</strong><br>
-      One long tension line and a compact recognition knot carry the idea.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/giant-kite.jpg" alt="Two people being pulled by a giant kite">
-      <br><strong>Active blank space</strong><br>
-      Distance and force are staged through a single causal sweep.
-    </td>
-    <td width="50%">
-      <img src="plugins/antibes-holiday/assets/examples/pasta-machine.jpg" alt="A pasta machine producing one long ribbon">
-      <br><strong>Operational shorthand</strong><br>
-      The mechanism is abbreviated while its material path is exaggerated.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img width="50%" src="plugins/antibes-holiday/assets/examples/giant-dog-and-planter.jpg" alt="A giant dog pulling a person past a falling planter">
-      <br><strong>Mixed line density</strong><br>
-      Sparse story marks coexist with a rougher, more physical focal mass.
-    </td>
-  </tr>
-</table>
+`antibes-holiday` is the flagship TArt skill for original relaxed black-pen illustrations, narrative scenes, expressive marks, and early logo exploration.
 
-## What Is Included
+- [Skill instructions](plugins/antibes-holiday/skills/antibes-holiday/SKILL.md)
+- [Plugin metadata](plugins/antibes-holiday/.codex-plugin/plugin.json)
+- [Original examples](plugins/antibes-holiday/assets/examples/)
 
-- `plugins/antibes-holiday/.codex-plugin/plugin.json`: Codex plugin metadata.
-- `plugins/antibes-holiday/skills/antibes-holiday/SKILL.md`: execution workflow.
-- `references/style-system.md`: detailed drawing and composition system.
-- `references/prompt-recipes.md`: renderer-neutral prompt scaffolds.
-- `assets/stroke-calibration.png`: original non-semantic stroke calibration asset.
-- `plugins/antibes-holiday/assets/examples/`: seven selected original public outputs.
+It focuses on physical stroke behavior, shorthand recognition, confident incompletion, causal story staging, active blank space, and non-equilibrium proportion.
 
-Third-party screenshots, source identities, copied compositions, and private local
-paths are not included.
+### Contemporary Zhuo Calligraphy
 
-## Install As An Agent Skill
+`contemporary-zhuo-calligraphy` generates deliberately awkward contemporary Chinese brush writing through structural imbalance, stroke causality, and spatial pressure.
 
-With GitHub CLI 2.90 or newer:
+- [Skill instructions](plugins/contemporary-zhuo-calligraphy/skills/contemporary-zhuo-calligraphy/SKILL.md)
+- [Style grammar](plugins/contemporary-zhuo-calligraphy/skills/contemporary-zhuo-calligraphy/references/style-grammar.md)
+- [Quality gate](plugins/contemporary-zhuo-calligraphy/skills/contemporary-zhuo-calligraphy/references/quality-gate.md)
+
+The skill uses image generation for complete compositions and does not pass source reference images into the runtime generation path.
+
+### Deconstructive Ink Cultural Collision
+
+`deconstructive-ink-cultural-collision` translates modern, anatomical, technological, cosmic, and landscape subjects through accumulated ink events, broken contours, layered gray ink, and meaningful paper reserve.
+
+- [Skill instructions](plugins/deconstructive-ink-cultural-collision/skills/deconstructive-ink-cultural-collision/SKILL.md)
+- [Prompt recipes](plugins/deconstructive-ink-cultural-collision/skills/deconstructive-ink-cultural-collision/references/prompt-recipes.md)
+- [Style specification](plugins/deconstructive-ink-cultural-collision/skills/deconstructive-ink-cultural-collision/references/style-spec.md)
+
+## Install in Codex
+
+Add this repository as a local marketplace:
 
 ```bash
-gh skill install haorantang97/antibes-holiday antibes-holiday
+codex plugin marketplace add https://github.com/haorantang97/TArt.git
 ```
 
-With the open `skills` installer:
+Then install the plugin you need:
 
 ```bash
-npx skills add haorantang97/antibes-holiday --skill antibes-holiday
+codex plugin add antibes-holiday@tart
+codex plugin add contemporary-zhuo-calligraphy@tart
+codex plugin add deconstructive-ink-cultural-collision@tart
 ```
-
-## Install In Codex
-
-Add this repository as a marketplace, then install the plugin:
-
-```bash
-codex plugin marketplace add haorantang97/antibes-holiday
-codex plugin add antibes-holiday@antibes-holiday
-```
-
-Start a new Codex task after installation so the new skill is loaded.
 
 For a local checkout:
 
 ```bash
-codex plugin marketplace add /absolute/path/to/antibes-holiday
-codex plugin add antibes-holiday@antibes-holiday
+codex plugin marketplace add /absolute/path/to/TArt
 ```
 
 ## Compatibility
 
-| Environment | Behavior |
-| --- | --- |
-| Codex with built-in image generation | Full generation and editing workflow |
-| Another agent with a raster image tool | Uses that platform's native renderer |
-| Agent without local-image attachment support | Uses the textual stroke specification |
-| Agent without image generation | Produces a renderer-ready prompt and validation checklist |
+The skills are written as portable `SKILL.md` packages. Codex uses the bundled plugin metadata; other compatible agents can read the skill folder and its supporting `references/`, `scripts/`, and `assets/` directly.
 
-`references/*.md` files are supporting instructions, not standalone skills. The
-main `SKILL.md` links to them explicitly so a compatible skill loader can read
-them when required. Preserve the complete directory structure.
+Rendering behavior depends on the image-generation or raster-rendering capability available in the host agent. A skill must not claim to have rendered an image when no renderer is available.
 
-`agents/openai.yaml` supplies Codex UI metadata. Other agents may safely ignore it.
-Claude Desktop does not automatically discover Codex plugins from disk and needs
-its own project, connector, or instruction-loading setup.
+## Originality and privacy
 
-## Example Requests
+The collection contains original instructions and calibration assets. Do not trace third-party source images, preserve source compositions, reuse signature characters, or market outputs as an official third-party style.
 
-- Use Antibes Holiday to draw two people struggling with an oversized object.
-- Turn this product mechanism into a sparse black-pen editorial illustration.
-- Explore an expressive display mark from this brand concept.
-- Analyze these references for line behavior without copying their subjects.
-
-## Rendering Dependency
-
-The plugin does not bundle or install an image model. In Codex it prefers the
-system image-generation workflow. On other platforms it selects an available
-native renderer. Without a renderer it degrades honestly to prompts and review
-criteria instead of claiming an image was created.
-
-## Originality
-
-Do not market outputs as the work or official style of a third party. Do not
-trace source images, reuse signature characters, or preserve source compositions.
-References are evidence for general line and composition mechanisms only.
+Private local paths, conversation records, and personal source archives are not part of TArt.
 
 ## License
 
-The plugin instructions and bundled original calibration asset are distributed
-under the PolyForm Noncommercial License 1.0.0. See `LICENSE`.
-
-## Validation
-
-The release is checked with the Codex Skill and Plugin validators, a clean archive
-extraction test, a real local Marketplace installation, and reference-free forward
-tests. See [`docs/VALIDATION.md`](docs/VALIDATION.md).
+The TArt instructions and bundled original assets are distributed under the PolyForm Noncommercial License 1.0.0. Supporting resources retain any attribution or license notice included in their directory.

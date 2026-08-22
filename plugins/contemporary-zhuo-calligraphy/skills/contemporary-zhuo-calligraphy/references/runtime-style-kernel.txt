@@ -1,0 +1,32 @@
+DISTILLED STYLE KERNEL
+Runtime contract: contains no source pixels, source glyphs, artist identity, copied coordinates, fixed composition statistics, font sample, or character-specific exception.
+
+STRUCTURAL SKELETON
+- Preserve exact character identity while redistributing assembly scale and leverage.
+- Give different neighboring characters different structural roles: beam, tower, cavity, knot, or suspended remainder.
+- A beam may extend far beyond ordinary balance; a vertical support may stop early or descend abruptly.
+- Offset assemblies, crooked enclosures, compressed voids and sudden open cavities must remain causally constructed and legible.
+- Awkwardness comes from deliberate structural disagreement, never from global rotation, wobble, erosion, or random damage.
+
+ASSEMBLY AND RHYTHM
+- Make adjacent width, height, center, density and internal void conspicuously unequal.
+- Keep components within one character even when they crowd, drift or disagree in axis.
+- Prefer blunt, angular and reluctantly resolved turns over polished curves and fluent linking.
+- Do not let every character receive the same distortion recipe.
+
+BRUSH CAUSALITY
+- Use real soft-brush logic: loaded press, resistant drag, controlled lift, bone-thread travel, dry break and recovered contact.
+- Keep saturated dark brown-black masses and sparse dry passages in the same work.
+- Dryness follows travel direction and pressure loss; it is not a texture filter.
+- Edges can fray locally, but the whole sheet must not become uniformly fuzzy or artificially aged.
+
+RELATIONAL COMPOSITION
+- Treat the layout as a field of pressure, not a grid. Vertical reading order survives while axes bend and starts, advances and endings disagree.
+- Let some neighbors press or intrude and others retreat or hang. Preserve both local congestion and active paper.
+- Do not regularize colored fields into private cells, straight gutters, repeated rows or poster alignment.
+
+FAILURE SIGNATURES
+- Ordinary fluent running-regular calligraphy with rough ink is a failure.
+- Textbook clerical, seal, regular or cursive style used as one uniform template is a failure.
+- Equal-sized centered characters, stable row bands, clean column gutters and decorative flying-white are failures.
+- A printed font made rough, rotated, stretched or eroded is a failure.

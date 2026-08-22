@@ -1,0 +1,32 @@
+{
+  "name": "deconstructive-ink-cultural-collision",
+  "version": "0.1.0",
+  "description": "Translate modern subjects through accumulated monochrome Chinese-ink events and traditional-modern collision.",
+  "author": {
+    "name": "Haoran Tang"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "chinese-ink",
+    "deconstructive-art",
+    "visual-creation",
+    "image-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Deconstructive Ink Cultural Collision",
+    "shortDescription": "Dense monochrome ink translations of modern subjects",
+    "longDescription": "An original Chinese-ink image system that builds recognizable subjects from accumulated brush events, broken contours, layered gray ink, paper reserve, and controlled ambiguity.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [],
+    "defaultPrompt": [
+      "Translate this modern subject through deconstructive Chinese ink.",
+      "Build an original monochrome ink image from accumulated brush events."
+    ]
+  }
+}
