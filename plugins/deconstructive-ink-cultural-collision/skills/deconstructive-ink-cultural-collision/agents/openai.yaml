@@ -1,4 +1,0 @@
-interface:
-  display_name: "Wet-Ink Deconstruction"
-  short_description: "Build recognizable subjects from wet ink diffusion, broken ink, layered ink, and paper."
-  default_prompt: "Create a monochrome xuan-paper image built from wet ink fields, concentrated ink entering damp passages, semi-wet accumulation, active paper reserves, and only minimal final accents. Never outline and fill."

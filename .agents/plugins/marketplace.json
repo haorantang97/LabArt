@@ -1,7 +1,7 @@
 {
-  "name": "tart",
+  "name": "antibes-holiday",
   "interface": {
-    "displayName": "TArt"
+    "displayName": "Antibes Holiday"
   },
   "plugins": [
     {
@@ -9,30 +9,6 @@
       "source": {
         "source": "local",
         "path": "./plugins/antibes-holiday"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Design"
-    },
-    {
-      "name": "contemporary-zhuo-calligraphy",
-      "source": {
-        "source": "local",
-        "path": "./plugins/contemporary-zhuo-calligraphy"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Design"
-    },
-    {
-      "name": "deconstructive-ink-cultural-collision",
-      "source": {
-        "source": "local",
-        "path": "./plugins/deconstructive-ink-cultural-collision"
       },
       "policy": {
         "installation": "AVAILABLE",

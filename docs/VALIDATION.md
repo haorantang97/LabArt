@@ -2,13 +2,8 @@
 
 ## Release Scope
 
-This repository distributes three Codex plugins:
-`antibes-holiday`, `contemporary-zhuo-calligraphy`, and
-`deconstructive-ink-cultural-collision`.
-
-The image-quality acceptance gates below focus on the flagship
-`antibes-holiday` plugin; the structural checks apply to every plugin in the
-marketplace.
+This repository distributes one Codex plugin containing one Agent Skill:
+`antibes-holiday`.
 
 The release intentionally excludes:
 
@@ -22,9 +17,9 @@ The release intentionally excludes:
 
 The following checks must pass before release:
 
-1. Codex `quick_validate.py` accepts every Skill.
-2. Codex `validate_plugin.py` accepts every Plugin.
-3. `.agents/plugins/marketplace.json` parses and discovers every Plugin.
+1. Codex `quick_validate.py` accepts the Skill.
+2. Codex `validate_plugin.py` accepts the Plugin.
+3. `.agents/plugins/marketplace.json` parses and discovers the Plugin.
 4. A clean ZIP extraction contains `SKILL.md`, both reference files, the calibration
    asset, seven selected example outputs, UI metadata, and the plugin manifest.
 5. Installed Plugin files match the release source.
