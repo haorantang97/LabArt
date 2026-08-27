@@ -1,0 +1,40 @@
+{
+  "name": "dirty-pixels",
+  "version": "0.1.0",
+  "description": "Redraw any image as flowing pixel-particle art on black: strokes travel along the image's own structure, with physics-planned regional motion and seamless loops.",
+  "author": {
+    "name": "LabArt"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "pixel-art",
+    "particles",
+    "animation",
+    "generative",
+    "loop"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dirty Pixels",
+    "shortDescription": "Flowing pixel-particle redraws with seamless loops",
+    "longDescription": "A deterministic renderer that redraws an image as stroke particles on pure black. Strokes follow the image's own structure-tensor direction field and really travel along it; short specks carry the image while long frayed streaks carry the motion. Per-region motion is planned from the picture's physics (light falls, embers rise, barrels rotate), density conservation removes field-attractor artifacts, and every animation loops seamlessly. Outputs PNG, GIF and MP4.",
+    "developerName": "LabArt",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/cave-giant.jpg",
+      "./assets/examples/wave-and-raft.jpg",
+      "./assets/examples/trojan-horse.jpg",
+      "./assets/examples/husk-knight.jpg",
+      "./assets/examples/trojan-horse-loop.gif"
+    ],
+    "defaultPrompt": [
+      "Redraw this image as flowing pixel-particle art with a seamless loop.",
+      "Turn this picture into black-background particle strokes that move along its structure.",
+      "Make an animated dirty-pixels version of this image for a video cover."
+    ]
+  }
+}
