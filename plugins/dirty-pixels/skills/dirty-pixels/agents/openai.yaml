@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dirty Pixels"
+  short_description: "Redraw images as flowing pixel-particle art with seamless loops"
+  default_prompt: "Use $dirty-pixels to redraw this image as flowing pixel-particle art on black with a seamless loop."
