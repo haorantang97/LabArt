@@ -1,5 +1,19 @@
 # Changelog
 
+## marketplace - 2026-08-27
+
+- Renamed the marketplace from antibes-holiday to labart (repository: LabArt).
+  With a second plugin aboard, the marketplace is no longer synonymous with its
+  first skill. Users who added the old marketplace name should re-add it.
+
+## dirty-pixels 0.1.0 - 2026-08-27
+
+- Added the Dirty Pixels plugin as the marketplace's second skill: a
+  deterministic pixel-particle renderer with structure-following flow,
+  long/short stroke mix with sub-segment fray, physics-planned regional motion
+  (flow regions, swirl, burst-driven flow), density conservation against
+  field-attractor artifacts, and seamless PNG/GIF/MP4 output.
+
 ## 0.2.0 - 2026-07-26
 
 - Reworked the stroke system around structural drift, missed junctions, displaced

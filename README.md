@@ -1,3 +1,19 @@
+# LabArt
+
+A small laboratory of visual-creation skills, packaged as a Claude / Codex
+plugin marketplace. Each plugin is a self-contained aesthetic system.
+
+| Plugin | Medium | What it makes |
+| --- | --- | --- |
+| [Antibes Holiday](#antibes-holiday) | black pen | relaxed line illustrations, story scenes, logo marks |
+| [Dirty Pixels](#dirty-pixels) | pixel particles | flowing particle redraws of images, seamless loops |
+
+```
+/plugin marketplace add haorantang97/LabArt
+```
+
+---
+
 # Antibes Holiday
 
 Antibes Holiday is a portable visual-creation skill for original relaxed
@@ -151,3 +167,47 @@ under the PolyForm Noncommercial License 1.0.0. See `LICENSE`.
 The release is checked with the Codex Skill and Plugin validators, a clean archive
 extraction test, a real local Marketplace installation, and reference-free forward
 tests. See [`docs/VALIDATION.md`](docs/VALIDATION.md).
+
+---
+
+# Dirty Pixels
+
+Dirty Pixels is a deterministic renderer that redraws any image as flowing
+pixel-particle art on pure black. Strokes follow the image's own structural
+direction field and really travel along it; short specks carry the image while
+long, frayed streaks carry the motion. Regional motion is planned from the
+picture's physics (light falls, embers rise, wave barrels rotate), and every
+animation loops seamlessly. Outputs PNG, GIF and MP4.
+
+## Examples
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="plugins/dirty-pixels/assets/examples/cave-giant.jpg" alt="A crouching giant of golden particles with a single glowing eye in a cave">
+      <br><strong>Single light source</strong><br>
+      The eye is the burst focus; dust streams away from it and the pillar falls.
+    </td>
+    <td width="50%">
+      <img src="plugins/dirty-pixels/assets/examples/wave-and-raft.jpg" alt="A great breaking wave of white particles with a light shaft and a tiny raft">
+      <br><strong>Physics-planned motion</strong><br>
+      The shaft falls, the back of the wave climbs, the barrel rotates.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="plugins/dirty-pixels/assets/examples/trojan-horse.jpg" alt="A trojan horse of ember particles against a burning shoreline">
+      <br><strong>Structure-following strokes</strong><br>
+      Every plank reads because strokes lie along the image's own edges.
+    </td>
+    <td width="50%">
+      <img src="plugins/dirty-pixels/assets/examples/husk-knight.jpg" alt="A skeletal armored figure rendered in white particle strokes">
+      <br><strong>Long/short stroke mix</strong><br>
+      Specks carry the form; frayed streaks carry the energy.
+    </td>
+  </tr>
+</table>
+
+Animated example: <code>plugins/dirty-pixels/assets/examples/trojan-horse-loop.gif</code>
+(seamless loop; GitHub renders it inline on the file page).
+
