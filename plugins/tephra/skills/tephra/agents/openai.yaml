@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tephra"
+  short_description: "Redraw images as black-ground pixel art: stroke particles or a dithered solid combed into fracture streaks"
+  default_prompt: "Use $tephra to redraw this image as black-ground pixel art with a seamless loop."

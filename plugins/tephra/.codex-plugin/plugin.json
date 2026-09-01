@@ -1,0 +1,44 @@
+{
+  "name": "tephra",
+  "version": "0.2.0",
+  "description": "Redraw any image as black-background pixel art in one of two canonical modes: moving stroke particles for fluids, or a static ordered-dither solid that can be combed into hard-edged fracture streaks for figures. Physics-planned regional motion, seamless loops.",
+  "author": {
+    "name": "LabArt"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "pixel-art",
+    "particles",
+    "animation",
+    "generative",
+    "loop",
+    "halftone",
+    "dither"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tephra",
+    "shortDescription": "Two-mode pixel redraws: stroke particles or dithered solids",
+    "longDescription": "A deterministic renderer that redraws an image on pure black in one of two canonical modes, chosen by subject. PURE PARTICLE: short strokes follow the image's own structure-tensor direction field and really travel along it -- right for waves, smoke, light shafts, anything already in motion. DITHERED SOLID: the image's tone becomes an ordered 8x8 dither that stays perfectly still frame to frame, and can be combed along a direction into hard-edged fracture streaks -- right for figures, sculpture, animals, architecture, where contour and volume have to read. Per-region motion is planned from the picture's physics, density conservation removes field-attractor artifacts, and every animation loops seamlessly. Outputs PNG, GIF and MP4.",
+    "developerName": "LabArt",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/canon-modes.jpg",
+      "./assets/examples/cave-giant.jpg",
+      "./assets/examples/wave-and-raft.jpg",
+      "./assets/examples/trojan-horse.jpg",
+      "./assets/examples/armored-figure.jpg",
+      "./assets/examples/trojan-horse-loop.gif",
+      "./assets/examples/canon-modes.gif"
+    ],
+    "defaultPrompt": [
+      "Redraw this image as flowing pixel-particle art with a seamless loop.",
+      "Turn this picture into black-background particle strokes that move along its structure.",
+      "Make an animated tephra version of this image for a video cover."
+    ]
+  }
+}

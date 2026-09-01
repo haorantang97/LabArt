@@ -6,7 +6,7 @@ plugin marketplace. Each plugin is a self-contained aesthetic system.
 | Plugin | Medium | What it makes |
 | --- | --- | --- |
 | [Antibes Holiday](#antibes-holiday) | black pen | relaxed line illustrations, story scenes, logo marks |
-| [Dirty Pixels](#dirty-pixels) | pixel particles | flowing particle redraws of images, seamless loops |
+| [Tephra](#tephra) | pixel particles | black-ground pixel redraws of images, fracture streaks, seamless loops |
 
 ```
 /plugin marketplace add haorantang97/LabArt
@@ -170,44 +170,59 @@ tests. See [`docs/VALIDATION.md`](docs/VALIDATION.md).
 
 ---
 
-# Dirty Pixels
+# Tephra
 
-Dirty Pixels is a deterministic renderer that redraws any image as flowing
-pixel-particle art on pure black. Strokes follow the image's own structural
-direction field and really travel along it; short specks carry the image while
-long, frayed streaks carry the motion. Regional motion is planned from the
-picture's physics (light falls, embers rise, wave barrels rotate), and every
-animation loops seamlessly. Outputs PNG, GIF and MP4.
+Tephra is a deterministic renderer that redraws any image as black-background
+pixel art, in one of two canonical modes chosen by subject. **Pure particle**:
+short strokes follow the image's own structural direction field and really travel
+along it — right for waves, smoke, light shafts, anything already in motion.
+**Dithered solid**: the image's tone becomes an ordered dither that stays perfectly
+still frame to frame, and can be combed along a direction into hard-edged fracture
+streaks — right for figures, sculpture, animals, architecture, where contour and
+volume have to read. Regional motion is planned from the picture's physics (light
+falls, embers rise, wave barrels rotate), and every animation loops seamlessly.
+Outputs PNG, GIF and MP4.
+
+No model runs at render time. The renderer is numpy and Pillow; the same command
+and the same seed produce the same file, byte for byte. What a language model
+contributed is the algorithm itself — the reference material was measured rather
+than imitated, and those measurements became parameters. The work here is the
+command, not the image. The image can always be rendered again.
+
+![The two modes](plugins/tephra/assets/examples/canon-modes.jpg)
+
+*The same subject rendered both ways — pure particle left, dithered solid right
+(animated: `plugins/tephra/assets/examples/canon-modes.gif`).*
 
 ## Examples
 
 <table>
   <tr>
     <td width="50%">
-      <img src="plugins/dirty-pixels/assets/examples/cave-giant.jpg" alt="A crouching giant of golden particles with a single glowing eye in a cave">
+      <img src="plugins/tephra/assets/examples/cave-giant.jpg" alt="A crouching giant of golden particles with a single glowing eye in a cave">
       <br><strong>Single light source</strong><br>
       The eye is the burst focus; dust streams away from it and the pillar falls.
     </td>
     <td width="50%">
-      <img src="plugins/dirty-pixels/assets/examples/wave-and-raft.jpg" alt="A great breaking wave of white particles with a light shaft and a tiny raft">
+      <img src="plugins/tephra/assets/examples/wave-and-raft.jpg" alt="A great breaking wave of white particles with a light shaft and a tiny raft">
       <br><strong>Physics-planned motion</strong><br>
       The shaft falls, the back of the wave climbs, the barrel rotates.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="plugins/dirty-pixels/assets/examples/trojan-horse.jpg" alt="A trojan horse of ember particles against a burning shoreline">
+      <img src="plugins/tephra/assets/examples/trojan-horse.jpg" alt="A trojan horse of ember particles against a burning shoreline">
       <br><strong>Structure-following strokes</strong><br>
       Every plank reads because strokes lie along the image's own edges.
     </td>
     <td width="50%">
-      <img src="plugins/dirty-pixels/assets/examples/husk-knight.jpg" alt="A skeletal armored figure rendered in white particle strokes">
+      <img src="plugins/tephra/assets/examples/armored-figure.jpg" alt="A skeletal armored figure rendered in white particle strokes">
       <br><strong>Long/short stroke mix</strong><br>
       Specks carry the form; frayed streaks carry the energy.
     </td>
   </tr>
 </table>
 
-Animated example: <code>plugins/dirty-pixels/assets/examples/trojan-horse-loop.gif</code>
+Animated example: <code>plugins/tephra/assets/examples/trojan-horse-loop.gif</code>
 (seamless loop; GitHub renders it inline on the file page).
 

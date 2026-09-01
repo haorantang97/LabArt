@@ -17,10 +17,10 @@
       "category": "Design"
     },
     {
-      "name": "dirty-pixels",
+      "name": "tephra",
       "source": {
         "source": "local",
-        "path": "./plugins/dirty-pixels"
+        "path": "./plugins/tephra"
       },
       "policy": {
         "installation": "AVAILABLE",

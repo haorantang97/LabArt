@@ -1,14 +1,98 @@
 # Changelog
 
+## tephra 0.2.0 - 2026-09-06
+
+### Renamed, and reference material removed
+
+The plugin was previously published under a name taken from an existing artist's
+series. It is now **tephra** — the geological term for the fragmental material a
+volcano throws out, which is what this renderer makes a picture do. Anyone who
+installed the old name should reinstall.
+
+Alongside the rename, every pointer to a specific artist or artwork was removed from
+the package: the homage line, the catalogue of surveyed works, work titles inside the
+measurement tables, source filenames, and the URLs the workflow told an agent to open.
+The measurements themselves are unchanged and still drive `native_check.py` — the
+tables now identify their samples by letter. What was removed is identification, not
+evidence; the numbers are what the algorithm needs, the titles only ever added
+exposure. `references/` now states where the numbers came from in general terms.
+
+The legacy preset `wanderer` was renamed `anchor`, with the old spelling kept as a
+silent alias so commands written against 0.1.0 still reproduce byte-for-byte.
+
+### Two canonical modes, not one
+
+0.1.0 shipped with a single canon ("pure particle; the mass layer was rejected").
+That was true of the reference works it was modelled on, and false of the ones added
+since. There are now two co-equal modes, chosen by subject:
+
+- **Pure particle** (`--mass 0`, preset `flux`) — short strokes follow the image's own
+  structure field and travel along it. Right for waves, smoke, light shafts, fire:
+  anything already in motion. Unchanged from 0.1.0; every 0.1.0 command still means
+  exactly what it meant.
+- **Dithered solid** (`--mass 2.6` + native-grid rendering) — the image's tone becomes
+  an ordered 8x8 dither that is perfectly static frame to frame (measured inter-frame
+  persistence 0.999 vs 0.83 for particles) and can be combed along a direction into
+  hard-edged fracture streaks. Right for figures, sculpture, animals, architecture:
+  anything whose contour and volume have to read.
+
+Fracture streaks are only available in the second mode: `--comb` smears an existing dot
+lattice, so with no mass layer there is nothing to comb. SKILL.md now says so, and says
+how to pick between the two, over a side-by-side of the same subject rendered both ways
+(`assets/examples/canon-modes.jpg`, animated as `canon-modes.gif`). Each side is that
+route tuned to its own best, which is the comparison worth looking at: taking the
+dithered command and simply setting `--mass 0` empties the frame, because that recipe
+carries almost no stroke dust and the whole picture rests on the dot layer.
+
+`--mass` is documented as what it is — a brightness threshold, not a style switch. What
+the layer looks like is decided by the shape of the source image's tone distribution, so
+the same value gives a graded halftone on a side-lit sculpture and a flat cut-out on a
+backlit silhouette. The fix for the flat case is preprocessing (M0.5), not `--mass`.
+
+### Fixed: the same seed stops reproducing the same file
+
+The turbulence curl field drew from the shared RNG on every render, with no flag guarding
+it. That shifted every later draw — stroke seeding, rain — so a 0.1.0 command run against
+a newer script produced a different picture from the same seed (14%-74% of pixels moved,
+depending on preset). It now takes its own stream. All six legacy presets are byte-identical
+to 0.1.0 again.
+
+Rain dash placement does differ: the void layer was rebuilt (2 parameters became 17, with
+measured constants for dash lifetime and travel), so legacy `--rain` commands put dashes in
+different places. Subject and structure are unaffected; the difference is 0.05%-0.2% of pixels.
+
+SKILL.md now carries the rule this came from: a noise field built on every render must take
+its own stream, never the shared one.
+
+### Added
+
+- **Fracture / dissolve** — `--dissolve`, `--escape`, `--turbulence`, `--anchor`, and the
+  `--dissolve-*` family: hold part of the subject solid and let the rest erode into flying ash.
+- **Comb** — `--comb` (13 fields), `--comb-emit`, `--comb-life`: the dot lattice is smeared
+  along a direction into pixel bars, with divergence that grows with distance, a tail-only
+  random walk, and a ragged outer boundary.
+- **Void layer** — 15 new `--rain-*` parameters with constants measured off the reference
+  works. `--rain-life` is one of those constants; no other module may borrow it.
+- **Native-grid rule** — the reference's true grid is 512x384, so a "pixel" is 1/512 of the
+  width. Dithering straight at 1400 makes each pixel 2.7x too fine and the debris reads as
+  smoke. Render at 512-768 and upscale with `scripts/upscale_nearest.py`.
+- **Verification scripts** — `native_check.py` (scores a GIF against the reference's measured
+  numbers), `dp_fitness.py`, `m4_check.py`, `m4_erode.py`, `p4_mask.py`, `strand_check.py`.
+- **references/** — the measurement notes the SKILL cites: artist survey, module table, and
+  the density / edge / rain proposals.
+
+No parameter was removed or renamed. Legacy presets are unchanged: the six new keys added to
+them carry the old hard-coded defaults.
+
 ## marketplace - 2026-08-27
 
 - Renamed the marketplace from antibes-holiday to labart (repository: LabArt).
   With a second plugin aboard, the marketplace is no longer synonymous with its
   first skill. Users who added the old marketplace name should re-add it.
 
-## dirty-pixels 0.1.0 - 2026-08-27
+## tephra 0.1.0 - 2026-08-27
 
-- Added the Dirty Pixels plugin as the marketplace's second skill: a
+- Added the Tephra plugin as the marketplace's second skill: a
   deterministic pixel-particle renderer with structure-following flow,
   long/short stroke mix with sub-segment fray, physics-planned regional motion
   (flow regions, swirl, burst-driven flow), density conservation against
