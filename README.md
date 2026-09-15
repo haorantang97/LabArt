@@ -1,6 +1,6 @@
 # LabArt
 
-Black-pen illustrations and animated pixel art. Explore each plugin below.
+Black-pen illustrations, animated pixel art, and deadpan watercolor illustrations. Explore each plugin below.
 
 ## Antibes Holiday
 
@@ -27,6 +27,23 @@ Redraw images as moving pixel particles or dithered solids with fracture streaks
 </table>
 
 [Explore Tephra →](plugins/tephra/README.md)
+
+## Deadpan Doodles · 沙冰
+
+Draw people, animals, plants, and small scenes in translucent pen and watercolor.
+A little wrong in proportion, completely serious in attitude. Photo-based
+portraits have their own specialized module.
+
+<table>
+  <tr>
+    <td width="50%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/long-face.png" alt="Generated long-haired character with thin pen lines and brown watercolor washes"></a></td>
+    <td width="50%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/high-forehead.png" alt="Generated watercolor material reference; its forehead proportions are not a default"></a></td>
+  </tr>
+</table>
+
+[Explore Deadpan Doodles →](plugins/deadpan-doodles/README.md) · [中文介绍](plugins/deadpan-doodles/README.zh-CN.md)
+
+These generated portraits demonstrate the material references; they do not prescribe every subject's shape.
 
 ## Marketplace
 

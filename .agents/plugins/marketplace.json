@@ -27,6 +27,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Design"
+    },
+    {
+      "name": "deadpan-doodles",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deadpan-doodles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
     }
   ]
 }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Deadpan Doodles · 沙冰</title>
+  <desc id="desc">An off-center typographic wordmark with one oversized outlined oval and a small solid companion.</desc>
+  <rect width="900" height="300" rx="16" fill="#242320"/>
+  <text x="44" y="48" fill="#B3A69A" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">LABART / PEN + WATERCOLOR</text>
+  <text x="42" y="127" fill="#EFE9DF" font-family="Georgia, serif" font-size="70">Deadpan</text>
+  <text x="65" y="203" fill="#EFE9DF" font-family="Georgia, serif" font-size="70">Doodles</text>
+  <text x="47" y="264" fill="#B3A69A" font-family="Arial, sans-serif" font-size="20">A little out of proportion.</text>
+  <ellipse cx="665" cy="147" rx="126" ry="90" transform="rotate(-12 665 147)" fill="none" stroke="#9EAC9C" stroke-width="2"/>
+  <ellipse cx="797" cy="225" rx="22" ry="14" transform="rotate(9 797 225)" fill="#BD9882"/>
+  <text x="590" y="173" fill="#EFE9DF" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="64" font-weight="400" letter-spacing="8">沙冰</text>
+</svg>

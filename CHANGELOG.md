@@ -1,5 +1,20 @@
 # Changelog
 
+## deadpan-doodles 0.1.0 - 2026-09-16
+
+- Added **Deadpan Doodles · 沙冰**, a pen-and-watercolor illustration skill for
+  people, animals, plants, objects, and small scenes.
+- Bundled two generated material references and a region-based brushwork index;
+  no source photographs or third-party reference images are included.
+- Separated subject identity, playful proportions, and watercolor material.
+  Restored moderate, subject-led proportion contrasts instead of fixed anatomy.
+- Moved photo-based portrait guidance into a specialized reference module;
+  portrait-specific facial rules no longer govern animals or plants.
+- Added single-change editing guidance, English/Chinese documentation, and
+  reference provenance. Generated examples illustrate material, not guaranteed output.
+- See the plugin's validation notes for package checks and generation-test scope;
+  the new public plugin name has not been installation-tested.
+
 ## tephra 0.2.0 - 2026-09-06
 
 ### Renamed, and reference material removed

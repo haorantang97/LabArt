@@ -1,0 +1,39 @@
+{
+  "name": "deadpan-doodles",
+  "version": "0.1.0",
+  "description": "Translucent pen-and-watercolor illustrations with dry humor and playfully offbeat proportions.",
+  "author": {
+    "name": "Haoran Tang",
+    "url": "https://github.com/haorantang97"
+  },
+  "skills": "./skills/",
+  "homepage": "https://github.com/haorantang97/LabArt/tree/main/plugins/deadpan-doodles",
+  "repository": "https://github.com/haorantang97/LabArt",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "watercolor",
+    "illustration",
+    "character-design",
+    "animals",
+    "image-generation"
+  ],
+  "interface": {
+    "displayName": "Deadpan Doodles · 沙冰",
+    "shortDescription": "Dry humor, loose pen lines, translucent watercolor.",
+    "longDescription": "Draw people, animals, plants, objects, and small scenes with translucent watercolor and one meaningful proportion contrast. A dedicated portrait module handles photo likeness without turning portrait anatomy into universal rules.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "brandColor": "#866F59",
+    "screenshots": [
+      "./assets/preview.png"
+    ],
+    "defaultPrompt": [
+      "Use $deadpan-doodles to draw a languid cat beside a small flower, with translucent watercolor and gently odd proportions.",
+      "用 $deadpan-doodles 根据我的照片画人物 IP，有一点反常比例和冷幽默，不要太可爱。"
+    ]
+  }
+}
