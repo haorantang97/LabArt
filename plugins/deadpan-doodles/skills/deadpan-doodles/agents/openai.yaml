@@ -1,4 +1,4 @@
 interface:
   display_name: "沙冰 · Deadpan Doodles"
   short_description: "以通透水彩和有分寸的反常比例，画冷幽默的人物、动物、花草与小场景"
-  default_prompt: "用 $deadpan-doodles 画一只懒猫和一小枝花，通透水彩，比例有点搞怪但不要太可爱。"
+  default_prompt: "用 $deadpan-doodles 画一只懒猫和一小枝花，通透水彩，比例明显反常但不要太可爱。"

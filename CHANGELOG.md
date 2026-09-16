@@ -1,5 +1,16 @@
 # Changelog
 
+## deadpan-doodles 0.1.1 - 2026-09-16
+
+- Replaced ambiguous "slightly" exaggerated proportions with an approximately
+  40% relative change in one named dimension relationship, plus a visible consequence.
+- Distinguished relative deformation from a part's share of the whole; no
+  universal forehead percentage or image-tool strength setting is implied.
+- Added counter-scaling checks so shoulders, heads, stems, or furniture do not
+  grow alongside the selected feature and cancel the intended contrast.
+- Updated the specialized portrait recipes and synchronized the two README editions.
+- Kept watercolor material assets unchanged. New generations remain test candidates.
+
 ## deadpan-doodles 0.1.0 - 2026-09-16
 
 - Added **Deadpan Doodles · 沙冰**, a pen-and-watercolor illustration skill for

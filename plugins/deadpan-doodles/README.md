@@ -30,7 +30,7 @@ references and images, rather than copying SKILL.md alone.
 Try:
 
 > Use $deadpan-doodles to draw a languid cat beside a small flower. Translucent
-> watercolor, a little strange in proportion, quietly funny rather than cute.
+> watercolor, visibly strange in proportion, quietly funny rather than cute.
 
 For a recognizable personal character, attach a photo:
 
@@ -42,13 +42,23 @@ For a recognizable personal character, attach a photo:
 | Layer | Its job |
 |---|---|
 | Material | Thin transparent washes, local darker overlaps, exposed paper, loose fine pen lines |
-| Proportions | A subject-specific size or spacing contrast; noticeable, but not everything exaggerated |
+| Proportions | An approximately 40% shift in one explicit size or spacing relationship; other parts do not scale along to cancel it |
 | Subject | The requested person, animal, plant, object, or small event—not the person in the material reference |
 | Portrait module | Photo likeness, shorthand facial features, paired eyes, and bounded character edits |
 
-A cat may have a slightly too-long body and tucked short legs. A flower may seem a
-little heavy for its thin stem. These are possibilities, not mandatory templates.
+A cat may have a body too long for its supporting seat; a flower may have a crown
+out of scale with its thin stem. These are possibilities, not mandatory templates.
 The character stays calm; the shape carries the joke.
+
+The default **40%** means a relative change in a chosen relationship, not 40% of the
+canvas or a fixed forehead share. Name the active dimension, a comparison dimension,
+and the visual baseline: for example, face length relative to face width. Increase
+that relationship to about 1.4 times its ordinary value, or reduce it to about 0.6
+times—choose one direction, without changing both sides to compound the effect.
+Then describe what should visibly happen. The other parts must not scale along
+to erase the contrast. This is prompt guidance, not an image-tool parameter or a
+promise of measured geometric precision. A selected image or user-specified degree
+overrides the default.
 
 The design borrows a principle from the sibling [Antibes Holiday](../antibes-holiday/README.md):
 give imbalance a purpose and let the rest remain quiet. Here that principle acts
