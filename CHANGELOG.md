@@ -1,5 +1,18 @@
 # Changelog
 
+## deadpan-doodles 0.2.0 - 2026-09-26
+
+- Published the general Sha Bing package with fixed recipes, an invocation protocol,
+  a dedicated portrait module, a reference index, visual checks, and a local prompt assembler.
+- Preserved recipe revision `shabing-20260925-1` and its checked visual anchors;
+  shape allocation replaces the former uniform 40% proportion target.
+- Added three selected portrait examples and one illustration sheet to the gallery.
+- Added the author's introduction to the plugin pages, with the supplied Chinese
+  text preserved verbatim and a full English edition. The collection homepage
+  remains a short overview and gallery.
+- Gallery examples do not add automatic generation references or establish
+  deterministic visual reproduction. See the plugin validation notes.
+
 ## deadpan-doodles 0.1.1 - 2026-09-16
 
 - Replaced ambiguous "slightly" exaggerated proportions with an approximately

@@ -30,20 +30,22 @@ Redraw images as moving pixel particles or dithered solids with fracture streaks
 
 ## Deadpan Doodles · 沙冰
 
-Draw people, animals, plants, and small scenes in translucent pen and watercolor.
-A little wrong in proportion, completely serious in attitude. Photo-based
-portraits have their own specialized module.
+Translucent pen and watercolor, offbeat proportions, and a straight face.
+Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 
 <table>
   <tr>
-    <td width="50%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/long-face.png" alt="Generated long-haired character with thin pen lines and brown watercolor washes"></a></td>
-    <td width="50%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/high-forehead.png" alt="Generated watercolor material reference; its forehead proportions are not a default"></a></td>
+    <td width="33%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/high-forehead.png" alt="Long-haired watercolor portrait with round glasses"></a></td>
+    <td width="33%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/assets/examples/portrait-short-hair.png" alt="Short-haired watercolor portrait with stubble"></a></td>
+    <td width="33%"><a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/assets/examples/portrait-blond.png" alt="Blond-haired watercolor portrait with a red tie"></a></td>
   </tr>
 </table>
 
-[Explore Deadpan Doodles →](plugins/deadpan-doodles/README.md) · [中文介绍](plugins/deadpan-doodles/README.zh-CN.md)
+<p align="center">
+  <a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/assets/examples/illustration-scenes.png" alt="Watercolor vignettes of a character, cats, flowers, and everyday objects" width="520"></a>
+</p>
 
-These generated portraits demonstrate the material references; they do not prescribe every subject's shape.
+[Explore Deadpan Doodles →](plugins/deadpan-doodles/README.md) · [中文介绍](plugins/deadpan-doodles/README.zh-CN.md)
 
 ## Marketplace
 

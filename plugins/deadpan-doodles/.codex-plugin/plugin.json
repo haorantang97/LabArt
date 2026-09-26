@@ -1,6 +1,6 @@
 {
   "name": "deadpan-doodles",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Translucent pen-and-watercolor illustrations with dry humor and playfully offbeat proportions.",
   "author": {
     "name": "Haoran Tang",
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "Deadpan Doodles · 沙冰",
     "shortDescription": "Dry humor, loose pen lines, translucent watercolor.",
-    "longDescription": "Draw people, animals, plants, objects, and small scenes with translucent watercolor. Target an approximately 40% change in one explicit proportion relationship, then describe its visible shape consequence. A dedicated portrait module handles photo likeness; numerical targets are creative guidance, not guaranteed measurements.",
+    "longDescription": "Draw people, animals, plants, objects, and small scenes as if a child drew them carefully: uneven shape allocation, deadpan expressions, loose ink lines, and translucent washes that sometimes bleed beyond the outline. A dedicated portrait module handles likeness; fixed recipes and reference hashes help keep the workflow consistent.",
     "developerName": "Haoran Tang",
     "category": "Design",
     "capabilities": [
@@ -29,7 +29,10 @@
     ],
     "brandColor": "#866F59",
     "screenshots": [
-      "./assets/preview.png"
+      "./skills/deadpan-doodles/assets/style/high-forehead.png",
+      "./assets/examples/portrait-short-hair.png",
+      "./assets/examples/portrait-blond.png",
+      "./assets/examples/illustration-scenes.png"
     ],
     "defaultPrompt": [
       "Use $deadpan-doodles to draw a languid cat beside a small flower, with translucent watercolor and visibly offbeat proportions.",

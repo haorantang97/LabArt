@@ -1,15 +1,37 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Deadpan Doodles · 沙冰 — a little out of proportion" width="900">
-</picture>
-
 [English](README.md) | **中文**
 
 # 沙冰 · Deadpan Doodles
 
-比例有点不对，态度一本正经。
+<table>
+  <tr>
+    <td width="33%"><img src="skills/deadpan-doodles/assets/style/high-forehead.png" alt="长发、圆眼镜和偏大额头的水彩头像"></td>
+    <td width="33%"><img src="assets/examples/portrait-short-hair.png" alt="短发、胡茬和两道竖线眼睛的水彩头像"></td>
+    <td width="33%"><img src="assets/examples/portrait-blond.png" alt="金色头发、深色外套与红领带的水彩头像"></td>
+  </tr>
+</table>
 
-用通透的钢笔淡水彩画人物、动物、花草、物件和小场景。保留一处有记忆点的比例反差、松动笔线和透出色层的纸白。不只做头像。
+上中学的时候，同桌喜欢画画。不管课间还是课上，经常把本子侧过来，拿我画水彩。
+
+眼睛两道竖线，没鼻子，头发乱糟糟，颜色常洇出线外。画完推过来给我看，我说你画的这是什么玩意儿。
+
+教室开着窗，风吹起半透明的纱帘，烈日照出空气中的灰尘。我偷偷地吃上节体育课带回来的袋装沙冰，沙冰化得很快，画纸上的颜色还湿着，它们叠在同一个盛夏里。
+
+后来我们各奔东西，自然难再见她的丑画。而我阴差阳错的做了艺术，也开始画些七七八八的东西。每到天气热起来，就会鬼使神差的开始在自己的画上寻找那股洇开的色彩；可我的画通常太工整，像空调房，舒服却没有风。风是从歪掉的线条里进来的。有点不好意思，又不肯正经。
+
+所以做了这个skill，在天气即将转凉时。它源于我的私心：想把那些个夏天，继续画丑一点。
+
+## 画起来是什么样
+
+- **像小孩子认真画出来的。** 大小和空间没分配周全，轮廓有几处笨拙的转折，主体却一本正经。
+- **水色通透，偶尔洇出线外。** 薄色透出纸白，深色也留水分；笔线和颜色各自走，保留白隙、湿边与局部叠色。
+- **比例反常，表情克制。** 大块体量、小小五官和细弱支撑形成反差，冷幽默从形状和事情里长出来。
+- **不只画头像。** 人物、猫狗、花草、物件和小场景都可以；有背景、有细节，也可以保留童趣。
+
+## 插画效果
+
+<img src="assets/examples/illustration-scenes.png" alt="人物、猫、花草和日常物件组成的十一幅水彩小场景" width="760">
+
+三张头像和这张插画都是本项目的生成作品，用于展示沙冰的画面方向。展示图片不会自动成为每次生图都要附带的参考；默认风格基准和按需使用的猫样图见[资产索引](skills/deadpan-doodles/references/style-assets.md)。
 
 ## 开始使用
 
@@ -20,67 +42,28 @@ codex plugin marketplace add haorantang97/LabArt
 codex plugin add deadpan-doodles@labart
 ```
 
-需要宿主具备图像生成能力；本包不内置模型、不配置 API Key，也不锁定某个模型。手动安装时请保留[完整 skill 文件夹](skills/deadpan-doodles)，包括参考文件与图片，不要只复制 SKILL.md。
+需要宿主具备图像生成能力。本包提供指令、参考图和提示词组装器，不内置模型，也不配置 API Key。手动安装请保留[完整 skill 文件夹](skills/deadpan-doodles)，不要只复制 SKILL.md。
 
-可以直接说：
+附上照片，可以这样说：
 
-> 用 $deadpan-doodles 画一只懒洋洋的猫，旁边有一小枝花。通透水彩，比例明显反常，冷幽默，不要太可爱。
+> 用 $deadpan-doodles 把这张照片画成水彩人物。保留辨识特征，比例反常一点，表情一本正经，颜色自然洇出线外。
 
-想画有本人辨识度的角色时，附上照片：
+也可以直接描述一个小场景：
 
-> 用 $deadpan-doodles 把这张照片画成冷幽默水彩人物。保留我的外貌特点，但让比例反常搞怪一点。
+> 用 $deadpan-doodles 画一只瘫在一摞书上的猫，旁边是一杯茶。身体太大，爪子很小，认真地发呆。
 
-## 哪些东西保持一致
+头像有[专用模块](skills/deadpan-doodles/references/portrait.md)处理辨识与人物比例；其他题材不套用固定额头、眼镜或长发。已经选中的图可只改点名部分。
 
-| 层次 | 负责什么 |
-|---|---|
-| 材质 | 薄色透纸、局部叠深、露白、松动细笔线 |
-| 比例 | 选一个明确的大小或间距关系，偏离常态约 40%；其他部分不跟着等比变化抵消反差 |
-| 主体 | 用户要的人、动物、植物、物件或小事件，不是材质样图里的人 |
-| 头像模块 | 真人辨识、符号化五官、自然成对的眼睛和角色局部修改 |
+## 包里有什么
 
-猫可以躯干长得超出承托它的椅面；花可以花冠与细茎明显不相称。它们是可能性，不是每次照搬的模板。主体保持平静，让造型自己产生幽默。
+[主 skill](skills/deadpan-doodles/SKILL.md) · [固定配方](skills/deadpan-doodles/STYLES.md) · [调用协议](skills/deadpan-doodles/PROTOCOL.md) · [成图检查](skills/deadpan-doodles/references/qa.md)
 
-默认的 **40%** 指选定比例关系的相对变化，不是画面占比，也不是固定额头占比。先说明主动尺度、比较尺度与视觉基准，例如脸长相对脸宽。让这个关系增加到常态的约 1.4 倍，或压缩到约 0.6 倍，选择一个方向，不同时改变两端叠加效果；再说清应该看见什么形状后果。其他部分不能跟着等比变化把反差抹掉。这是提示词中的造型目标，不是生图工具参数，也不保证精确的几何测量。用户已选的图或指定程度优先于默认值。
+配方沿用沙冰通用版本 `shabing-20260925-1`。组装器记录实际提示词、参考顺序和文件校验值，不调用生图服务。同一份 skill 有助于保持方向，但不保证每次造型和水色完全一致。
 
-这里参考了同仓库 [Antibes Holiday](../antibes-holiday/README.md) 的一个原则：让失衡有用，其他地方安静一些。在沙冰里，它主要作用于**主体内部的比例**，不变成强制构图，也不移植它的黑白线稿材质。
+公开调用名是 `$deadpan-doodles`；早期本地名 `deadpan-watercolor-ip` 不是另一个插件。结构检查和审美效果分别记录，详见[验证记录](VALIDATION.md)。
 
-## 自带视觉参考
+## 许可
 
-<table>
-  <tr>
-    <td width="50%"><img src="skills/deadpan-doodles/assets/style/long-face.png" alt="本项目生成的长脸角色，展示透明水彩层次"></td>
-    <td width="50%"><img src="skills/deadpan-doodles/assets/style/high-forehead.png" alt="本项目生成的角色，用于观察薄色洗与开放边缘"></td>
-  </tr>
-</table>
-
-两张都是本项目生成的人物样本，用于展示材料，不是通用头脸或身体模板。第二张的大额头不是默认要求。包内不包含原作者参考图、真人照片或这些作品的裁切。
-
-[材质索引](skills/deadpan-doodles/references/style-assets.md) 指向完整图片中的局部，不是一套软件画笔，也不是另行生成的笔触板。非人物任务只迁移材料行为，不继承人脸、头发、眼镜、配色或衣服。
-
-## 头像是专用模块，不是整个 skill
-
-[主 skill](skills/deadpan-doodles/SKILL.md) 处理共用的视觉决定。[头像模块](skills/deadpan-doodles/references/portrait.md) 只在真人辨识和人物 IP 任务中读取，保留经过更多测试的人物流程，不把额头高度或固定五官坐标规定给所有主体。
-
-已经选中某张图后，可以这样修改：
-
-> 保留这张图的水彩、头发和小身体。脸缩短一点，但留下反常的轮廓和自然成对的眼睛。
-
-此时选中图就是编辑目标，不承诺其他区域像素级完全不变。
-
-## 边界与验证
-
-这是指令与参考资产包，不是确定性渲染器。人物辨识与风格可能漂移，仅凭固定提示词不能保证每次得到同一个角色。头像经过的迭代更多；扩展题材不代表各类题材已经同样可靠。
-
-新图经过认可才成为正式候选资产；失败测试保留，不偷偷替换，也不直接纳入正向参考库。实际检查和待验证项见[验证记录](VALIDATION.md)。
-
-公开调用名是 `$deadpan-doodles`。早期本地名称 `deadpan-watercolor-ip` 不是第二个公开插件。
-
-## 贡献与许可
-
-反馈时请提供有权分享的需求、实际提示词、输入图角色和首轮结果。不要提交私人照片或第三方参考作品。修改介绍时同步维护两种语言。
-
-包内许可：[PolyForm Noncommercial 1.0.0](LICENSE)。
-包的许可不保证输入图或生成结果的权利状态；这些还取决于具体输入和所用生图服务。
+[PolyForm Noncommercial 1.0.0](LICENSE)。反馈时请只提交有权分享的图片、需求和实际提示词；修改介绍时同步维护中英文版本。
 
 [返回 LabArt](../../README.md)

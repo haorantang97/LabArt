@@ -1,17 +1,37 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Deadpan Doodles · 沙冰 — a little out of proportion" width="900">
-</picture>
-
 **English** | [中文](README.zh-CN.md)
 
 # Deadpan Doodles · 沙冰
 
-A little wrong in proportion. Completely serious about it.
+<table>
+  <tr>
+    <td width="33%"><img src="skills/deadpan-doodles/assets/style/high-forehead.png" alt="Watercolor portrait with long hair, round glasses, and an oversized forehead"></td>
+    <td width="33%"><img src="assets/examples/portrait-short-hair.png" alt="Watercolor portrait with short hair, stubble, and two vertical-line eyes"></td>
+    <td width="33%"><img src="assets/examples/portrait-blond.png" alt="Watercolor portrait with blond hair, a dark jacket, and a red tie"></td>
+  </tr>
+</table>
 
-Create translucent pen-and-watercolor illustrations of people, animals, plants,
-objects, and small scenes. Keep one memorable proportion contrast, loose lines,
-and plenty of paper showing through the color. Not limited to avatars.
+When I was in secondary school, the girl who shared my desk loved to draw. During breaks, and often during class, she would turn her notebook sideways and paint watercolors of me.
+
+Two vertical lines for eyes, no nose, messy hair, color often bleeding beyond the outlines. She would slide the finished drawing over, and I would say, what on earth is this supposed to be?
+
+The classroom windows were open. Wind lifted the translucent curtains, and the fierce sunlight caught the dust in the air. I would sneak mouthfuls of bagged slush brought back from the previous PE lesson. The slush melted fast; the paint on the paper was still wet. They overlapped in the same midsummer.
+
+Later we went our separate ways, and naturally I rarely got to see her ugly drawings anymore. Somehow I ended up making art myself, drawing all sorts of things. Whenever the weather gets hot, I find myself searching my own pictures for that bleeding color. But my drawings are usually too neat, like an air-conditioned room: comfortable, but without a breeze. The breeze comes through the crooked lines. A little embarrassed, and unwilling to be entirely serious.
+
+So I made this skill, just as the weather was about to turn cool. It comes from a selfish wish: to keep drawing those summers a little uglier.
+
+## How it feels
+
+- **As if a child drew it carefully.** Size and space have not quite been planned out; a few corners are awkward, while the subject takes itself completely seriously.
+- **Transparent washes that sometimes escape the lines.** Paper shows through pale color, even dark areas keep their water, and ink and pigment follow their own paths through white gaps, wet edges, and local overlaps.
+- **Offbeat proportions, restrained expressions.** Large masses, tiny features, and undersized supports create contrasts. The shape and the situation carry the dry humor.
+- **More than portraits.** People, cats, dogs, plants, objects, and small scenes all fit. Backgrounds and detail can coexist with a childlike hand.
+
+## Illustration example
+
+<img src="assets/examples/illustration-scenes.png" alt="Eleven watercolor vignettes with a character, cats, flowers, and everyday objects" width="760">
+
+The three portraits and this illustration were generated in this project and selected to show its visual direction. Gallery images are not automatically attached to every generation. The default style anchor and optional cat reference are described in the [asset index](skills/deadpan-doodles/references/style-assets.md).
 
 ## Start
 
@@ -22,105 +42,28 @@ codex plugin marketplace add haorantang97/LabArt
 codex plugin add deadpan-doodles@labart
 ```
 
-An image-generation-capable host is required; this package does not bundle a model
-or configure API keys. It does not lock a particular model. For manual skill
-installation, keep the **whole** [skill folder](skills/deadpan-doodles), including
-references and images, rather than copying SKILL.md alone.
+An image-generation-capable host is required. This package supplies instructions, reference images, and a prompt assembler; it does not bundle a model or configure API keys. For manual installation, keep the [whole skill folder](skills/deadpan-doodles), not just SKILL.md.
 
-Try:
+Attach a photo and try:
 
-> Use $deadpan-doodles to draw a languid cat beside a small flower. Translucent
-> watercolor, visibly strange in proportion, quietly funny rather than cute.
+> Use $deadpan-doodles to turn this photo into a watercolor character. Keep the recognizable features, make the proportions offbeat, keep the expression deadpan, and let some color bleed beyond the lines.
 
-For a recognizable personal character, attach a photo:
+Or describe a small scene:
 
-> Use $deadpan-doodles to turn this photo into a deadpan watercolor character.
-> Preserve my recognizable features, but make the proportions playfully unusual.
+> Use $deadpan-doodles to draw a cat sprawled over a stack of books beside a cup of tea. Its body is too large, its paws are tiny, and it is seriously doing nothing.
 
-## What stays consistent
+A [dedicated portrait module](skills/deadpan-doodles/references/portrait.md) handles likeness and character proportions. Other subjects do not inherit a fixed forehead, glasses, or long hair. For an already selected image, request a change to only the named part.
 
-| Layer | Its job |
-|---|---|
-| Material | Thin transparent washes, local darker overlaps, exposed paper, loose fine pen lines |
-| Proportions | An approximately 40% shift in one explicit size or spacing relationship; other parts do not scale along to cancel it |
-| Subject | The requested person, animal, plant, object, or small event—not the person in the material reference |
-| Portrait module | Photo likeness, shorthand facial features, paired eyes, and bounded character edits |
+## Inside the package
 
-A cat may have a body too long for its supporting seat; a flower may have a crown
-out of scale with its thin stem. These are possibilities, not mandatory templates.
-The character stays calm; the shape carries the joke.
+[Main skill](skills/deadpan-doodles/SKILL.md) · [Fixed recipes](skills/deadpan-doodles/STYLES.md) · [Invocation protocol](skills/deadpan-doodles/PROTOCOL.md) · [Visual checks](skills/deadpan-doodles/references/qa.md)
 
-The default **40%** means a relative change in a chosen relationship, not 40% of the
-canvas or a fixed forehead share. Name the active dimension, a comparison dimension,
-and the visual baseline: for example, face length relative to face width. Increase
-that relationship to about 1.4 times its ordinary value, or reduce it to about 0.6
-times—choose one direction, without changing both sides to compound the effect.
-Then describe what should visibly happen. The other parts must not scale along
-to erase the contrast. This is prompt guidance, not an image-tool parameter or a
-promise of measured geometric precision. A selected image or user-specified degree
-overrides the default.
+The package retains the general Sha Bing recipe `shabing-20260925-1`. The assembler records the actual prompt, reference order, and file hashes; it does not call an image service. The same skill helps maintain a direction, but cannot guarantee identical shapes or watercolor behavior.
 
-The design borrows a principle from the sibling [Antibes Holiday](../antibes-holiday/README.md):
-give imbalance a purpose and let the rest remain quiet. Here that principle acts
-primarily **inside the subject's proportions**, not through a required composition.
-The watercolor medium remains independent.
+The public invocation is `$deadpan-doodles`; the earlier local name `deadpan-watercolor-ip` is not a second plugin. Structural checks and aesthetic results are recorded separately in the [validation notes](VALIDATION.md).
 
-## Included visual references
+## License
 
-<table>
-  <tr>
-    <td width="50%"><img src="skills/deadpan-doodles/assets/style/long-face.png" alt="Generated long-faced character with translucent washes"></td>
-    <td width="50%"><img src="skills/deadpan-doodles/assets/style/high-forehead.png" alt="Generated character used to observe thin washes and open edges"></td>
-  </tr>
-</table>
-
-Both are generated portrait samples from this project. They demonstrate material;
-neither is a universal body or face template. The second sample's large forehead
-is not a default instruction. No original artist reference images, source
-photographs, or crops from those works are bundled.
-
-The [material index](skills/deadpan-doodles/references/style-assets.md) points to
-regions inside these complete images. It is not a set of brush presets or a
-separately generated swatch sheet. Non-human requests use the material behavior,
-not the faces, hair, glasses, palette, or clothing.
-
-## Portraits are a module, not the whole skill
-
-The [main skill](skills/deadpan-doodles/SKILL.md) handles common visual decisions.
-The [portrait module](skills/deadpan-doodles/references/portrait.md) loads only for
-photo likeness or character work. It preserves the more-tested portrait workflow
-without prescribing forehead height or fixed feature coordinates to everything.
-
-For a selected image, request a local change such as:
-
-> Keep this drawing's watercolor, hair, and small body. Shorten the face a little,
-> but keep its offbeat shape and the naturally paired eyes.
-
-The selected image becomes the edit target. Changes are not promised to be
-pixel-identical outside the edited area.
-
-## Limits and validation
-
-This is a reusable instruction-and-reference package, not a deterministic
-renderer. Identity and style can drift. A fixed prompt alone does not guarantee
-the same character. Portraits have received more iteration than other subjects;
-broader scope is not a claim of equal reliability.
-
-New generations remain candidates until accepted. Failed tests are retained,
-not silently replaced or promoted into the reference library.
-See [validation notes](VALIDATION.md) for the actual checks and remaining tests.
-
-The public invocation is `$deadpan-doodles`. The earlier local name
-`deadpan-watercolor-ip` is not a second public plugin.
-
-## Contribute and license
-
-When reporting a result, include the request, actual prompt, input-image roles,
-and first output when you have permission to share it. Do not submit private
-photographs or third-party reference artworks. Keep both README editions aligned.
-
-Package license: [PolyForm Noncommercial 1.0.0](LICENSE).
-The package license is not a guarantee about rights in generated outputs or
-input images; those depend on the inputs and the image service used.
+[PolyForm Noncommercial 1.0.0](LICENSE). Share only images, requests, and actual prompts you have permission to share. Keep the English and Chinese introductions aligned.
 
 [Back to LabArt](../../README.md)

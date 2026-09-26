@@ -1,22 +1,39 @@
 # Deadpan Doodles · 沙冰 — presentation
 
-This child plugin belongs to LabArt. Keep the collection's existing gallery
-layout; the wordmark here identifies only Deadpan Doodles.
+Deadpan Doodles is a child plugin of LabArt. Keep LabArt's collection identity
+and the existing sections for the other plugins unchanged.
 
-The banner uses an offset two-line serif title and one large tilted oval beside a
-small quiet companion: a typographic echo of proportion contrast, not an imitation
-of a watercolor painting. Actual material is shown in the generated image gallery.
+## Gallery direction
 
-- Canvas: 900 × 300, responsive SVG viewBox.
-- Type: Georgia / serif for the English name; system CJK sans-serif for 沙冰.
-- Light: paper #F8F5EE, ink #393631, muted text #827669.
-- Dark: charcoal #242320, ink #EFE9DF, muted text #B3A69A.
-- Accents: muted sage and tea rose; both themes keep the same composition.
-- Languages: bilingual product name; the short English banner line is translated
-  and expanded in the Chinese README body.
-- References: existing generated project portraits inform the restrained palette.
-  No original artist artwork is included.
-- Files: hero-light.svg and hero-dark.svg are presentation graphics;
-  preview.png is an unchanged copy of the generated long-face sample.
+The user selected three portraits, in this order: long hair and round glasses;
+short dark hair and stubble; blond hair and a red tie. The introduction places
+them in three equal-width columns. An illustration sheet follows the story and
+short style notes on the plugin pages; the collection page shows only the short
+description, these examples, and links.
 
-These are repository presentation assets, not additional generation references.
+Use the supplied PNGs without cropping, recoloring, compositing, or retouching.
+Their paper backgrounds remain white in light and dark page themes. Images fit
+their columns at narrow widths and link paths stay relative to the repository.
+
+- Portrait dimensions: 1254 × 1254 each.
+- Illustration dimensions: 1086 × 1448.
+- Portraits retain the muted watercolor browns, pale skin washes, blue-black ink,
+  and small accents present in the actual images.
+- The page uses the host's Markdown typography, not text baked into the artwork.
+- Chinese story text is supplied by the author and preserved verbatim.
+- Both plugin README editions contain the full introduction, style notes,
+  gallery, usage, package outline, and license.
+
+## Asset roles
+
+- `skills/deadpan-doodles/assets/style/high-forehead.png`: first portrait and
+  existing canonical style anchor; identical to the author's selected upload.
+- `assets/examples/portrait-short-hair.png`: second portrait; showcase only.
+- `assets/examples/portrait-blond.png`: third portrait; showcase only.
+- `assets/examples/illustration-scenes.png`: illustration sheet; showcase only.
+- The original long-face and cat assets retain their documented roles in the
+  skill's reference index. New gallery images are not automatically attached
+  to generation calls.
+- `hero-light.svg`, `hero-dark.svg`, and `preview.png` remain available as
+  legacy presentation files; the current README introduction uses the selected
+  portraits directly. No new social-preview setting is configured.

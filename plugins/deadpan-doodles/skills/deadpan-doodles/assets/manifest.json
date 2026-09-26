@@ -1,0 +1,20 @@
+{
+  "revision": "shabing-20260925-1",
+  "status": "standardized-candidate-not-image-validated",
+  "recipe": {
+    "path": "STYLES.md",
+    "sha256": "37989eacd99f0c8b4408f3c3cdce324f26f38e446d18945f61fb0a3bf1bfab91"
+  },
+  "anchors": {
+    "canonical": {
+      "path": "assets/style/high-forehead.png",
+      "sha256": "e24ecc8f5eb39e26e736bb5960db06102ccb72bc603d6ec8736efb41ca3d8408",
+      "provenance": "本项目生成，用户再次选定为标准化视觉基准。"
+    },
+    "cat": {
+      "path": "assets/style/cat-shape-allocation.png",
+      "sha256": "7682c28dc71f1f5c11d03aa562d91c802b3054c36c7cf208a53ba2501406f2e3",
+      "provenance": "本项目生成，用户认可的非人物参考；按用户指定选用。"
+    }
+  }
+}

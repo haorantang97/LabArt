@@ -4,3 +4,7 @@
 *.log
 *.zip
 dist/
+
+# Python helpers and tests
+__pycache__/
+*.py[cod]

@@ -1,14 +1,45 @@
 # Validation scope
 
-## Package structure
+## 0.2.0 — general Sha Bing package
 
-The package contains one public skill, two conditional/supporting references,
-and two generated visual material references. The portrait reference is an
-internal module, not a second discoverable skill.
+This release packages the existing general recipe `shabing-20260925-1`.
+The fixed recipe, protocol, entrypoint, portrait module, reference index,
+visual checks, prompt assembler, and reference manifest are unchanged from that
+baseline. Test subjects were made theme-neutral; the test logic is unchanged.
 
-The official skill and plugin structural validators passed for the 0.1.1 package.
-Structural validation does not establish installation, runtime discovery, or
-aesthetic acceptance.
+The package has one public skill. Its portrait guidance is a conditional module,
+not a second entrypoint. The selected portrait (B) remains the default style
+anchor; the cat is used only when that reference direction is requested. The
+three new showcase files do not change generation-reference selection.
+
+Checks performed on 2026-09-26:
+
+- Official plugin validator and official skill structural validator: passed.
+- Prompt-assembler behavior: all 12 existing tests passed, including recipe
+  integrity, anchor integrity, reference order, narrow edits, path relocation,
+  literal text, and output-overwrite protection.
+- The supplied Chinese introduction is present verbatim exactly once on the
+  Chinese plugin page. Neither language's story is on the collection homepage.
+- English and Chinese code blocks and section counts are synchronized.
+- All four selected showcase images match their supplied source files by
+  SHA-256; no cropping, recoloring, or retouching was performed.
+- Local links in the root README and plugin Markdown files were checked.
+- Root and plugin pages were rendered at desktop and narrow widths and in
+  light/dark themes. Images loaded without horizontal page overflow. The
+  Chinese desktop, narrow, and dark previews and the collection preview
+  were visually inspected.
+- Whitespace validation passed.
+
+The fixed recipes were distilled from selected examples, not recovered from
+the original image-generation calls. No new image generation or end-to-end
+plugin installation was run for this publication. Showcase selection is not
+a controlled demonstration of deterministic reproduction. The reference
+manifest therefore retains its candidacy/visual-validation status.
+
+## Earlier versions
+
+The following records describe their named historical versions, not current
+proportion defaults or a fresh aesthetic pass.
 
 ## 0.1.1 — relative proportion targets
 
