@@ -41,10 +41,6 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
   </tr>
 </table>
 
-<p align="center">
-  <a href="plugins/deadpan-doodles/README.md"><img src="plugins/deadpan-doodles/assets/examples/illustration-scenes.png" alt="Watercolor vignettes of a character, cats, flowers, and everyday objects" width="520"></a>
-</p>
-
 [Explore Deadpan Doodles →](plugins/deadpan-doodles/README.md) · [中文介绍](plugins/deadpan-doodles/README.zh-CN.md)
 
 ## Marketplace
