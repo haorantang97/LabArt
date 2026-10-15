@@ -1,13 +1,13 @@
 {
   "name": "deadpan-doodles",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Translucent pen-and-watercolor illustrations with dry humor and playfully offbeat proportions.",
   "author": {
     "name": "Haoran Tang",
     "url": "https://github.com/haorantang97"
   },
   "skills": "./skills/",
-  "homepage": "https://github.com/haorantang97/LabArt/tree/main/plugins/deadpan-doodles",
+  "homepage": "https://github.com/haorantang97/LabArt/tree/main/docs/deadpan-doodles",
   "repository": "https://github.com/haorantang97/LabArt",
   "license": "PolyForm-Noncommercial-1.0.0",
   "keywords": [

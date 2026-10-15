@@ -1,5 +1,14 @@
 # Validation scope
 
+## 0.2.1 — package boundary cleanup
+
+The generation recipe, reference manifest, reference images, protocol, and prompt
+assembler are unchanged. Repository presentation and development tests moved
+outside the plugin package. The 12 existing assembler tests still pass; standalone
+Skill installation and copied-plugin inventory checks are recorded in the
+[collection package validation](../VALIDATION.md). No new image-model generation
+or client activation is claimed.
+
 ## 0.2.0 — general Sha Bing package
 
 This release packages the existing general recipe `shabing-20260925-1`.
