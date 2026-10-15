@@ -26,11 +26,11 @@ their columns at narrow widths and link paths stay relative to the repository.
 
 ## Asset roles
 
-- `skills/deadpan-doodles/assets/style/high-forehead.png`: first portrait and
+- `plugins/deadpan-doodles/skills/deadpan-doodles/assets/style/high-forehead.png`: first portrait and
   existing canonical style anchor; identical to the author's selected upload.
-- `assets/examples/portrait-short-hair.png`: second portrait; showcase only.
-- `assets/examples/portrait-blond.png`: third portrait; showcase only.
-- `assets/examples/illustration-scenes.png`: illustration sheet; showcase only.
+- `plugins/deadpan-doodles/assets/examples/portrait-short-hair.png`: second portrait; showcase only.
+- `plugins/deadpan-doodles/assets/examples/portrait-blond.png`: third portrait; showcase only.
+- `plugins/deadpan-doodles/assets/examples/illustration-scenes.png`: illustration sheet; showcase only.
 - The original long-face and cat assets retain their documented roles in the
   skill's reference index. New gallery images are not automatically attached
   to generation calls.

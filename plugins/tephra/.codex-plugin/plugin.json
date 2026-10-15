@@ -1,6 +1,6 @@
 {
   "name": "tephra",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Redraw any image as black-background pixel art in one of two canonical modes: moving stroke particles for fluids, or a static ordered-dither solid that can be combed into hard-edged fracture streaks for figures. Physics-planned regional motion, seamless loops.",
   "author": {
     "name": "LabArt"
@@ -27,7 +27,7 @@
       "Write"
     ],
     "screenshots": [
-      "./assets/examples/canon-modes.jpg",
+      "./skills/tephra/assets/canon-modes.jpg",
       "./assets/examples/cave-giant.jpg",
       "./assets/examples/wave-and-raft.jpg",
       "./assets/examples/trojan-horse.jpg",

@@ -19,43 +19,43 @@ not runtime style references.
 <table>
   <tr>
     <td width="50%">
-      <img src="assets/examples/waiter-and-tray.jpg" alt="A waiter balancing a tilted tray and airborne cups">
+      <img src="../../plugins/antibes-holiday/assets/examples/waiter-and-tray.jpg" alt="A waiter balancing a tilted tray and airborne cups">
       <br><strong>Precarious timing</strong><br>
       A tilted tray and airborne cups turn bodily counterforce into the event.
     </td>
     <td width="50%">
-      <img src="assets/examples/oversized-sofa.jpg" alt="Two movers carrying an oversized sofa">
+      <img src="../../plugins/antibes-holiday/assets/examples/oversized-sofa.jpg" alt="Two movers carrying an oversized sofa">
       <br><strong>Dominant mass</strong><br>
       Scale distortion turns an ordinary action into the scene's visual cause.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="assets/examples/dog-and-deck-chair.jpg" alt="A small dog dragging a large deck chair between two people">
+      <img src="../../plugins/antibes-holiday/assets/examples/dog-and-deck-chair.jpg" alt="A small dog dragging a large deck chair between two people">
       <br><strong>Multi-actor causality</strong><br>
       Unequal detail and scale keep a complex event readable.
     </td>
     <td width="50%">
-      <img src="assets/examples/suspended-drop.jpg" alt="A suspended drop held by converging lines">
+      <img src="../../plugins/antibes-holiday/assets/examples/suspended-drop.jpg" alt="A suspended drop held by converging lines">
       <br><strong>Abstract relationship</strong><br>
       One long tension line and a compact recognition knot carry the idea.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="assets/examples/giant-kite.jpg" alt="Two people being pulled by a giant kite">
+      <img src="../../plugins/antibes-holiday/assets/examples/giant-kite.jpg" alt="Two people being pulled by a giant kite">
       <br><strong>Active blank space</strong><br>
       Distance and force are staged through a single causal sweep.
     </td>
     <td width="50%">
-      <img src="assets/examples/pasta-machine.jpg" alt="A pasta machine producing one long ribbon">
+      <img src="../../plugins/antibes-holiday/assets/examples/pasta-machine.jpg" alt="A pasta machine producing one long ribbon">
       <br><strong>Operational shorthand</strong><br>
       The mechanism is abbreviated while its material path is exaggerated.
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img width="50%" src="assets/examples/giant-dog-and-planter.jpg" alt="A giant dog pulling a person past a falling planter">
+      <img width="50%" src="../../plugins/antibes-holiday/assets/examples/giant-dog-and-planter.jpg" alt="A giant dog pulling a person past a falling planter">
       <br><strong>Mixed line density</strong><br>
       Sparse story marks coexist with a rougher, more physical focal mass.
     </td>
@@ -66,10 +66,11 @@ not runtime style references.
 
 - `.codex-plugin/plugin.json`: Codex plugin metadata.
 - `skills/antibes-holiday/SKILL.md`: execution workflow.
-- `references/style-system.md`: detailed drawing and composition system.
-- `references/prompt-recipes.md`: renderer-neutral prompt scaffolds.
-- `assets/stroke-calibration.png`: original non-semantic stroke calibration asset.
-- `assets/examples/`: seven selected original public outputs.
+- `skills/antibes-holiday/references/style-system.md`: detailed drawing and composition system.
+- `skills/antibes-holiday/references/prompt-recipes.md`: renderer-neutral prompt scaffolds.
+- `skills/antibes-holiday/assets/stroke-calibration.png`: original non-semantic stroke calibration asset.
+- `assets/examples/`: seven selected outputs declared as plugin interface screenshots.
+- `LICENSE`: the existing license, also included in the standalone Skill.
 
 Third-party screenshots, source identities, copied compositions, and private local
 paths are not included.
@@ -79,10 +80,12 @@ paths are not included.
 With GitHub CLI 2.90 or newer:
 
 ```bash
-gh skill install haorantang97/LabArt antibes-holiday
+gh skill install haorantang97/LabArt plugins/antibes-holiday/skills/antibes-holiday@main --agent codex
 ```
 
-With the open `skills` installer:
+This selects the complete runtime Skill on `main`, including its calibration image
+and reference instructions. Re-run the same command with `--force` to refresh that
+installation. The repository also supports the open `skills` installer:
 
 ```bash
 npx skills add haorantang97/LabArt --skill antibes-holiday
@@ -93,7 +96,7 @@ npx skills add haorantang97/LabArt --skill antibes-holiday
 Add this repository as a marketplace, then install the plugin:
 
 ```bash
-codex plugin marketplace add haorantang97/LabArt
+codex plugin marketplace add haorantang97/LabArt --ref main
 codex plugin add antibes-holiday@labart
 ```
 
@@ -152,4 +155,5 @@ under the PolyForm Noncommercial License 1.0.0. See [LICENSE](../../LICENSE).
 
 The release is checked with the Codex Skill and Plugin validators, a clean archive
 extraction test, a real local Marketplace installation, and reference-free forward
-tests. See [`docs/VALIDATION.md`](../../docs/VALIDATION.md).
+tests in earlier releases. See the [historical drawing validation](VALIDATION.md)
+and the [current package checks](../VALIDATION.md).

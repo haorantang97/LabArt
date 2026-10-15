@@ -1,5 +1,19 @@
 # Changelog
 
+## plugin packages 0.2.1 - 2026-10-15
+
+- Moved plugin introductions and validation history to `docs/<plugin>/`, Deadpan
+  repository artwork and design records to `assets/deadpan-doodles/`, and developer
+  tests to `tests/`. Marketplace package sources remain `plugins/<plugin>/`.
+- Retained every image declared by the plugin interface. Runtime style references,
+  fixed prompt recipes, rendering helpers, and behavioral reference data stay bundled.
+- Made Tephra's mode-selection image self-contained in its standalone Skill and
+  updated its screenshot path. Included the existing license in each install unit.
+- Updated all three plugin manifests to 0.2.1, kept both Deadpan introduction
+  editions aligned, and added package inventory and dependency checks.
+- Standalone gh installation selects `main` explicitly to avoid the old repository
+  release tag. See `docs/VALIDATION.md` for the checks and their scope.
+
 ## deadpan-doodles 0.2.0 - 2026-09-26
 
 - Published the general Sha Bing package with fixed recipes, an invocation protocol,

@@ -41,9 +41,9 @@ license: PolyForm-Noncommercial-1.0.0
 
 这套东西有**两条都成立的正典**，各自对应一批不同的参考作品。**选错了后面全是白调。**
 
-![两种画法](../../assets/examples/canon-modes.jpg)
+![两种画法](assets/canon-modes.jpg)
 
-*同一张源图、同一个主体，左 A 右 B（动图：`assets/examples/canon-modes.gif`）。
+*同一张源图、同一个主体，左 A 右 B。
 两边都是各自路线调到最好的版本，不是「同参数开关 mass」——把 B 的参数原样关掉 mass，
 画面会直接空掉（B 的 `--density 0.02` 几乎没有笔触，整张画都靠网点层撑着）。*
 
