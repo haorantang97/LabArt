@@ -106,8 +106,10 @@ Measured on the studio's published photographs with a 0.1 grid (about ±1% of th
 - [Recipes](../../plugins/okrm-design/skills/okrm-design/references/recipes.md): device and
   framework templates, a spec template, a cover skeleton, image-model prompts per medium, a
   correction table.
-- [Acceptance gates](../../plugins/okrm-design/skills/okrm-design/references/qa.md): three main
-  gates (device, economy, sequence), order gates, interface gates, instant failures.
+- [Acceptance gates](../../plugins/okrm-design/skills/okrm-design/references/qa.md): main gates on
+  the generation document (complete, one strange decision that follows from the content, object before
+  page with numbers that add up, readymade taken from the brief, economy, transferable method, sequence
+  with room for chance, continuation), then order gates, interface gates, instant failures.
 - `scripts/tokens.py`: generates an order sheet (CSS custom properties and JSON) and checks any sheet
   against the gates: at most two voices, two poles of scale with nothing in the middle, one field
   colour used as material, legible contrast, fold-derived columns, 45–75 character measure.

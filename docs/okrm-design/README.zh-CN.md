@@ -58,7 +58,7 @@
   计数器做家具）、索引导航、表格列表、整屏换色即换纸、响应式即折法、干的状态与动效、无障碍、HTML/CSS 骨架。
 - [配方](../../plugins/okrm-design/skills/okrm-design/references/recipes.md)：装置与框架模板、规范模板、封面骨架、
   按媒介的图像模型提示词、修正表。
-- [验收门槛](../../plugins/okrm-design/skills/okrm-design/references/qa.md)：三道主门（装置、经济、序列）、秩序门、界面门、立即失败项。
+- [验收门槛](../../plugins/okrm-design/skills/okrm-design/references/qa.md)：先验生成文档（完整、一条推得回内容的怪决定、物件先于版面且数字自洽、现成物来自简报、经济、方法可交接、序列留有偶然、延续），再验秩序门、界面门与立即失败项。
 - `scripts/tokens.py`：生成秩序表（CSS 变量与 JSON），并按门槛检查：至多两个声部、尺度两极且中间为空、一个作为材料的颜色、
   可读对比、折法派生的栏数、45–75 字符行长。
 
