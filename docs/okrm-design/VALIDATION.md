@@ -67,13 +67,47 @@ as common miscounts and false moves, the operator goes in the acceptance record 
 the proposal, and `qa.md` fails repeated template phrasing and unchecked "nothing imported"
 claims.
 
-What the two rounds show: the path method does not by itself produce better proposals — the
+**Round 3** (three new briefs of different media — a twelve-week risograph poster series
+for a library's poetry readings, a documentary photographer's estate website to be built by
+one developer in three months, and a family quarry's 120th-anniversary book with a visitor
+centre in the old weighbridge office; all three directions written by fresh agents, each
+seeing only its own material; new seed, new labels, new judge): the 0.3.0 proposal was
+commissioned on all three briefs and the no-skill proposal was "the safe one" on all three.
+The judge found the 0.3.0 arithmetic correct throughout (2,400 sheets and 38 masters; 39,600
+frames, twelve developer-weeks; 264 pages in 33 eight-page sections, 125 plates, £38.33 a
+copy) and judged its interface for the estate the only one "the developer can begin from on
+Monday", with a stated acceptance test. It found page-count, imposition, colour-count and
+screen-scale errors in the other two directions on every brief.
+
+It also found two failures in 0.3.0 that the earlier rounds had not: the strange decision on
+the poster brief ("the poets read from the poster") does not follow from the brief and is
+severable — strike it and the system is unchanged — which is precisely the "gimmick" case the
+strange-decision gate exists to reject; and the quarry proposal hung all 400 core trays and
+several hundred prints in a weighbridge office nobody had measured. Smaller: a fold sentence
+that contradicted the column layout, an unstated week-12 split, 36 frames per roll assumed
+rather than read from the data, template fields filled by denial ("Editing: nothing to
+choose; the rule chose"), the optional "what you only know from being there" line filled with a
+phrase despite the instruction to leave it empty, and type named only as "Times-class" and
+never chosen.
+
+Folded into the protocol after round 3: a severability test on the strange decision (strike
+it; if no object, sequence or economy decision changes, it is a posture, not a decision — and
+the real one is usually already in the brief, as both independent writers reaching the blank
+ruled ledger pages showed); rooms and walls measured and load-checked before anything is hung;
+period edges counted separately; counts taken from the data rather than assumed; the optional
+Hultén line removed from the template and kept as a self-check only; filling a field by
+denial listed as a false move; type to be named in step 6.
+
+What the three rounds show: the path method does not by itself produce better proposals — the
 first round's author knew the protocol best and lost — but a protocol whose steps are tied to
 the brief's own objects and whose numbers must close does, in the hands of an agent reading
-it cold. The second round is one judge on three briefs; it is evidence that the revisions
-fixed the round-1 failures, not a general claim.
+it cold: six commissions out of six across two rounds and six briefs, against a no-skill
+proposal judged "most expected" every time. Each round is one judge on three briefs, so this
+is evidence that the method produces proposals a blunt reader prefers and can check, not a
+general claim; and round 3 shows the strange-decision gate can still pass a gimmick, which is
+why the severability test was added.
 
-The briefs, the nine proposals of each round, the shuffle scripts, the keys and both judges'
+The briefs, the nine proposals of each of the three rounds, the shuffle scripts, the keys and both judges'
 notes are kept outside the package and are not committed, because they contain the
 proposals' full text; the method of the test is described here so it can be re-run.
 

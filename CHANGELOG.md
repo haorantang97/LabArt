@@ -21,8 +21,10 @@
   skill, 0.2.0, 0.3.0), each judged by a separate agent. Round 1 went to 0.2.0 and exposed
   three failures of the protocol (imported readymades, filler in optional fields, numbers
   that did not close); after the protocol was revised on those points, round 2 went to 0.3.0
-  on all three briefs. Both rounds and the revisions are recorded in
-  `docs/okrm-design/VALIDATION.md`.
+  on all three briefs; round 3, on three new briefs in other media (a risograph poster
+  series, an archive website, an anniversary book with a room), went to 0.3.0 again but
+  exposed a severable strange decision and an unmeasured room, now gated. All rounds and
+  the revisions are recorded in `docs/okrm-design/VALIDATION.md`.
 
 ## okrm-design 0.2.0 - 2026-10-26
 
