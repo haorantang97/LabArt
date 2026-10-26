@@ -1,10 +1,11 @@
 # Package validation
 
-## okrm-design 0.1.0 — new package
+## okrm-design 0.2.0 — rebuilt on primary sources
 
-The marketplace now selects a fourth source, `plugins/okrm-design`. Its package checks,
-order-sheet tests and example validation are recorded in
-[OK-RM Design](okrm-design/VALIDATION.md). The three existing packages are unchanged.
+The marketplace selects a fourth source, `plugins/okrm-design`, now at 0.2.0. Its package
+checks, order-sheet tests, the corrections made after reading the primary sources, and the
+example validation are recorded in [OK-RM Design](okrm-design/VALIDATION.md). The three
+existing packages are unchanged.
 
 ## 0.2.1 — installation boundaries
 

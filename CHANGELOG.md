@@ -1,5 +1,31 @@
 # Changelog
 
+## okrm-design 0.2.0 - 2026-10-26
+
+- Rebuilt the method on primary sources after the session's network policy was opened:
+  twelve interviews and conversations, the retrospective press release, the publisher's
+  catalogue of 41 publications, about twenty project reviews, seven typeface records, the
+  31 work photographs on the studio website measured with a 0.1 grid, and the website's
+  own CSS. 0.1.0 had been written from search summaries only.
+- Replaced the five rules with eight principles taken from the studio's own words:
+  content and concept, magnified clarity, performative framework, readymades and
+  ubiquitous languages, economy as form, structure and play, duality, sequence of reading.
+- Corrected the scale rule to two poles (label-small or monumental, nothing in the
+  headline middle), the colour rule to one flat colour used as a material rather than an
+  accent, and the alignment rule to follow the readymade (labels centred and letterspaced,
+  grotesk words in corners). Removed the unsupported claim about large page numbers.
+- Added measured starting values to the order system: type heights relative to the cover,
+  label position and width, plate borders, spine strip widths, website font sizes in vw.
+- Added device statement types (readymade, system, duality), a framework paragraph
+  (stage, actors, script) in place of mood boards, fixed/variable tables, and a cover
+  skeleton. The UI translation now covers "the implicit made explicit": actions as text in
+  brackets, counters as furniture, whole-screen colour as the change of paper.
+- `scripts/tokens.py` now emits label and monument sizes, tracking, plate and poster
+  borders and a field colour, and rejects middle-sized type, a second colour, a field used
+  as an accent, and a field that cannot carry type. Tests grew from 12 to 15.
+- Re-made the examples under the corrected rules and added a catalogue cover; the manifest
+  declares five screenshots.
+
 ## okrm-design 0.1.0 - 2026-10-26
 
 - Added **OK-RM Design · 有意义的秩序**, a graphic and UI design method distilled from a

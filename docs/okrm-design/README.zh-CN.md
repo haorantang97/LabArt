@@ -4,50 +4,69 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/poster-programme.jpg" alt="节目单海报：每行最大的字是星期几，其中一行用黄色标出"></td>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="目录对页：左页满版图版，右页巨型页码压在双语编号题注之上"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="像图书馆藏书一样装订的目录：一个平涂布面颜色、亚麻脊条、居中于上四分之一的小标签、左上的架号"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/poster-programme.jpg" alt="节目单海报即通告：平涂专色纸上的六行，星期几是唯一的大字"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/archive-index-web.jpg" alt="档案网站：导航是 A–Z 索引，列表是带大编号的表格"></td>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/reader-mobile.jpg" alt="阅读应用两屏：带大章节号的目录，以及章节号占满首屏的阅读页"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="目录对页：左页满版图版，右页大编号压在双语编号题注之上"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/archive-index-web.jpg" alt="档案网站：标题是一句话，动作用括号写出，当前索引字母是唯一的纪念碑级元素"></td>
   </tr>
 </table>
 
-一套平面与 UI 设计方法，蒸馏自对一家伦敦工作室公开作品与访谈的研究。一句话：
-**从项目内容自身找出一个装置，用干燥、系统化的排印把它放大，用生产的经济性塑形，再把阅读排成序列。**
-它是一种工作方式，不是风格库。包内不含该工作室任何作品图片，也不复制其任何版式；上面四张示例
-都是用本方法制作的虚构项目。
+一套平面与 UI 设计方法，蒸馏自对一家伦敦工作室公开作品、访谈与出版目录的研究。一句话：
+**先有态度，再有形式。从项目自身的内容里找出装置，把它当成一个可表演的框架，用普遍的视觉语言和严格的生产经济性
+重演一个现成物或既有系统，再把阅读编排成序列。** 它是一种工作方式，不是风格库。包内不含该工作室任何作品图片，
+也不复制其任何版式；示例都是用本方法制作的虚构项目。
 
-## 五条法则
+## 八条原则
 
-1. **结构来自内容。** 装置来自项目本身：名字的字面义、流程、工艺、物件、惯例、约束。不来自情绪板。
-2. **一个装置，放大到底。** 找出关键点并夸张它。一个项目只有一个装置，其余退成系统。
-3. **排印是骨干。** 中性 grotesk 作主语，文本衬线或等宽作第二声部。表现力来自极端的尺度对比和页面家具
-   （页码、编号、题注、标点），不来自花字体。
-4. **经济即形式。** 预算、纸张、折法、邮寄规格、印刷工艺、屏幕尺寸、系统字体都是生成器。每个限制都要留下可见决定。
-5. **阅读是一个序列。** 书、网站、展览都是阅读顺序。交错、并置、尺度跳变、折出、换纸。让语境改变内容。
+1. **内容与概念。** 设计是为内容建立框架。先直觉，再给直觉找理由，写下来。不做情绪板。
+2. **找关键点并夸张。** 找出项目的关键点并夸张它。一个系统，放大它的一个组件。隐含变显性。
+3. **表演性框架。** 比喻、剧场、脚本：舞台、演员、剧本。在既有系统里跳舞；没有约束就没有游戏。
+4. **现成物与普遍语言。** 历史现成物（标牌字母、打孔卡、图书馆装订、邮票、磁带、信封、手册）与所有人共有的语言
+   （系统 Helvetica、Times、Courier、条码、标签）。参考是被重演的，不是被借用外观的。
+5. **经济即形式。** 最小值与约束；每平方毫米都是地产；一折多四页；封面无尺度；拼版思维——按它被折、切、装、
+   再媒介化之后的样子来看一切。
+6. **结构与游戏。** 一致的选择与流动的选择：标志不变，脸每期变；格式不变，图像每册变。
+7. **对立的张力。** 把一物与其对立物并置：手与机、干字与湿料、几何与手绘、历史与当代。
+8. **阅读序列。** DJ 需要舞者：节奏、预感、惊喜；交错的章节；对页的力量；不按年表。
 
-另有一条张力法则：干的字，湿的料。
+另有机构工艺：靠近决策发生的地方；设计方法，而不是形式。
+
+## 证据里的形式
+
+在工作室公开发表的作品照片上叠 0.1 网格测量（精度约 ±1%）：
+
+- 字在两极。书脊句、标签、题注约为封面高的 1.5%，正文约为页高的 1.2%；一个纪念碑级的词约为封面高的 10%、宽的 77%，
+  单个字母标志可到 35–40%。中间的「大标题」几乎不存在。
+- 声部：Helvetica 级 grotesk 配 Times 级衬线或打字机等宽，或只用一个家族。自制字体是对某一传统的重演。
+  工作室自己的网站用 Helvetica/Arial、小字号的 Times 和系统等宽，字号用 vw。
+- 标签居中并放宽字距；grotesk 的词在角落（边距 6%）；纪念碑级的词从左边开始，位于上三分之一。
+- 封面图版白边约为宽的 10%，海报约 3%；布面上的小图约占封面宽的 40%。照片以黑白为主。
+- 一个平涂颜色是材料：整张封面、环衬、标牌。字用黑或白。
+- 材料来自装置：布面与亚麻脊条（占封面宽 9–14%）、羊皮纹纸、牛皮盒、铜板、和纸、马尼拉信封、PVC、橡皮筋、箔、
+  盲压、贴纸、打孔、磁带、扑克牌。
 
 ## 包内内容
 
-- [SKILL.md](../../plugins/okrm-design/skills/okrm-design/SKILL.md) 的七步工作流：列既有物、写装置陈述、定秩序、定经济、排序阅读、制作、验收。
-- [秩序系统](../../plugins/okrm-design/skills/okrm-design/references/design-system.md)：字体、尺度阶梯、由折法派生的网格、家具、颜色、材料、图像、序列，以及按媒介的差异。
-- [界面翻译](../../plugins/okrm-design/skills/okrm-design/references/ui-translation.md)：索引导航、表格列表、家具计数器、响应式即折法、干的状态与动效、作为秩序一部分的无障碍、HTML/CSS 骨架。
-- [配方](../../plugins/okrm-design/skills/okrm-design/references/recipes.md)：装置陈述与规范模板、海报骨架、按媒介的图像模型提示词、修正表。
+- [SKILL.md](../../plugins/okrm-design/skills/okrm-design/SKILL.md) 的八步工作流：列既有物、写装置陈述
+  （现成物型／系统型／对立型）、写框架段落、定秩序、定经济、排序阅读、制作、验收。
+- [秩序系统](../../plugins/okrm-design/skills/okrm-design/references/design-system.md)：装置来源、框架、带证据的声部表、
+  带实测的尺度两极、对齐、结构、家具、作为材料的颜色、图像、材料、拼版、序列，以及按媒介的差异。
+- [界面翻译](../../plugins/okrm-design/skills/okrm-design/references/ui-translation.md)：隐含变显性（动作用括号写出、
+  计数器做家具）、索引导航、表格列表、整屏换色即换纸、响应式即折法、干的状态与动效、无障碍、HTML/CSS 骨架。
+- [配方](../../plugins/okrm-design/skills/okrm-design/references/recipes.md)：装置与框架模板、规范模板、封面骨架、
+  按媒介的图像模型提示词、修正表。
 - [验收门槛](../../plugins/okrm-design/skills/okrm-design/references/qa.md)：三道主门（装置、经济、序列）、秩序门、界面门、立即失败项。
-- `scripts/tokens.py`：从几个决定生成秩序表（CSS 自定义属性与 JSON），并按门槛检查任何秩序表：至多两个字体家族、三个量级的尺度、一个强调色、可读对比、由折法派生的栏数、45–75 字符行长。
+- `scripts/tokens.py`：生成秩序表（CSS 变量与 JSON），并按门槛检查：至多两个声部、尺度两极且中间为空、一个作为材料的颜色、
+  可读对比、折法派生的栏数、45–75 字符行长。
 
 ## 开始
-
-用 Codex CLI 从 LabArt marketplace 安装：
 
 ```sh
 codex plugin marketplace add haorantang97/LabArt --ref main
 codex plugin add okrm-design@labart
 ```
-
-用 GitHub CLI 2.90 或更新版本安装独立 Skill：
 
 ```sh
 gh skill install haorantang97/LabArt plugins/okrm-design/skills/okrm-design@main --agent codex
@@ -57,21 +76,20 @@ gh skill install haorantang97/LabArt plugins/okrm-design/skills/okrm-design@main
 
 试试：
 
-> 用 $okrm-design 为一个六晚书籍设计讲座系列做海报与识别。先从简报里找装置。
+> 用 $okrm-design 为 44 件器皿做一本目录。先从简报里找装置，说出它重演的现成物。
 
-> 用 $okrm-design 把这个藏品档案网站做成以编号为导航的排印界面，输出 tokens.css 和一页 HTML。
+> 用 $okrm-design 把这个藏品档案网站做成编号即导航、动作用括号写出的排印界面，输出 tokens.css 和一页 HTML。
 
-> 用 $okrm-design 把这本陶瓷目录排成阅读序列：历史与当代交错，换一次纸。
+> 用 $okrm-design 把这本季刊做成折叠格式：标志固定，封面随每期的「情绪」变化。
 
 ## 研究基础
 
-方法蒸馏自关于 [OK-RM](https://www.ok-rm.co.uk/)（Oliver Knight 与 Rory McGrath 于 2008 年在伦敦创立的工作室）
-的公开材料：设计媒体对其识别、书籍、杂志与展览图形的报道，访谈与讲座，书籍设计奖项评语，以及其 2024–2025 年
-回顾展《A Meaningful Order》的公开文字（标题引自 Victor Papanek 对设计的定义）。代表性来源见
-[英文页](README.md#study-basis)。
+方法蒸馏自关于 [OK-RM](https://www.ok-rm.co.uk/)（Oliver Knight 与 Rory McGrath 于 2008 年在伦敦创立）的公开材料，
+一手来源均已通读：工作室自述与回顾展新闻稿、出版品牌 41 条产品规格、2010–2026 年间 12 篇访谈与对谈、约 20 篇项目报道与评论、
+字体使用档案 7 条、官网 31 张作品照片的网格测量以及官网自身的 CSS。完整来源清单见[英文页](README.md#study-basis)。
 
-本包是独立研究，与该工作室无任何关联或授权，也不是其官方风格。使用本方法制作的作品，不得在提示词、署名或
-宣传中使用该工作室或设计师的名字。
+本包是独立研究，与该工作室无任何关联或授权，也不是其官方风格。使用本方法制作的作品，不得在提示词、署名或宣传中使用
+该工作室或设计师的名字。
 
 ## 包内链接
 

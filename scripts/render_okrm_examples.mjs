@@ -17,6 +17,7 @@ const SRC = path.join(ROOT, 'assets/okrm-design/examples');
 const OUT = path.join(ROOT, 'plugins/okrm-design/assets/examples');
 const PAGES = {
   'poster-programme': [1200, 1600],
+  'catalogue-cover': [1400, 1000],
   'catalogue-spread': [1800, 1200],
   'archive-index-web': [1600, 1000],
   'reader-mobile': [1400, 1000],

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Index of Stones — cover</title>
+<style>
+  /* Device (readymade type): the catalogue will be archived, so it is bound like
+     a library book: one flat cloth colour as the material, a linen spine strip,
+     a small typed label centred in the upper quarter, a shelf number top-left.
+     Nothing on the cover is larger than a label except the shelf number. */
+  html, body { margin: 0; background: #cfccc4; }
+  .desk { width: 1400px; height: 1000px; display: grid; place-items: center; }
+  .book { position: relative; width: 638px; height: 900px; background: #1F4D3A; color: #F4F2EC;
+          font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif;
+          box-shadow: 0 1px 0 #a8a59d, 6px 0 0 -2px #163a2b; }
+  .spine { position: absolute; left: 0; top: 0; bottom: 0; width: 11%; background: #d8d2c2;
+           background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px),
+                             repeating-linear-gradient(90deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px); }
+  .shelf { position: absolute; left: 16%; top: 6%; font-size: 72px; line-height: 0.85; letter-spacing: -0.02em; font-weight: 500; }
+  .label { position: absolute; left: 50%; top: 19%; transform: translateX(-50%); width: 52%; height: 6%;
+           background: #F4F2EC; color: #111; display: grid; place-items: center;
+           font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; }
+  .foot { position: absolute; left: 50%; bottom: 7%; transform: translateX(-50%); text-align: center;
+          font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; line-height: 1.6; }
+  .corner { position: absolute; font-size: 13px; letter-spacing: 0.02em; }
+  .corner.tr { right: 6%; top: 6%; text-align: right; }
+  .corner.bl { left: 16%; bottom: 7%; }
+</style>
+</head>
+<body>
+<div class="desk">
+  <div class="book">
+    <div class="spine"></div>
+    <div class="shelf">17</div>
+    <div class="corner tr">Municipal Store<br>Shelf 17 of 44</div>
+    <div class="label">Index of Stones</div>
+    <div class="foot">Vessels<br>1890–2024</div>
+  </div>
+</div>
+</body>
+</html>
