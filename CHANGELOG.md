@@ -1,5 +1,25 @@
 # Changelog
 
+## okrm-design 0.3.0 - 2026-10-26
+
+- Moved the method's core from form to path. The deliverable is now a generation document
+  written before any layout: nine steps (position, question, key point, framework, object,
+  method, making, production, continuation) plus one strange decision that a conventional
+  designer would reject and that follows from the content. Form comes after step 6.
+- Added `references/genesis.md` (the protocol with evidence, templates and a test question
+  per step), `references/cases.md` (34 project paths by type and year, each ending with its
+  strange decision) and `references/deviation-operators.md` (the moves drawn from those
+  decisions, grouped by what they change, with conditions and transfer examples).
+- Rewrote the acceptance gates so the generation document, the strange decision and the
+  object are tested before the page.
+- Extended the evidence: the publisher's 41 product descriptions and full specification
+  index, 376 product images and 267 press images, three reports on a 2026 brand exhibition,
+  reviews and binding notes for a retrospective book, and the publishing notes of a
+  three-part research programme. The case-to-source index is in `docs/okrm-design/CASES-INDEX.md`.
+- Added a generation-document example; the manifest declares six screenshots.
+- Ran a blind comparison of three directions on three fictional briefs (no skill, 0.2.0,
+  0.3.0), judged by a separate agent; results in `docs/okrm-design/VALIDATION.md`.
+
 ## okrm-design 0.2.0 - 2026-10-26
 
 - Rebuilt the method on primary sources after the session's network policy was opened:

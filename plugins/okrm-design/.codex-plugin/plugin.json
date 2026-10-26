@@ -1,7 +1,7 @@
 {
   "name": "okrm-design",
-  "version": "0.2.0",
-  "description": "A graphic and UI design method: find a device in the content, re-enact a readymade or an existing system, use ubiquitous visual languages and strict production economy, and design reading as a sequence.",
+  "version": "0.3.0",
+  "description": "A method for taking a design project from zero to one: position, question, key point, framework, object before layout, method, making with room for chance, production as negotiation, continuation, and one strange decision that follows from the content. Then form, in ubiquitous visual languages.",
   "author": {
     "name": "Haoran Tang",
     "url": "https://github.com/haorantang97"
@@ -20,8 +20,8 @@
   ],
   "interface": {
     "displayName": "OK-RM Design · 有意义的秩序",
-    "shortDescription": "Attitude before form: readymades, ubiquitous type, economy, sequence.",
-    "longDescription": "A transferable method for books and catalogues, magazines, posters, identities, exhibition graphics, websites and product interfaces. Every project starts from a device found in its own content, stated in one sentence and staged as a performative framework. It re-enacts a readymade or an existing system, uses ubiquitous visual languages (Helvetica-, Times- and Courier-class type, archive and everyday document forms), keeps type at two poles (label-small or monumental, never the headline middle), uses one flat colour as a material, and lets production economy decide format. Reading is designed as a sequence. Includes measured starting values from a study of one London studio's published work, an order-sheet generator and checker, prompt recipes and acceptance gates. Contains none of the studied studio's artwork and reproduces none of its layouts.",
+    "shortDescription": "From zero to one: a generation document before any layout.",
+    "longDescription": "The core deliverable is a generation document, not a layout: nine steps from positioning to continuation, plus one decision a conventional designer would reject that follows directly from the content. Thirty-four case paths record how books, identities, exhibitions and brand projects were conceived, from the first conversation to the printed object and its next edition; deviation operators are drawn from them. Form comes after: ubiquitous type, two poles of scale, one flat colour as material, measured starting values, an order-sheet generator and checker, and acceptance gates that test the path before the page. Distilled from a London studio's published interviews, publishing catalogue and work; contains none of its artwork and reproduces none of its layouts.",
     "developerName": "Haoran Tang",
     "category": "Design",
     "capabilities": [
@@ -30,6 +30,7 @@
     ],
     "brandColor": "#1F3FBF",
     "screenshots": [
+      "./assets/examples/genesis-sheet.jpg",
       "./assets/examples/catalogue-cover.jpg",
       "./assets/examples/poster-programme.jpg",
       "./assets/examples/catalogue-spread.jpg",
@@ -37,9 +38,9 @@
       "./assets/examples/reader-mobile.jpg"
     ],
     "defaultPrompt": [
-      "Use $okrm-design to find the device in this brief, name the readymade it re-enacts, and build a catalogue cover and spread from it.",
-      "用 $okrm-design 把这个档案网站做成编号即导航、动作用括号写出的排印界面，并输出 token。",
-      "Use $okrm-design to lay out this journal as a folded format with a fixed mark and a changing cover."
+      "Use $okrm-design to take this brief from zero to one: write the generation document first, then propose the object.",
+      "用 $okrm-design 从零开始做这个项目：先写生成文档（定位、三问、关键点、框架、物件、方法、制作、生产、延续）和一条怪决定，再谈形。",
+      "Use $okrm-design to replace this lookbook with the object the content actually asks for."
     ]
   }
 }

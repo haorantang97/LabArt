@@ -45,14 +45,15 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 
 ## OK-RM Design · 有意义的秩序
 
-Attitude before form: find a device in the content, re-enact a readymade or an existing
-system with ubiquitous type and strict production economy, and design reading as a sequence.
-For books, magazines, posters, identities, exhibition graphics, websites and product interfaces.
+Take a project from zero to one: write the generation document first (position, question, key
+point, framework, object, method, making, production, continuation) and one strange decision that
+follows from the content; then the form, in ubiquitous visual languages.
+For books, magazines, posters, identities, exhibitions, brand projects, websites and interfaces.
 
 <table>
   <tr>
+    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/genesis-sheet.jpg" alt="A one-page generation document: nine steps and one strange decision, written before any layout"></a></td>
     <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue bound like a library book: one flat cloth colour, a linen spine strip, a small centred label"></a></td>
-    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/archive-index-web.jpg" alt="An archive website whose title is a sentence, whose actions are text in brackets, and whose current index letter is monumental"></a></td>
   </tr>
 </table>
 

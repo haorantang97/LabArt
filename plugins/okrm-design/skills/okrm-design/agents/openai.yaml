@@ -1,4 +1,4 @@
 interface:
   display_name: "OK-RM Design · 有意义的秩序"
-  short_description: "先有态度再有形式：现成物、普遍语言、经济、序列的平面与 UI 设计方法"
-  default_prompt: "用 $okrm-design 为这个项目找出来自内容的装置，说出它重演的现成物或既有系统，建立秩序并产出书、海报、识别或界面。"
+  short_description: "从零到一：先写生成文档与一条怪决定，再落形"
+  default_prompt: "用 $okrm-design 从零开始做这个项目：先写生成文档（定位、三问、关键点、框架、物件、方法、制作、生产、延续）和一条从内容推出的怪决定，再谈形。"

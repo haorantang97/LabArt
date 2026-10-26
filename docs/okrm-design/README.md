@@ -4,8 +4,8 @@
 
 <table>
   <tr>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/genesis-sheet.jpg" alt="A one-page generation document: nine steps from position to continuation and one strange decision, written before any layout"></td>
     <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue bound like a library book: one flat cloth colour, a linen spine strip, a small typed label centred in the upper quarter, a shelf number top-left"></td>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/poster-programme.jpg" alt="A programme poster that is a notice: six rows on a flat spot-colour sheet, the weekday the only large word"></td>
   </tr>
   <tr>
     <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="A catalogue spread with a full-page plate on the left and a large number over bilingual numbered captions on the right"></td>
@@ -13,14 +13,37 @@
   </tr>
 </table>
 
-A method for graphic and UI design, distilled from a study of one London studio's published work,
-interviews and publishing catalogue. In one sentence: **attitude before form. Find a device in the
-project's own content, stage it as a performative framework, re-enact a readymade or an existing
-system with ubiquitous visual languages and strict production economy, and design reading as a
-sequence.** It is a way of working, not a style library. The package contains none of the studio's
-artwork and reproduces none of its layouts; the examples are fictional projects made with the method.
+A method for taking a design project from zero to one, distilled from a study of one London
+studio's published interviews, publishing catalogue and work. The soul of a project is in how it was
+conceived, not in how it finally looks, so the core deliverable is a **generation document** written
+before any layout: nine steps from positioning to continuation, plus one decision a conventional
+designer would reject that follows directly from the content. Form comes after, in ubiquitous visual
+languages. The package contains none of the studio's artwork and reproduces none of its layouts; the
+examples are fictional projects made with the method.
 
-## Eight principles
+## The path from zero to one
+
+| Step | What it asks | Produces |
+| --- | --- | --- |
+| 0 Position | Who decides; which line of the brief is the real task and which is convention | A positioning memo |
+| 1 Question | What is it, why now, where does it go; the field's existing systems and their fatigue | Three questions and a context reading |
+| 2 Key point | Intuition, then the reason for it; the opposite pole | A key-point statement |
+| 3 Framework | Stage, actors, script; which readymade the object pretends to be | A framework paragraph instead of a mood board |
+| 4 Object | Format, binding, material, printing and economy, before any layout | Object decisions and a constraint → decision list |
+| 5 Method | Roles, units and numbering, fixed and variable, a one-page brief for collaborators | A method table |
+| 6 Making | Situations not storyboards; an editing workshop; the sequence | A making record |
+| 7 Production | Three things to keep, three to give up, one question for the proof | A production negotiation |
+| 8 Continuation | The next unit; assets to reuse; how the relationship continues | A continuation plan |
+| ★ Strange decision | One decision a conventional designer would reject, derived from step 2 or 3 | One sentence, with its deviation operator |
+
+Thirty-four case paths in the package record how this was done in practice: a quarterly folded
+vertically because every square millimetre is real estate; a museum catalogue with a punched cover
+because the show is about hand and machine; a retrospective whose bureaucracy became its structure;
+a seasonal book made for less than the lookbook it replaced; a catalogue bound as if already archived;
+a studio's own book built from the record of its own conversations. The index of cases and sources is
+in [CASES-INDEX.md](CASES-INDEX.md).
+
+## Eight principles (for the form, after step 6)
 
 1. **Content and concept.** Design builds a frame for content. Intuition first, then reasons for it,
    written down. No mood boards.
@@ -65,9 +88,13 @@ Measured on the studio's published photographs with a 0.1 grid (about ±1% of th
 
 ## What you get
 
-- An eight-step workflow in [SKILL.md](../../plugins/okrm-design/skills/okrm-design/SKILL.md):
-  list the found material, write the device statement (readymade, system or duality), write the
-  framework paragraph, set the order, set the economy, sequence the reading, make, check.
+- The nine-step generation protocol in [genesis.md](../../plugins/okrm-design/skills/okrm-design/references/genesis.md)
+  with evidence, templates and a test question for each step, and the strange-decision gate.
+- [Cases](../../plugins/okrm-design/skills/okrm-design/references/cases.md): 34 project paths by type
+  and year, each ending with the decision a conventional designer would have rejected.
+- [Deviation operators](../../plugins/okrm-design/skills/okrm-design/references/deviation-operators.md):
+  the moves drawn from those decisions, grouped by what they change (format, readymade, sequence,
+  context, interface), with conditions and transfer examples.
 - [Order system](../../plugins/okrm-design/skills/okrm-design/references/design-system.md): device
   sources, framework, voices with their evidence, the two poles of scale with measurements,
   alignment, structure, furniture, colour as material, imagery, materials, imposition, sequence,
@@ -105,7 +132,7 @@ The token script needs only Python 3. Start a new task after installation.
 
 Try:
 
-> Use $okrm-design to design a catalogue for 44 vessels. Find the device in the brief first and name the readymade it re-enacts.
+> Use $okrm-design to take this brief from zero to one: write the generation document first, then propose the object.
 
 > 用 $okrm-design 把这个藏品档案网站做成编号即导航、动作用括号写出的排印界面，输出 tokens.css 和一页 HTML。
 

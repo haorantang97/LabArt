@@ -4,8 +4,8 @@
 
 <table>
   <tr>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/genesis-sheet.jpg" alt="一页生成文档：从定位到延续的九步与一条怪决定，写在任何版面之前"></td>
     <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="像图书馆藏书一样装订的目录：一个平涂布面颜色、亚麻脊条、居中于上四分之一的小标签、左上的架号"></td>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/poster-programme.jpg" alt="节目单海报即通告：平涂专色纸上的六行，星期几是唯一的大字"></td>
   </tr>
   <tr>
     <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="目录对页：左页满版图版，右页大编号压在双语编号题注之上"></td>
@@ -49,8 +49,9 @@
 
 ## 包内内容
 
-- [SKILL.md](../../plugins/okrm-design/skills/okrm-design/SKILL.md) 的八步工作流：列既有物、写装置陈述
-  （现成物型／系统型／对立型）、写框架段落、定秩序、定经济、排序阅读、制作、验收。
+- [生成协议](../../plugins/okrm-design/skills/okrm-design/references/genesis.md)：九步各有证据、模板与检验问题，加怪决定门。
+- [案例](../../plugins/okrm-design/skills/okrm-design/references/cases.md)：34 个按类型与年份记录的项目路径，每个以常规设计师会否决的那个决定收尾。
+- [偏离算子](../../plugins/okrm-design/skills/okrm-design/references/deviation-operators.md)：从这些决定归纳的操作，按改格式、换现成物、改序列、改语境、改界面分组，附条件与迁移示例。
 - [秩序系统](../../plugins/okrm-design/skills/okrm-design/references/design-system.md)：装置来源、框架、带证据的声部表、
   带实测的尺度两极、对齐、结构、家具、作为材料的颜色、图像、材料、拼版、序列，以及按媒介的差异。
 - [界面翻译](../../plugins/okrm-design/skills/okrm-design/references/ui-translation.md)：隐含变显性（动作用括号写出、
@@ -76,7 +77,7 @@ gh skill install haorantang97/LabArt plugins/okrm-design/skills/okrm-design@main
 
 试试：
 
-> 用 $okrm-design 为 44 件器皿做一本目录。先从简报里找装置，说出它重演的现成物。
+> 用 $okrm-design 从零开始做这个项目：先写生成文档（定位、三问、关键点、框架、物件、方法、制作、生产、延续）和一条怪决定，再谈形。
 
 > 用 $okrm-design 把这个藏品档案网站做成编号即导航、动作用括号写出的排印界面，输出 tokens.css 和一页 HTML。
 

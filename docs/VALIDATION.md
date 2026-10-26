@@ -1,8 +1,8 @@
 # Package validation
 
-## okrm-design 0.2.0 — rebuilt on primary sources
+## okrm-design 0.3.0 — from form to path
 
-The marketplace selects a fourth source, `plugins/okrm-design`, now at 0.2.0. Its package
+The marketplace selects a fourth source, `plugins/okrm-design`, now at 0.3.0. Its package
 checks, order-sheet tests, the corrections made after reading the primary sources, and the
 example validation are recorded in [OK-RM Design](okrm-design/VALIDATION.md). The three
 existing packages are unchanged.
