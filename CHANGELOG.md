@@ -17,8 +17,12 @@
   reviews and binding notes for a retrospective book, and the publishing notes of a
   three-part research programme. The case-to-source index is in `docs/okrm-design/CASES-INDEX.md`.
 - Added a generation-document example; the manifest declares six screenshots.
-- Ran a blind comparison of three directions on three fictional briefs (no skill, 0.2.0,
-  0.3.0), judged by a separate agent; results in `docs/okrm-design/VALIDATION.md`.
+- Ran two rounds of a blind comparison of three directions on three fictional briefs (no
+  skill, 0.2.0, 0.3.0), each judged by a separate agent. Round 1 went to 0.2.0 and exposed
+  three failures of the protocol (imported readymades, filler in optional fields, numbers
+  that did not close); after the protocol was revised on those points, round 2 went to 0.3.0
+  on all three briefs. Both rounds and the revisions are recorded in
+  `docs/okrm-design/VALIDATION.md`.
 
 ## okrm-design 0.2.0 - 2026-10-26
 

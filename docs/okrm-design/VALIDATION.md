@@ -1,5 +1,103 @@
 # Validation scope
 
+## 0.3.0 — from form to path
+
+0.3.0 moves the method's core from the look of the work to the way a project is conceived:
+a generation document in nine steps plus one strange decision, written before any layout.
+The question for validation was therefore not "does the output look right" but "does the
+path produce proposals that follow from the brief and contain a decision a conventional
+studio would reject — without being mistakable for a published project".
+
+### Blind comparison
+
+Three fictional briefs were written for the test (a catalogue of sixty unattributed ceramic
+vessels for a travelling show with one print run; an identity and first-year publication for
+a bilingual architecture school in a former bus depot that "does not want a brand"; a launch
+object "that is not a lookbook" for a knitwear label run by a former textile engineer, with a
+swatch archive and a five-year photographer). Three directions answered each brief:
+
+- A: a competent studio agent with no skill;
+- B: an agent given the 0.2.0 skill and order system (form-first);
+- C: the 0.3.0 generation protocol.
+
+The nine proposals were shuffled per brief with a seeded script and relabelled, and a fresh
+agent that had seen none of the files judged them on four questions: which follows most
+directly from the brief; which contains the one decision a conventional studio would reject,
+and whether it follows from the brief; which is the most expected; which it would commission
+and on what conditions. It also checked whether any proposal could be mistaken for a specific
+published project.
+
+**Round 1** (C written by the same agent that wrote the protocol): the judge preferred B on
+all three briefs. A was "most expected" on each. No proposal was mistakable for a published
+project. The judge's criticism of C was specific and correct: it imported readymades the
+briefs did not contain (an accession ledger, a departure board) when the briefs already
+offered a grey card, bay numbers and a test record; it filled optional template fields with
+stock phrases ("the thing you cannot know without the show", "one change of pace"); and its
+object decisions carried numbers that did not add up or contradicted each other (an
+"interleaved signature" that is really sixty tip-ins; a "second printing" inside a one-run
+constraint; eighty pages for eleven sheets).
+
+The protocol was revised on those three points: the readymade must be taken first from
+objects already in the brief, and an external one needs a sentence saying why it is more
+accurate; step 4 is now two tables (order and economy) and every decision carries numbers
+that are checked against each other (pages from sheets, copies × unit cost = budget, weight
+against postage); optional fields stay empty rather than being filled; the continuation plan
+may not violate a constraint written in step 4; the gates in `qa.md` test each of these.
+
+**Round 2** (C written by a fresh agent from the revised protocol, which had not seen round 1;
+new seed and labels; a new judge): the judge commissioned the 0.3.0 proposal on all three
+briefs and named the no-skill proposal as "the safe one" on all three. On each brief it found
+that the 0.3.0 proposal followed most directly from the brief's own objects and numbers (the
+grey card as paper and the accession number as the only folio; 24 students, 10 evenings and
+2 languages as the panel count of one folded sheet published in September before the year
+runs; the engineer's sampling technique as the way the swatches are knitted) and that its
+rejectable decision followed from the brief rather than from a conceit. It re-did the
+arithmetic by hand and found the 0.3.0 proposals correct on every count (imposition, page
+plan, weights, copies × unit cost, envelope sizes), while finding page-count, fold, binding
+and weight errors in both other directions. No proposal was mistakable for a published
+project.
+
+Its remaining criticisms of 0.3.0 were specific and have been folded into the protocol:
+one claimed readymade ("nothing imported") brought a role the brief did not contain; the
+operator name in the strange-decision sentence reads as a filled slot; one template sentence
+("we hold the publisher's hat") recurred across proposals; a ganged imposition of thirteen
+different cards was counted as if it were one; a sixteen-layer cross fold and hand folding
+were not costed; no design fee appeared in the economy tables. `genesis.md` now lists these
+as common miscounts and false moves, the operator goes in the acceptance record rather than
+the proposal, and `qa.md` fails repeated template phrasing and unchecked "nothing imported"
+claims.
+
+What the two rounds show: the path method does not by itself produce better proposals — the
+first round's author knew the protocol best and lost — but a protocol whose steps are tied to
+the brief's own objects and whose numbers must close does, in the hands of an agent reading
+it cold. The second round is one judge on three briefs; it is evidence that the revisions
+fixed the round-1 failures, not a general claim.
+
+The briefs, the nine proposals of each round, the shuffle scripts, the keys and both judges'
+notes are kept outside the package and are not committed, because they contain the
+proposals' full text; the method of the test is described here so it can be re-run.
+
+### Checks performed on 2026-10-26
+
+- `scripts/check_packages.py` passed for all marketplace plugins, including the six declared
+  screenshots and all local links.
+- 15 behavioral tests for the order-sheet generator and checker passed
+  (`tests/okrm-design/test_tokens.py`); the checker is unchanged from 0.2.0.
+- The generation-document example was written with the protocol and checked against the
+  main gates of `references/qa.md` (complete, one strange decision with its operator and
+  source line, object before page with consistent numbers, readymade from the brief, economy
+  list, transferable method, sequence with room for chance, continuation inside step 4's
+  limits). The five form examples from 0.2.0 were kept and re-checked against the order gates.
+- The case cards were written from the sources listed in `CASES-INDEX.md`; each card's
+  strange decision is quoted or paraphrased from a published interview or review, not inferred
+  from a photograph.
+
+Not claimed: the studio's own book on its method was not read (not available to the session);
+its social-media archive was not collected; measurements in the order system remain starting
+values taken from photographs; no image-model generation was run; no marketplace activation
+was tested. The blind comparison used three briefs and one judge per round, which is enough to
+catch the failures listed above and not enough to claim the method wins in general.
+
 ## 0.2.0 — rebuilt on primary sources
 
 0.1.0 was written from search-engine summaries only, because the session's network policy
