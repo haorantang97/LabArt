@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sequence — reading app</title>
+<style>
+  /* Device: the book advances by chapter, so the chapter number fills the first
+     screen and the text begins on the second. Two screens: contents and reading.
+     Furniture: chapter number, progress counter, running head. */
+  html, body { margin: 0; background: #cfccc4; }
+  .stage { width: 1400px; height: 1000px; display: flex; gap: 60px; justify-content: center; align-items: center; }
+  .phone { width: 420px; height: 900px; background: #F4F2EC; color: #111; box-sizing: border-box; padding: 54px 24px 24px;
+           position: relative; overflow: hidden; font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif; outline: 2px solid #111; }
+  .status { position: absolute; top: 18px; left: 24px; right: 24px; display: flex; justify-content: space-between; font-family: "JetBrains Mono", "Liberation Mono", monospace; font-size: 12px; }
+  .head { display: flex; justify-content: space-between; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid #111; padding-bottom: 8px; }
+  .mono { font-family: "JetBrains Mono", "Liberation Mono", monospace; text-transform: none; letter-spacing: 0; }
+  /* contents */
+  .toc .item { display: grid; grid-template-columns: 96px 1fr; align-items: baseline; border-bottom: 1px solid #111; padding: 10px 0 12px; }
+  .toc .n { font-size: 64px; line-height: 0.85; letter-spacing: -0.05em; font-weight: 500; }
+  .toc .t { font-size: 17px; line-height: 1.25; font-weight: 500; }
+  .toc .s { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 14px; margin-top: 4px; }
+  .toc .now .n { background: #FFE600; display: inline-block; padding: 0 6px; margin-left: -6px; }
+  /* reading */
+  .giant { font-size: 300px; line-height: 0.78; letter-spacing: -0.07em; font-weight: 500; margin: 26px 0 0 -10px; }
+  .ch { font-size: 26px; line-height: 1.1; letter-spacing: -0.015em; font-weight: 500; margin-top: 12px; max-width: 330px; }
+  .body { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 17px; line-height: 1.5; margin-top: 150px; }
+  .body p { margin: 0 0 1em; }
+  .foot { position: absolute; left: 24px; right: 24px; bottom: 22px; display: flex; justify-content: space-between; font-family: "JetBrains Mono", "Liberation Mono", monospace; font-size: 12px; border-top: 1px solid #111; padding-top: 8px; }
+  .bar { position: absolute; left: 0; bottom: 0; height: 3px; width: 31%; background: #111; }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="phone">
+    <div class="status"><span>09:41</span><span>Sequence</span></div>
+    <div class="head"><span>Contents</span><span class="mono">12 chapters</span></div>
+    <div class="toc">
+      <div class="item"><div class="n">1</div><div><div class="t">A list is a layout</div><div class="s">Read 26 Oct</div></div></div>
+      <div class="item"><div class="n">2</div><div><div class="t">What the fold decides</div><div class="s">Read 26 Oct</div></div></div>
+      <div class="item"><div class="n">3</div><div><div class="t">Page numbers, enlarged</div><div class="s">Read 26 Oct</div></div></div>
+      <div class="item now"><div class="n">4</div><div><div class="t">The caption far from its picture</div><div class="s">Reading · 31%</div></div></div>
+      <div class="item"><div class="n">5</div><div><div class="t">One colour, one job</div><div class="s">18 min</div></div></div>
+      <div class="item"><div class="n">6</div><div><div class="t">Binding that shows</div><div class="s">22 min</div></div></div>
+      <div class="item"><div class="n">7</div><div><div class="t">The system font is a decision</div><div class="s">15 min</div></div></div>
+    </div>
+    <div class="foot"><span>0001–0144</span><span>Index</span></div>
+  </div>
+  <div class="phone">
+    <div class="status"><span>09:41</span><span>Sequence</span></div>
+    <div class="head"><span>Chapter</span><span class="mono">4 / 12</span></div>
+    <div class="giant">4</div>
+    <div class="ch">The caption far from its picture</div>
+    <div class="body">
+      <p>A caption does not have to sit under its picture. Give the picture a number and the caption can live anywhere the number can be found: a column at the back, a margin, a separate booklet.</p>
+      <p>The number is then doing two jobs. It identifies, and it navigates.</p>
+    </div>
+    <div class="foot"><span>p. 61</span><span>31% · 14 min left</span></div>
+    <div class="bar"></div>
+  </div>
+</div>
+</body>
+</html>

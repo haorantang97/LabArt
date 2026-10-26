@@ -1,6 +1,6 @@
 # LabArt
 
-Black-pen illustrations, animated pixel art, and deadpan watercolor illustrations. Explore each plugin below.
+Black-pen illustrations, animated pixel art, deadpan watercolor illustrations, and a type-led design method. Explore each plugin below.
 
 ## Antibes Holiday
 
@@ -42,6 +42,21 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 </table>
 
 [Explore Deadpan Doodles →](docs/deadpan-doodles/README.md) · [中文介绍](docs/deadpan-doodles/README.zh-CN.md)
+
+## OK-RM Design · 有意义的秩序
+
+Find one device in the content, exaggerate it through dry systematic typography,
+let production economy shape the form, and design reading as a sequence.
+For posters, identities, books, exhibition graphics, websites and product interfaces.
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/poster-programme.jpg" alt="A programme poster where the weekday is the largest word on each row"></a></td>
+    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/archive-index-web.jpg" alt="An archive website whose navigation is an A–Z index and whose list is a numbered table"></a></td>
+  </tr>
+</table>
+
+[Explore OK-RM Design →](docs/okrm-design/README.md) · [中文介绍](docs/okrm-design/README.zh-CN.md)
 
 ## Marketplace
 

@@ -1,5 +1,11 @@
 # Package validation
 
+## okrm-design 0.1.0 — new package
+
+The marketplace now selects a fourth source, `plugins/okrm-design`. Its package checks,
+order-sheet tests and example validation are recorded in
+[OK-RM Design](okrm-design/VALIDATION.md). The three existing packages are unchanged.
+
 ## 0.2.1 — installation boundaries
 
 LabArt distributes three independent plugins. The marketplace continues to select

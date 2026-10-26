@@ -1,0 +1,44 @@
+{
+  "name": "okrm-design",
+  "version": "0.1.0",
+  "description": "A graphic and UI design method: find one device in the content, exaggerate it through dry systematic typography, let production economy shape the form, and design reading as a sequence.",
+  "author": {
+    "name": "Haoran Tang",
+    "url": "https://github.com/haorantang97"
+  },
+  "skills": "./skills/",
+  "homepage": "https://github.com/haorantang97/LabArt/tree/main/docs/okrm-design",
+  "repository": "https://github.com/haorantang97/LabArt",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "graphic-design",
+    "typography",
+    "editorial",
+    "identity",
+    "ui-design",
+    "design-system"
+  ],
+  "interface": {
+    "displayName": "OK-RM Design · 有意义的秩序",
+    "shortDescription": "Content-found device, type-led order, economy as form.",
+    "longDescription": "A transferable method for posters, identities, books, magazines, exhibition graphics, websites and product interfaces. Every project starts from one device found in its own content, exaggerated through dry, systematic typography with extreme scale contrast and large page furniture. Production and platform constraints become visible decisions; reading is designed as a sequence. Includes an order-sheet generator and checker for design tokens, prompt recipes, and acceptance gates. Distilled from a study of a London studio's published work and interviews; contains none of its artwork and reproduces none of its layouts.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "brandColor": "#FFE600",
+    "screenshots": [
+      "./assets/examples/poster-programme.jpg",
+      "./assets/examples/catalogue-spread.jpg",
+      "./assets/examples/archive-index-web.jpg",
+      "./assets/examples/reader-mobile.jpg"
+    ],
+    "defaultPrompt": [
+      "Use $okrm-design to find one device in this brief and build a poster and identity from it.",
+      "用 $okrm-design 把这个档案网站做成以编号为导航的排印界面，并输出 token。",
+      "Use $okrm-design to lay out this catalogue as a reading sequence with one fold-out and one change of paper."
+    ]
+  }
+}

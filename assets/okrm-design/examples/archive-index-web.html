@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fold Archive — index</title>
+<style>
+  /* Device: every entry in the archive has a number, so the number is the navigation
+     and the page number. Navigation is an index, the list is a table, the accent
+     marks only the current state. System font stack by decision. */
+  :root { --paper: #F4F2EC; --ink: #111; --accent: #FFE600; --rule: 1px;
+          --sans: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif; --mono: "JetBrains Mono", "Liberation Mono", Courier, monospace; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+  .screen { width: 1600px; height: 1000px; box-sizing: border-box; padding: 24px 40px 0; display: grid; grid-template-rows: auto auto auto 1fr; overflow: hidden; }
+  .furniture { display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; padding-bottom: 10px; border-bottom: var(--rule) solid var(--ink); }
+  .furniture .mono { font-family: var(--mono); }
+  h1 { font-size: 104px; line-height: 0.92; letter-spacing: -0.035em; font-weight: 500; margin: 36px 0 28px; max-width: 1200px; }
+  nav { display: grid; grid-template-columns: repeat(26, 1fr); border-top: var(--rule) solid var(--ink); border-bottom: var(--rule) solid var(--ink); }
+  nav a { padding: 10px 0 12px; font-size: 22px; text-decoration: none; color: inherit; border-right: var(--rule) solid #d8d5cd; text-align: center; }
+  nav a:last-child { border-right: 0; }
+  nav a[aria-current] { background: var(--accent); }
+  .list { display: grid; grid-template-columns: 180px 1fr 1fr 280px 160px; margin-top: 0; }
+  .list > div { padding: 14px 0; border-bottom: var(--rule) solid var(--ink); font-size: 18px; line-height: 1.3; }
+  .list .h { font-family: var(--mono); font-size: 13px; padding: 10px 0 8px; }
+  .list .n { font-family: var(--mono); font-size: 34px; letter-spacing: -0.02em; line-height: 1; padding-top: 10px; }
+  .list .m { font-family: var(--mono); font-size: 13px; color: #111; }
+  .list .y { text-align: right; font-family: var(--mono); font-size: 13px; }
+  .list .row-now > div { background: #ece9e1; }
+</style>
+</head>
+<body>
+<div class="screen">
+  <header class="furniture"><span>Fold Archive</span><span class="mono">0001–0144 · 144 entries · no images loaded</span><span class="mono">Sat 26 Oct 2026 14:02</span></header>
+  <h1>Every entry is numbered, so the number is the navigation.</h1>
+  <nav aria-label="Index">
+    <a href="#A">A</a><a href="#B">B</a><a href="#C">C</a><a href="#D">D</a><a href="#E">E</a><a href="#F" aria-current="page">F</a><a href="#G">G</a><a href="#H">H</a><a href="#I">I</a><a href="#J">J</a><a href="#K">K</a><a href="#L">L</a><a href="#M">M</a><a href="#N">N</a><a href="#O">O</a><a href="#P">P</a><a href="#Q">Q</a><a href="#R">R</a><a href="#S">S</a><a href="#T">T</a><a href="#U">U</a><a href="#V">V</a><a href="#W">W</a><a href="#X">X</a><a href="#Y">Y</a><a href="#Z">Z</a>
+  </nav>
+  <div class="list" role="table" aria-label="Entries F">
+    <div class="h">No.</div><div class="h">Title</div><div class="h">Note</div><div class="h">Format</div><div class="h y">Year</div>
+    <div class="n">0061</div><div>Fold, a magazine folded in half by its readers</div><div class="m">square, creased on arrival; four columns across the spread</div><div class="m">297 × 297, 96 pp</div><div class="y">2017</div>
+    <div class="n">0062</div><div>Footnotes to a programme</div><div class="m">event list repeated on every spread, crossed off</div><div class="m">booklet, 16 pp</div><div class="y">2019</div>
+    <div class="n">0063</div><div>Furniture: a study of page numbers</div><div class="m">page numbers larger than the headlines</div><div class="m">poster set, 6 × A1</div><div class="y">2021</div>
+    <div class="n">0064</div><div>Flat colour, one job</div><div class="m">accent reserved for the current item</div><div class="m">website</div><div class="y">2022</div>
+    <div class="n">0065</div><div>Found letters, housing estate, 1971</div><div class="m">signage alphabet redrawn with its source recorded</div><div class="m">type specimen, 24 pp</div><div class="y">2023</div>
+    <div class="n">0066</div><div>Forty-four vessels, interleaved</div><div class="m">historic odd, contemporary even</div><div class="m">catalogue, 184 pp</div><div class="y">2024</div>
+    <div class="n">0067</div><div>Fear of decoration</div><div class="m">a lecture, transcribed, unedited</div><div class="m">pamphlet, 32 pp</div><div class="y">2025</div>
+    <div class="n">0068</div><div>Folding machine, manual</div><div class="m">the manual reprinted as the exhibition guide</div><div class="m">manual, 48 pp</div><div class="y">2026</div>
+  </div>
+</div>
+</body>
+</html>

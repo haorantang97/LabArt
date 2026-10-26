@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reading Order — programme poster</title>
+<style>
+  /* Device: the series has six evenings, so the programme list is the poster
+     and the weekday is the largest thing on the sheet. Fonts are placeholders
+     for a system grotesk and a text serif. */
+  html, body { margin: 0; background: #d9d6cf; }
+  .sheet { width: 1200px; height: 1600px; box-sizing: border-box; padding: 56px 60px 52px;
+           background: #F4F2EC; color: #111; font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif;
+           display: grid; grid-template-rows: auto 1fr auto; position: relative; overflow: hidden; }
+  .furniture { display: flex; justify-content: space-between; font-size: 22px; letter-spacing: 0.04em;
+               text-transform: uppercase; font-weight: 500; }
+  .programme { align-self: end; }
+  .row { display: grid; grid-template-columns: 300px 1fr; align-items: end;
+         border-top: 3px solid #111; padding: 10px 0 16px; }
+  .day { font-size: 190px; line-height: 0.78; letter-spacing: -0.06em; font-weight: 500; }
+  .day .now { background: #FFE600; display: inline-block; padding: 0 10px 0 6px; margin-left: -6px; }
+  .what { font-size: 40px; line-height: 1.02; letter-spacing: -0.015em; font-weight: 500; max-width: 760px; }
+  .meta { font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 24px; margin-top: 8px; }
+  .colophon { margin-top: 32px; font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 20px;
+              line-height: 1.3; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; border-top: 3px solid #111; padding-top: 14px; }
+  .colophon b { font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif; font-weight: 500; display: block; font-size: 16px; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <header class="furniture"><span>Reading Order</span><span>Six evenings on the page</span><span>Hall 2</span></header>
+  <main class="programme">
+    <div class="row"><div class="day">Mo</div><div><div class="what">What a page number is for.</div><div class="meta">19:00 — Talk, 60 min</div></div></div>
+    <div class="row"><div class="day">Tu</div><div><div class="what">The fold decides the columns.</div><div class="meta">19:00 — Demonstration with a folding machine</div></div></div>
+    <div class="row"><div class="day"><span class="now">We</span></div><div><div class="what">Captions, numbered, far from their pictures.</div><div class="meta">19:00 — Reading, followed by questions</div></div></div>
+    <div class="row"><div class="day">Th</div><div><div class="what">One accent colour, one job.</div><div class="meta">19:00 — Talk, 45 min</div></div></div>
+    <div class="row"><div class="day">Fr</div><div><div class="what">The system font is a decision.</div><div class="meta">19:00 — Panel</div></div></div>
+    <div class="row"><div class="day">Sa</div><div><div class="what">Binding that shows how it was bound.</div><div class="meta">15:00 — Workshop, bring a stapler</div></div></div>
+  </main>
+  <footer class="colophon">
+    <div><b>Entry</b>Free. Doors 18:30. No booking.</div>
+    <div><b>Print</b>One colour plus one spot, uncoated 120 g. Folded twice for the post.</div>
+    <div><b>Device</b>Six evenings, so the list is the poster; the weekday is the largest word.</div>
+  </footer>
+</div>
+</body>
+</html>

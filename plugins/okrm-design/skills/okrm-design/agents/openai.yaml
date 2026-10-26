@@ -1,0 +1,4 @@
+interface:
+  display_name: "OK-RM Design · 有意义的秩序"
+  short_description: "从内容找装置、排印主导、经济即形式的平面与 UI 设计方法"
+  default_prompt: "用 $okrm-design 为这个项目找出一个来自内容的装置，建立排印秩序，并产出海报、识别或界面。"

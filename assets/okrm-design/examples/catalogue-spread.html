@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Index of Stones — catalogue spread</title>
+<style>
+  /* Device: the collection is numbered 1–44 and will be archived, so the book is a
+     standard catalogue whose only furniture is the number. Sequence: image page,
+     caption page, interleaved; bilingual captions in two voices. */
+  html, body { margin: 0; background: #cfccc4; }
+  .desk { width: 1800px; height: 1200px; display: grid; place-items: center; }
+  .book { width: 1640px; height: 1060px; display: grid; grid-template-columns: 1fr 1fr; background: #F4F2EC;
+          box-shadow: 0 1px 0 #b8b5ad; position: relative; color: #111;
+          font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif; }
+  .book::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: #e2dfd7; }
+  .page { position: relative; box-sizing: border-box; padding: 54px 58px; }
+  .plate { background: #1b1b1b; width: 100%; height: 100%; position: relative; overflow: hidden; }
+  .plate .vessel { position: absolute; left: 50%; top: 52%; width: 300px; height: 520px; transform: translate(-50%, -50%);
+                   background: #F4F2EC; border-radius: 48% 48% 42% 42% / 30% 30% 60% 60%; }
+  .plate .vessel::before { content: ""; position: absolute; left: 38%; top: -70px; width: 24%; height: 160px; background: #F4F2EC; }
+  .plate .vessel::after { content: ""; position: absolute; left: 0; right: 0; bottom: -22px; height: 44px; background: #1b1b1b; }
+  .num { position: absolute; top: 40px; left: 58px; font-size: 236px; line-height: 0.8; letter-spacing: -0.06em; font-weight: 500; }
+  .folio { position: absolute; bottom: 30px; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .folio.l { left: 58px; } .folio.r { right: 58px; }
+  .captions { margin-top: 250px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+  .cap { border-top: 2px solid #111; padding: 10px 0 26px; }
+  .cap .t { font-size: 20px; line-height: 1.25; font-weight: 500; }
+  .cap .s { font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 17px; line-height: 1.3; margin-top: 6px; }
+  .cap .zh { font-family: "IPAPGothic", "IPAGothic", "Inter", sans-serif; font-size: 16px; line-height: 1.45; margin-top: 10px; }
+  .cap .k { display: block; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<div class="desk">
+  <div class="book">
+    <section class="page">
+      <div class="plate"><div class="vessel"></div></div>
+      <div class="folio l">Index of Stones</div>
+    </section>
+    <section class="page">
+      <div class="num">17</div>
+      <div class="captions">
+        <div class="cap"><span class="k">17 — Plate</span><div class="t">Vessel, burnished, c. 1890</div><div class="s">Earthenware, 42 × 23 cm. On loan from a municipal store. Shown with 18 and 31.</div><div class="zh">器皿，抛光，约 1890 年。陶，42 × 23 厘米。市立库房借展。与 18、31 并置。</div></div>
+        <div class="cap"><span class="k">18 — Pair</span><div class="t">Vessel, thrown, 2024</div><div class="s">Stoneware, 39 × 21 cm. Made for this pairing. The sequence runs old, new, old.</div><div class="zh">器皿，拉坯，2024 年。炻器，39 × 21 厘米。为本次并置而作。序列：旧、新、旧。</div></div>
+        <div class="cap"><span class="k">Sequence</span><div class="t">Interleaved in pairs</div><div class="s">Odd numbers historic, even numbers contemporary. Plates face their caption across the fold.</div><div class="zh">单号为历史物件，双号为当代物件。图版隔着折缝面对题注。</div></div>
+        <div class="cap"><span class="k">Paper</span><div class="t">Change at 31</div><div class="s">Plates on 150 g uncoated; the interview section on 60 g newsprint, sewn in.</div><div class="zh">图版用 150 克非涂布纸；访谈部分用 60 克新闻纸，线缝装入。</div></div>
+      </div>
+      <div class="folio r">17 / 44</div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

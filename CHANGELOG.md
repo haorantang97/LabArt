@@ -1,5 +1,25 @@
 # Changelog
 
+## okrm-design 0.1.0 - 2026-10-26
+
+- Added **OK-RM Design · 有意义的秩序**, a graphic and UI design method distilled from a
+  study of one London studio's published work and interviews: find one device in the
+  content, exaggerate it through dry systematic typography, let production economy shape
+  the form, and design reading as a sequence.
+- The package holds a seven-step workflow, an order system (type pair, scale ladder,
+  fold-derived grid, furniture, colour, material, imagery, sequence), a UI translation
+  with an HTML/CSS skeleton, prompt recipes and a correction table, acceptance gates, and
+  study notes stating the evidence base and boundaries.
+- Added `scripts/tokens.py`, a standard-library order-sheet generator and checker
+  (two families at most, three magnitudes of scale, one accent, legible contrast,
+  fold-derived columns, 45–75 character measure), with 12 behavioral tests under
+  `tests/okrm-design/`.
+- Four declared screenshots are fictional projects made with the method, rendered from
+  HTML sources under `assets/okrm-design/examples/` with `scripts/render_okrm_examples.mjs`.
+  The package contains none of the studied studio's artwork and reproduces none of its
+  layouts; the source list lives in the repository documentation, outside the package.
+- Registered the plugin in the marketplace and added its tests to the package workflow.
+
 ## plugin packages 0.2.1 - 2026-10-15
 
 - Moved plugin introductions and validation history to `docs/<plugin>/`, Deadpan
