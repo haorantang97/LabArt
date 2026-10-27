@@ -2,7 +2,7 @@
 
 任何配方之前先有推导文档（genesis.md 的上游与 form-derivation.md 的推导表）。没有推导表的配方产出一律视为草稿。
 
-三类产出：版式规范、HTML/CSS 骨架（可打印、可截图）、图像模型提示词（探索与示意）。
+三类产出：版式规范、HTML/CSS 骨架（可打印、可截图）、图像资产（有生图工具时，见 5a；提示词见 5）。
 无论哪一类，先完成装置陈述、框架段落、秩序表、经济决定、固定项／变动项表和序列草图。
 
 ## 1. 装置陈述模板
@@ -80,6 +80,57 @@
 </body>
 </html>
 ```
+
+## 5a. 有生图工具时：资产交给模型，排字留在 HTML
+
+先看当前会话有没有生图能力：一个图像生成工具、一个连到 ChatGPT／Codex 的本地 bridge、或任何能按提示词出图的工具。
+有就用它做**资产**；没有就用色块或矢量占位，并在交付里写明「照片为占位」。
+
+分工：图像模型出图像资产；字和版面始终用 HTML/CSS 排（模型会把字写错，也会把尺度两极抹平）。最终画面是两者合成：
+生成的图作为 `<img>` 或背景放进 HTML，字、细线、家具在 HTML 里排在上面或旁边，再渲染截图。
+
+### 三类资产
+
+| 类 | 是什么 | 推自 | 用在哪 |
+| --- | --- | --- | --- |
+| 内容照片 | 项目将来会有的照片的替身（拍摄现场、物件、人、地方） | 推导表「图像」行与第 6 步的拍摄情境 | 页面视图里的图版、满版、网格墙 |
+| 材质特写 | 纸的纤维、布面经纬、压印、齿孔、牛皮板、毛毡、钝化钢 | 推导表「材质」行；表里没有的不生成 | 物件视图的表面、页面视图的底纸 |
+| 物件视图 | 印好的东西被放在桌上、墙上、架上拍下来 | 第 4 步的物件（格式、装订、容器） | 封面、包装、海报张贴、展陈现场 |
+
+物件视图有两种做法，优先第一种：
+1. 生成**空白的物件**（正确的布面、纸色、厚度、装订、放在正确的表面上，封面上没有字），再把 HTML 排好的封面用
+   CSS `transform: perspective() rotate…` 或直接平贴叠上去。字是精确的，材质是生成的。
+2. 让模型直接出带版面的整张效果图，只作探索；进交付前用第一种重做。
+
+### 提示词规则
+
+- 只描述：现成物、材料、光、取景、比例、情境。不写任何工作室、设计师、品牌或「某某风格」。
+- 每条提示词都加：`no text, no letters, no numbers, no logos, no watermark`（字由 HTML 排）。
+- 比例与取景来自排列动作：满版出血写明宽高比；网格墙要成套、同光同距；散放的小图要单独生成、背景可去。
+- 光：均匀、平常、可信；不要戏剧化布光、不要景深虚化做「高级感」、不要胶片颗粒滤镜，除非推导表写了理由。
+- 颜色：推导表写黑白就生成黑白；只有一个平涂颜色时，照片里不要引入第二个强烈的颜色。
+
+```text
+内容照片：
+{subject from the brief}, photographed {situation: on site / on a table / against a grey card}, {black and white / natural colour},
+{aspect ratio}, even daylight, documentary, unretouched, plain and specific, no text, no letters, no numbers, no logos, no watermark.
+
+材质特写：
+Close-up of {material from the derivation table: uncoated off-white paper with visible fibres / grey book cloth weave /
+blind-embossed board / perforated card edge / kraft board}, flat, evenly lit from above, filling the frame, no objects,
+no text, no letters, no logos, no watermark.
+
+空白物件：
+A {format: 190 × 240 mm sewn book / 12-inch record sleeve / A1 poster pasted on a tiled wall / paper bag} made of {material},
+{binding or finish}, its cover blank, lying on {surface from the brief: a workshop bench / a library table / a concrete floor},
+photographed from {straight above / three-quarter}, soft single shadow, no text, no letters, no logos, no watermark.
+```
+
+### 记录与诚实
+
+- 每个生成的资产在推导文档里记一行：文件名、提示词、它代替的是什么（「将由摄影师在车库现场拍摄的 120 张之一的替身」）。
+- 交付时标明哪些图是生成的。生成的照片是占位，不当作真实的人、地点或作品的记录交给客户或公开。
+- 资产放在作品旁的 `assets/` 目录，用相对路径引用；渲染后检查：图像行与材质行里没有的东西，没有出现在画面里。
 
 ## 5. 图像模型提示词
 
