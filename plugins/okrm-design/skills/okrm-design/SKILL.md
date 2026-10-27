@@ -43,8 +43,8 @@ license: PolyForm-Noncommercial-1.0.0
 | ★ 怪决定 | 一条常规设计师会否决、却从 2 或 3 推出来的决定 | 2 或 3 | 一句话；划掉它物件要跟着变 |
 | 5 字体 | 现成物本来用什么字；谁在说话（内容／家具）；衬线、无衬线、等宽各有且只有的理由 | 3 | 指名的字体与归属 |
 | 6 尺度 | 哪件家具被放大到纪念碑级；其余在小的一极哪一档 | 2、3 | 五档尺度表 |
-| 7 结构 | 现成物怎样分格；折法给几栏；对齐跟随什么 | 3、4 | 栏、对齐、三件家具、细线 |
-| 8 颜色 | 材料本身什么颜色；要不要一个平涂颜色；它从哪件东西来 | 4 | 底、墨、平涂颜色及来源 |
+| 7 结构与排列 | 现成物怎样分格；折法给几栏；选至多两个排列动作；线条是哪种身份 | 2、3、4 | 栏、对齐、三件家具、排列动作、线条 |
+| 8 颜色与材质 | 材料本身什么颜色；要不要一个平涂颜色；纸、工艺、容器各从哪来 | 3、4 | 底、墨、平涂颜色、材质行 |
 | 9 图像 | 图像从哪来；在现成物里怎样出现；满版、图版还是小图 | 3、4 | 图像规则＋拍摄情境 |
 | 10 序列 | 从哪进、按什么走、哪里换挡；界面的动作与索引 | 3 的脚本、4 的材料 | 序列草图（界面加页面清单） |
 | 11 做出来 | HTML/CSS 页面、版式规范或 token 文件 | 5–10 | 作品 |
@@ -60,10 +60,14 @@ license: PolyForm-Noncommercial-1.0.0
 - 关键点被字面化成一个**物件**决定（打孔、折、信封、扑克、图书馆装订），版面跟着物件走。
 - 字体是普遍语言（Helvetica、Times、Courier、系统字）加一个说得出来源的第二声部；自制字体是对某个传统的重演。
 - 尺度在两极：标签般的小和纪念碑般的大，中间空着；一个平涂颜色是材料，不是强调。
+- 排列激进但一致：满版对空页、散放、网格墙、旋转的字、被页边切掉的大字母、密集文字对空白——每种都有来源。
+- 材质与线条是决定：纸的序列、压印、穿孔、露线、容器；线是表格、图解、框、手或折痕，不是装饰。
 - 经济是生成器：每平方毫米是地产；一折多四页；比 lookbook 便宜。
 - 方法被设计：帽子、编号、季度、脚本、工作坊；留白给偶然；项目不结束。
 
-形的实测起点在 [design-system.md](references/design-system.md)；界面翻译在 [ui-translation.md](references/ui-translation.md)；
+排列动作在 [layout.md](references/layout.md)（不对称对页、散放、网格墙、堆叠拼贴、旋转、放开字距、被裁切的纪念碑、
+极大行距、密与空、表格即版面、条与板、成对、框与边、换纸即换版）；材质与线条在
+[material-and-line.md](references/material-and-line.md)。形的实测起点在 [design-system.md](references/design-system.md)；界面翻译在 [ui-translation.md](references/ui-translation.md)；
 配方与骨架在 [recipes.md](references/recipes.md)；偏离算子在 [deviation-operators.md](references/deviation-operators.md)。
 
 ## 工作流（Agent 执行）
@@ -72,7 +76,7 @@ license: PolyForm-Noncommercial-1.0.0
 2. 写上游第 0–4 步，用 genesis.md 的模板。写不出第 2 步就回到第 1 步，不要往下。
 3. 写怪决定；划掉它检查物件是否跟着变；算子记在验收记录里，不写进交付文字。
 4. 写推导表第 5–10 步：字体按 typography.md 的五问；数值从 design-system.md 取起点；每行有「因为」和「常规做法」。
-5. 做出来：平面类按 recipes.md 出 HTML/CSS 页面或版式规范并渲染；界面类按 ui-translation.md 出页面，
+5. 做出来：平面类按 recipes.md 出 HTML/CSS 页面或版式规范并渲染，页面视图与物件视图都交；界面类按 ui-translation.md 出页面，
    `scripts/tokens.py generate` 出秩序表再 `check`。
 6. 写交接表。验收：[qa.md](references/qa.md)。主门、推导门、作品门任一不过，重做，不要修饰。
 
