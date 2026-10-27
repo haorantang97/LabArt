@@ -1,4 +1,4 @@
 interface:
   display_name: "OK-RM Design · 有意义的秩序"
-  short_description: "从零到一：先写生成文档与一条怪决定，再落形"
-  default_prompt: "用 $okrm-design 从零开始做这个项目：先写生成文档（定位、三问、关键点、框架、物件、方法、制作、生产、延续）和一条从内容推出的怪决定，再谈形。"
+  short_description: "从零到一走到页面：每个视觉决定都说得出它从哪来"
+  default_prompt: "用 $okrm-design 从零开始做这个项目并做出来：先写上游（定位、三问、关键点、框架、物件）和一条从内容推出的怪决定，再推导字体、尺度、结构、颜色、图像、序列，每行写「因为」，最后渲染页面。"

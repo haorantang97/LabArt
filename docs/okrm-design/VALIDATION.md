@@ -1,5 +1,50 @@
 # Validation scope
 
+## 0.4.0 — the chain carried through to the work
+
+0.3.0 stopped at the proposal: the generation document ended with "form comes after step 6, see the
+order system". That left the visual decisions — serif or sans, which face, what scale, what colour —
+to be made by habit after the thinking was done, which is the gap the method exists to close. 0.4.0
+carries the same chain into form. The deliverable is the design (rendered pages or a spec); the
+derivation document beside it holds the upstream, the strange decision, and a table in which type,
+scale, structure, colour, image and sequence are each written as *decision | because | the
+conventional move*, the *because* pointing back to the key point, the readymade or the object.
+
+What was added:
+
+- `references/form-derivation.md`: steps 5–11, each with what it asks, what it follows from, what it
+  produces and what the conventional move looks like; the derivation-table template; false moves.
+- `references/typography.md`: a table of readymades and the type they are set in; serif, sans and
+  mono as a question of who is speaking (content or furniture), each with its one admissible reason;
+  a five-question procedure; named faces and fallback stacks per medium rather than "Helvetica-class";
+  scale, tracking and leading from the measured poles; three worked derivations.
+- `genesis.md` reduced to the upstream (0–4, strange decision with its severability test) and a
+  handover step; `qa.md` rewritten with derivation gates and work gates; `SKILL.md` rewritten around
+  the chain.
+- The worked example was remade end to end for one fictional project (sixty vessels by unrecorded
+  makers, photographed on grey card): a derivation sheet, a cover and a spread, each visual decision
+  on the pages traceable to a row of the sheet (grey stock as material because the card is grey; Arial
+  for the record's fields and Times New Roman for the curator's entries because the fields are label
+  language and the entries are read; the accession number as the one monument because it is the
+  vessel's only identity; no second colour; the plate as shot, card edge left in).
+
+Checks performed on 2026-10-27:
+
+- `scripts/check_packages.py` passed for all marketplace plugins, including the six declared
+  screenshots and all local links (the new references link only inside the skill).
+- 15 behavioral tests for the order-sheet generator and checker passed; the checker is unchanged.
+- The three remade examples were checked against the derivation gates of `qa.md`: every row has a
+  *because* that names a step, a conventional move, named faces with fallbacks, one monument and
+  nothing in the middle, structure from the record card's rows, grey as material with black ink,
+  the plate full bleed, accession order with no gear change. The strange decision was struck and the
+  stock, cover, plate rule and proof all changed, so it is not severable.
+- Rendered images were inspected at full size.
+
+Not claimed: 0.4.0 has not been through a blind round of its own. The three rounds below tested the
+upstream as proposals; whether the derivation table produces better *pages* than a form-first or
+no-skill agent would need a round in which the proposals are rendered and the judge sees images. The
+other caveats below still hold.
+
 ## 0.3.0 — from form to path
 
 0.3.0 moves the method's core from the look of the work to the way a project is conceived:

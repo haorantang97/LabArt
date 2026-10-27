@@ -45,15 +45,16 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 
 ## OK-RM Design · 有意义的秩序
 
-Take a project from zero to one: write the generation document first (position, question, key
-point, framework, object, method, making, production, continuation) and one strange decision that
-follows from the content; then the form, in ubiquitous visual languages.
+Take a graphic or interface design from zero to one and make it: position, question, key point,
+a framework whose readymade comes from the brief, the object before any layout, one strange decision
+that follows from the content; then the same chain carried into type, scale, structure, colour, image
+and sequence, each decision with its reason, rendered as pages.
 For books, magazines, posters, identities, exhibitions, brand projects, websites and interfaces.
 
 <table>
   <tr>
-    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/genesis-sheet.jpg" alt="A one-page generation document: nine steps and one strange decision, written before any layout"></a></td>
-    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue bound like a library book: one flat cloth colour, a linen spine strip, a small centred label"></a></td>
+    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/derivation-sheet.jpg" alt="A derivation sheet: the upstream, one strange decision, and a table in which every visual decision names what it follows from and the conventional move"></a></td>
+    <td width="50%"><a href="docs/okrm-design/README.md"><img src="plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue cover on grey stock laid out as a museum record card: fields top-left, the accession range as the one monument"></a></td>
   </tr>
 </table>
 

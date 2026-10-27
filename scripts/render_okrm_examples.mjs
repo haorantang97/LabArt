@@ -16,7 +16,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.join(ROOT, 'assets/okrm-design/examples');
 const OUT = path.join(ROOT, 'plugins/okrm-design/assets/examples');
 const PAGES = {
-  'genesis-sheet': [1400, 1000],
+  'derivation-sheet': [1400, 1000],
   'poster-programme': [1200, 1600],
   'catalogue-cover': [1400, 1000],
   'catalogue-spread': [1800, 1200],

@@ -1,5 +1,20 @@
 # Changelog
 
+## okrm-design 0.4.0 - 2026-10-27
+
+- Carried the chain through to the work. The deliverable is now the design itself with a
+  derivation document beside it; type, scale, structure, colour, image and sequence are each
+  written as "decision | because | the conventional move", the "because" pointing back to the key
+  point, the readymade or the object.
+- Added `references/form-derivation.md` (steps 5–11 with the derivation-table template) and
+  `references/typography.md` (how a typeface is chosen: the readymade's own type, who is speaking,
+  ubiquitous languages first, named faces and fallbacks per medium, three worked derivations).
+- Reduced `genesis.md` to the upstream and a handover step; rewrote `qa.md` with derivation and
+  work gates; rewrote `SKILL.md` around the chain.
+- Remade the worked example end to end: a derivation sheet, a cover and a spread for one fictional
+  catalogue, every visual decision on the pages traceable to a row of the sheet. The manifest's six
+  screenshots now start with the derivation sheet.
+
 ## okrm-design 0.3.0 - 2026-10-26
 
 - Moved the method's core from form to path. The deliverable is now a generation document

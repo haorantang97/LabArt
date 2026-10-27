@@ -2,39 +2,38 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Index of Stones — cover</title>
+<title>Vessels — cover</title>
 <style>
-  /* Device (readymade type): the catalogue will be archived, so it is bound like
-     a library book: one flat cloth colour as the material, a linen spine strip,
-     a small typed label centred in the upper quarter, a shelf number top-left.
-     Nothing on the cover is larger than a label except the shelf number. */
-  html, body { margin: 0; background: #cfccc4; }
+  /* Derived (see derivation-sheet.html): the cover is the same grey uncoated stock as the
+     text, self-cover, black ink only. It is laid out as the museum's record card: a block
+     of fields top-left in the label grotesk, and the accession range as the one monument,
+     starting from the left margin with its baseline in the upper third. Nothing else. */
+  html, body { margin: 0; background: #d9d6cf; }
   .desk { width: 1400px; height: 1000px; display: grid; place-items: center; }
-  .book { position: relative; width: 638px; height: 900px; background: #1F4D3A; color: #F4F2EC;
-          font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif;
-          box-shadow: 0 1px 0 #a8a59d, 6px 0 0 -2px #163a2b; }
-  .spine { position: absolute; left: 0; top: 0; bottom: 0; width: 11%; background: #d8d2c2;
-           background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px),
-                             repeating-linear-gradient(90deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px); }
-  .shelf { position: absolute; left: 16%; top: 6%; font-size: 72px; line-height: 0.85; letter-spacing: -0.02em; font-weight: 500; }
-  .label { position: absolute; left: 50%; top: 19%; transform: translateX(-50%); width: 52%; height: 6%;
-           background: #F4F2EC; color: #111; display: grid; place-items: center;
-           font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; }
-  .foot { position: absolute; left: 50%; bottom: 7%; transform: translateX(-50%); text-align: center;
-          font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; line-height: 1.6; }
-  .corner { position: absolute; font-size: 13px; letter-spacing: 0.02em; }
-  .corner.tr { right: 6%; top: 6%; text-align: right; }
-  .corner.bl { left: 16%; bottom: 7%; }
+  .book { position: relative; width: 638px; height: 806px; background: #B9B7B2; color: #111;
+          font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+          box-shadow: 0 1px 0 #8f8d88, 4px 0 0 -1px #a7a5a0; }
+  .fields { position: absolute; left: 6%; top: 6%; font-size: 12px; line-height: 1.55; letter-spacing: 0.02em; }
+  .fields div { display: grid; grid-template-columns: 110px 1fr; border-top: 1px solid #111; padding: 3px 0 2px; width: 300px; }
+  .fields div:last-child { border-bottom: 1px solid #111; }
+  .fields span:first-child { text-transform: uppercase; font-size: 10px; letter-spacing: 0.08em; padding-top: 2px; }
+  .range { position: absolute; left: 6%; top: 29.5%; font-size: 81px; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .title { position: absolute; left: 6%; bottom: 7%; font-family: "Times New Roman", Times, "Liberation Serif", serif; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; line-height: 1.6; }
+  .corner { position: absolute; right: 6%; bottom: 7%; font-size: 12px; letter-spacing: 0.02em; text-align: right; line-height: 1.55; }
 </style>
 </head>
 <body>
 <div class="desk">
   <div class="book">
-    <div class="spine"></div>
-    <div class="shelf">17</div>
-    <div class="corner tr">Municipal Store<br>Shelf 17 of 44</div>
-    <div class="label">Index of Stones</div>
-    <div class="foot">Vessels<br>1890–2024</div>
+    <div class="fields">
+      <div><span>Record</span><span>Vessels, 1890–2024</span></div>
+      <div><span>Entries</span><span>60 · accession order</span></div>
+      <div><span>Maker</span><span>— (not recorded)</span></div>
+      <div><span>Shown</span><span>Two cities, nine months apart</span></div>
+    </div>
+    <div class="range">001–060</div>
+    <div class="title">Vessels</div>
+    <div class="corner">Museum of Applied Arts<br>One run · 1,200 copies</div>
   </div>
 </div>
 </body>

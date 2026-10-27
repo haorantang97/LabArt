@@ -4,37 +4,50 @@
 
 <table>
   <tr>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/genesis-sheet.jpg" alt="A one-page generation document: nine steps from position to continuation and one strange decision, written before any layout"></td>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue bound like a library book: one flat cloth colour, a linen spine strip, a small typed label centred in the upper quarter, a shelf number top-left"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/derivation-sheet.jpg" alt="A derivation sheet: the upstream, one strange decision, and a table in which every visual decision names what it follows from and the conventional move"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-cover.jpg" alt="A catalogue cover on grey uncoated stock laid out as a museum record card: four fields top-left, the accession range as the one monument, black ink only"></td>
   </tr>
   <tr>
-    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="A catalogue spread with a full-page plate on the left and a large number over bilingual numbered captions on the right"></td>
+    <td width="50%"><img src="../../plugins/okrm-design/assets/examples/catalogue-spread.jpg" alt="A catalogue spread: the plate as shot on grey card, full bleed, facing the record card — accession number as the one monument, six field rows on hairlines, the entry in a reading serif"></td>
     <td width="50%"><img src="../../plugins/okrm-design/assets/examples/archive-index-web.jpg" alt="An archive website whose title is a sentence, whose actions are text in brackets, and whose current index letter is the one monumental element"></td>
   </tr>
 </table>
 
-A method for taking a design project from zero to one, distilled from a study of one London
-studio's published interviews, publishing catalogue and work. The soul of a project is in how it was
-conceived, not in how it finally looks, so the core deliverable is a **generation document** written
-before any layout: nine steps from positioning to continuation, plus one decision a conventional
-designer would reject that follows directly from the content. Form comes after, in ubiquitous visual
-languages. The package contains none of the studio's artwork and reproduces none of its layouts; the
-examples are fictional projects made with the method.
+A method for taking a graphic or interface design from zero to one and making it, distilled from a
+study of one London studio's published interviews, publishing catalogue and work. The soul of a
+project is in how it was conceived, so every visual decision has to say where it came from. The
+deliverable is the design itself — a cover, a spread, a poster, a page, an interface — with a
+**derivation document** beside it: the upstream (position, questions, key point, a framework whose
+readymade is taken from the brief's own objects, the object and its economy before any layout), one
+decision a conventional designer would reject that follows from the content, and a derivation table in
+which type, scale, structure, colour, image and sequence are each written as *decision | because | the
+conventional move*. The package contains none of the studio's artwork and reproduces none of its
+layouts; the examples are fictional projects made with the method.
 
-## The path from zero to one
+## The chain
 
-| Step | What it asks | Produces |
-| --- | --- | --- |
-| 0 Position | Who decides; which line of the brief is the real task and which is convention | A positioning memo |
-| 1 Question | What is it, why now, where does it go; the field's existing systems and their fatigue | Three questions and a context reading |
-| 2 Key point | Intuition, then the reason for it; the opposite pole | A key-point statement |
-| 3 Framework | Stage, actors, script; which readymade the object pretends to be | A framework paragraph instead of a mood board |
-| 4 Object | Format, binding, material, printing and economy, before any layout | Object decisions and a constraint → decision list |
-| 5 Method | Roles, units and numbering, fixed and variable, a one-page brief for collaborators | A method table |
-| 6 Making | Situations not storyboards; an editing workshop; the sequence | A making record |
-| 7 Production | Three things to keep, three to give up, one question for the proof | A production negotiation |
-| 8 Continuation | The next unit; assets to reuse; how the relationship continues | A continuation plan |
-| ★ Strange decision | One decision a conventional designer would reject, derived from step 2 or 3 | One sentence, with its deviation operator |
+| Step | What it asks | Follows from | Produces |
+| --- | --- | --- | --- |
+| 0 Position | Who decides; which line of the brief is the real task and which is convention | the brief | A positioning memo |
+| 1 Question | What is it, why now, where does it go; the field's existing systems and their fatigue | context | Three questions and a context reading |
+| 2 Key point | Intuition, then the reason for it; the opposite pole | content | A key-point statement |
+| 3 Framework | Stage, actors, script; which of the brief's own objects it pretends to be | the brief's objects | A framework paragraph instead of a mood board |
+| 4 Object | Format, binding, material, printing and economy, with numbers that add up | 2, 3, fold and budget | Order and economy tables |
+| ★ Strange decision | One decision a conventional designer would reject, derived from 2 or 3; strike it and the object must change | 2 or 3 | One sentence |
+| 5 Type | What the readymade is set in; who is speaking (content or furniture); serif, sans and mono each with their one reason | 3 | Named faces with fallbacks and ownership |
+| 6 Scale | Which piece of furniture is enlarged to a monument; the rest at the small pole | 2, 3 | A five-level scale table |
+| 7 Structure | How the readymade divides itself; what the fold gives; what alignment follows | 3, 4 | Columns, alignment, three pieces of furniture, rules |
+| 8 Colour | The material's own colour; whether one flat colour is needed and what it comes from | 4 | Ground, ink, field colour and its source |
+| 9 Image | Where images come from and how they appear in the readymade; full bleed, plate or small | 3, 4 | An image rule and a shooting situation |
+| 10 Sequence | Where the reader enters, in what order, where the one gear change is; for interfaces, actions and index | 3, 4 | A sequence sketch (and a page list) |
+| 11 Make it | HTML/CSS pages, a spec or a token file | 5–10 | The work |
+| 12 Handover | Method (roles, units, fixed/variable), production (keep, give up, proof), continuation | all | A handover table |
+
+Steps 5–10 are written only one way: *decision | because (pointing back to 2, 3 or 4) | the
+conventional move*. A decision without a *because* is a preference and is deleted. How type is chosen
+— the readymade's own type, who is speaking, ubiquitous languages first, named faces rather than
+"Helvetica-class" — is set out in
+[typography.md](../../plugins/okrm-design/skills/okrm-design/references/typography.md).
 
 Thirty-four case paths in the package record how this was done in practice: a quarterly folded
 vertically because every square millimetre is real estate; a museum catalogue with a punched cover
@@ -43,7 +56,7 @@ a seasonal book made for less than the lookbook it replaced; a catalogue bound a
 a studio's own book built from the record of its own conversations. The index of cases and sources is
 in [CASES-INDEX.md](CASES-INDEX.md).
 
-## Eight principles (for the form, after step 6)
+## Eight principles behind the chain
 
 1. **Content and concept.** Design builds a frame for content. Intuition first, then reasons for it,
    written down. No mood boards.
@@ -88,8 +101,14 @@ Measured on the studio's published photographs with a 0.1 grid (about ±1% of th
 
 ## What you get
 
-- The nine-step generation protocol in [genesis.md](../../plugins/okrm-design/skills/okrm-design/references/genesis.md)
-  with evidence, templates and a test question for each step, and the strange-decision gate.
+- The upstream of the chain in [genesis.md](../../plugins/okrm-design/skills/okrm-design/references/genesis.md)
+  (steps 0–4 and the strange-decision gate with its severability test, plus the handover step), the
+  downstream in [form-derivation.md](../../plugins/okrm-design/skills/okrm-design/references/form-derivation.md)
+  (steps 5–11, each with what it asks, what it follows from and what the conventional move looks like,
+  and the derivation-table template), and
+  [typography.md](../../plugins/okrm-design/skills/okrm-design/references/typography.md): a table of
+  readymades and the type they are set in, serif/sans/mono as a question of who is speaking, a
+  five-question procedure, named faces and fallback stacks per medium, and three worked derivations.
 - [Cases](../../plugins/okrm-design/skills/okrm-design/references/cases.md): 34 project paths by type
   and year, each ending with the decision a conventional designer would have rejected.
 - [Deviation operators](../../plugins/okrm-design/skills/okrm-design/references/deviation-operators.md):
@@ -107,9 +126,11 @@ Measured on the studio's published photographs with a 0.1 grid (about ±1% of th
   framework templates, a spec template, a cover skeleton, image-model prompts per medium, a
   correction table.
 - [Acceptance gates](../../plugins/okrm-design/skills/okrm-design/references/qa.md): main gates on
-  the generation document (complete, one strange decision that follows from the content, object before
-  page with numbers that add up, readymade taken from the brief, economy, transferable method, sequence
-  with room for chance, continuation), then order gates, interface gates, instant failures.
+  the upstream (complete, one strange decision that follows and is not severable, object before page
+  with numbers that add up, readymade from the brief), derivation gates (every row has a *because* and
+  a conventional move, type named and owned, two poles of scale, structure and colour from the
+  readymade and the material), work gates (rendered, matching the table, handover complete),
+  interface gates, instant failures.
 - `scripts/tokens.py`: generates an order sheet (CSS custom properties and JSON) and checks any sheet
   against the gates: at most two voices, two poles of scale with nothing in the middle, one field
   colour used as material, legible contrast, fold-derived columns, 45–75 character measure.
@@ -134,7 +155,7 @@ The token script needs only Python 3. Start a new task after installation.
 
 Try:
 
-> Use $okrm-design to take this brief from zero to one: write the generation document first, then propose the object.
+> Use $okrm-design to take this brief from zero to one and make it: upstream first, then the derivation table (type, scale, structure, colour, image, sequence, each with its reason), then render the pages.
 
 > 用 $okrm-design 把这个藏品档案网站做成编号即导航、动作用括号写出的排印界面，输出 tokens.css 和一页 HTML。
 

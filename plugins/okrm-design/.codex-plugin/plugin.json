@@ -1,7 +1,7 @@
 {
   "name": "okrm-design",
-  "version": "0.3.0",
-  "description": "A method for taking a design project from zero to one: position, question, key point, framework, object before layout, method, making with room for chance, production as negotiation, continuation, and one strange decision that follows from the content. Then form, in ubiquitous visual languages.",
+  "version": "0.4.0",
+  "description": "A method for taking a graphic or interface design from zero to one and making it: position, question, key point, framework with a readymade from the brief, object before layout, one strange decision that follows from the content; then the same chain carried into type (serif or sans, which one, why), scale, structure, colour, image and sequence, each decision with its reason, rendered as pages or a spec.",
   "author": {
     "name": "Haoran Tang",
     "url": "https://github.com/haorantang97"
@@ -20,8 +20,8 @@
   ],
   "interface": {
     "displayName": "OK-RM Design · 有意义的秩序",
-    "shortDescription": "From zero to one: a generation document before any layout.",
-    "longDescription": "The core deliverable is a generation document, not a layout: nine steps from positioning to continuation, plus one decision a conventional designer would reject that follows directly from the content. Thirty-four case paths record how books, identities, exhibitions and brand projects were conceived, from the first conversation to the printed object and its next edition; deviation operators are drawn from them. Form comes after: ubiquitous type, two poles of scale, one flat colour as material, measured starting values, an order-sheet generator and checker, and acceptance gates that test the path before the page. Distilled from a London studio's published interviews, publishing catalogue and work; contains none of its artwork and reproduces none of its layouts.",
+    "shortDescription": "From zero to one, through to the page: every visual decision says where it came from.",
+    "longDescription": "The deliverable is the design itself — a cover, a spread, a poster, a page, an interface — with a derivation document beside it. Upstream: positioning, three questions, the key point and its opposite, a performative framework whose readymade is taken from the brief's own objects, the object and its economy decided before any layout, and one decision a conventional designer would reject that follows from the content. Downstream, the same chain is carried into form: which typeface and why (the readymade's own type, who is speaking, ubiquitous languages first), two poles of scale, structure that follows the readymade, one flat colour as material, image placement, sequence — each as 'decision | because | the conventional move'. Thirty-four case paths, deviation operators, measured starting values, an order-sheet generator and checker, and acceptance gates on the path, the derivation and the work. Distilled from a London studio's published interviews, publishing catalogue and work; contains none of its artwork and reproduces none of its layouts.",
     "developerName": "Haoran Tang",
     "category": "Design",
     "capabilities": [
@@ -30,17 +30,17 @@
     ],
     "brandColor": "#1F3FBF",
     "screenshots": [
-      "./assets/examples/genesis-sheet.jpg",
+      "./assets/examples/derivation-sheet.jpg",
       "./assets/examples/catalogue-cover.jpg",
-      "./assets/examples/poster-programme.jpg",
       "./assets/examples/catalogue-spread.jpg",
+      "./assets/examples/poster-programme.jpg",
       "./assets/examples/archive-index-web.jpg",
       "./assets/examples/reader-mobile.jpg"
     ],
     "defaultPrompt": [
-      "Use $okrm-design to take this brief from zero to one: write the generation document first, then propose the object.",
-      "用 $okrm-design 从零开始做这个项目：先写生成文档（定位、三问、关键点、框架、物件、方法、制作、生产、延续）和一条怪决定，再谈形。",
-      "Use $okrm-design to replace this lookbook with the object the content actually asks for."
+      "Use $okrm-design to take this brief from zero to one and make it: upstream first, then the derivation table (type, scale, structure, colour, image, sequence, each with its reason), then render the pages.",
+      "用 $okrm-design 从零开始做这个项目并做出来：先写上游（定位、三问、关键点、框架、物件）和一条怪决定，再推导字体、尺度、结构、颜色、图像、序列，每行写「因为」，最后渲染页面。",
+      "Use $okrm-design to explain, from the brief, why this project should be set in a serif or a sans and which one."
     ]
   }
 }

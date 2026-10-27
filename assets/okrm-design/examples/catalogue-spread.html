@@ -2,50 +2,60 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Index of Stones — catalogue spread</title>
+<title>Vessels — spread 017</title>
 <style>
-  /* Device: the collection is numbered 1–44 and will be archived, so the book is a
-     standard catalogue whose only furniture is the number. Sequence: image page,
-     caption page, interleaved; bilingual captions in two voices. */
-  html, body { margin: 0; background: #cfccc4; }
+  /* Derived (see derivation-sheet.html): verso is the plate as shot, full bleed, the grey
+     card's edge and shadow left in; recto is the record card: accession number at 8% of
+     page height, six field rows on hairlines in Arial, the curator's entry in Times at one
+     measure. The accession number is the only folio. Grey paper, black ink. */
+  html, body { margin: 0; background: #d9d6cf; }
   .desk { width: 1800px; height: 1200px; display: grid; place-items: center; }
-  .book { width: 1640px; height: 1060px; display: grid; grid-template-columns: 1fr 1fr; background: #F4F2EC;
-          box-shadow: 0 1px 0 #b8b5ad; position: relative; color: #111;
-          font-family: "Inter", "Liberation Sans", Helvetica, Arial, sans-serif; }
-  .book::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: #e2dfd7; }
-  .page { position: relative; box-sizing: border-box; padding: 54px 58px; }
-  .plate { background: #1b1b1b; width: 100%; height: 100%; position: relative; overflow: hidden; }
-  .plate .vessel { position: absolute; left: 50%; top: 52%; width: 300px; height: 520px; transform: translate(-50%, -50%);
-                   background: #F4F2EC; border-radius: 48% 48% 42% 42% / 30% 30% 60% 60%; }
-  .plate .vessel::before { content: ""; position: absolute; left: 38%; top: -70px; width: 24%; height: 160px; background: #F4F2EC; }
-  .plate .vessel::after { content: ""; position: absolute; left: 0; right: 0; bottom: -22px; height: 44px; background: #1b1b1b; }
-  .num { position: absolute; top: 40px; left: 58px; font-size: 236px; line-height: 0.8; letter-spacing: -0.06em; font-weight: 500; }
-  .folio { position: absolute; bottom: 30px; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase; }
-  .folio.l { left: 58px; } .folio.r { right: 58px; }
-  .captions { margin-top: 250px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
-  .cap { border-top: 2px solid #111; padding: 10px 0 26px; }
-  .cap .t { font-size: 20px; line-height: 1.25; font-weight: 500; }
-  .cap .s { font-family: "Liberation Serif", "Times New Roman", Times, serif; font-size: 17px; line-height: 1.3; margin-top: 6px; }
-  .cap .zh { font-family: "IPAPGothic", "IPAGothic", "Inter", sans-serif; font-size: 16px; line-height: 1.45; margin-top: 10px; }
-  .cap .k { display: block; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 6px; }
+  .book { width: 1640px; height: 1036px; display: grid; grid-template-columns: 1fr 1fr; background: #B9B7B2; color: #111;
+          position: relative; box-shadow: 0 1px 0 #8f8d88; font-family: Arial, "Liberation Sans", Helvetica, sans-serif; }
+  .book::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: #a3a19c; }
+  .page { position: relative; box-sizing: border-box; overflow: hidden; }
+  /* the photograph: a grey card standing in a studio, its top edge and the seam visible */
+  .plate { position: absolute; inset: 0; background: #B2B0AB; }
+  .plate .sweep { position: absolute; left: 0; right: 0; top: 0; height: 38%; background: #A9A7A2; }
+  .plate .seam { position: absolute; left: 0; right: 0; top: 38%; height: 2px; background: #9b9994; }
+  .plate .shadow { position: absolute; left: 50%; top: 79%; width: 420px; height: 60px; transform: translate(-46%, -50%); background: #8e8c87; border-radius: 50%; filter: blur(10px); opacity: 0.55; }
+  .plate .vessel { position: absolute; left: 50%; top: 56%; width: 330px; height: 470px; transform: translate(-50%, -50%);
+                   background: #5a4a3a; border-radius: 46% 46% 44% 44% / 28% 28% 62% 62%; }
+  .plate .vessel::before { content: ""; position: absolute; left: 34%; top: -58px; width: 32%; height: 140px; background: #6a553f; border-radius: 40% 40% 0 0 / 30% 30% 0 0; }
+  .plate .vessel::after { content: ""; position: absolute; left: 14%; top: 10%; width: 10%; height: 62%; background: #7a6a58; border-radius: 50%; filter: blur(8px); opacity: 0.7; }
+  .plate .glaze { position: absolute; left: 50%; top: 56%; width: 330px; height: 470px; transform: translate(-50%, -50%); border-radius: 46% 46% 44% 44% / 28% 28% 62% 62%;
+                  background: linear-gradient(180deg, #7d5f3f 0%, #5a4a3a 40%, #3f352b 100%); }
+  .num { position: absolute; top: 56px; left: 6%; font-size: 83px; line-height: 0.9; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .fields { position: absolute; top: 190px; left: 6%; right: 8%; font-size: 11px; line-height: 1.5; letter-spacing: 0.02em; }
+  .fields div { display: grid; grid-template-columns: 120px 1fr; border-top: 1px solid #111; padding: 4px 0 3px; }
+  .fields div:last-child { border-bottom: 1px solid #111; }
+  .fields span:first-child { text-transform: uppercase; font-size: 10px; letter-spacing: 0.08em; padding-top: 2px; }
+  .entry { position: absolute; top: 420px; left: 6%; width: 58ch; font-family: "Times New Roman", Times, "Liberation Serif", serif; font-size: 15px; line-height: 1.38; }
+  .entry p { margin: 0 0 0.9em; }
+  .note { position: absolute; left: 6%; bottom: 44px; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
 </style>
 </head>
 <body>
 <div class="desk">
   <div class="book">
     <section class="page">
-      <div class="plate"><div class="vessel"></div></div>
-      <div class="folio l">Index of Stones</div>
+      <div class="plate"><div class="sweep"></div><div class="seam"></div><div class="shadow"></div><div class="vessel"></div><div class="glaze"></div></div>
     </section>
     <section class="page">
-      <div class="num">17</div>
-      <div class="captions">
-        <div class="cap"><span class="k">17 — Plate</span><div class="t">Vessel, burnished, c. 1890</div><div class="s">Earthenware, 42 × 23 cm. On loan from a municipal store. Shown with 18 and 31.</div><div class="zh">器皿，抛光，约 1890 年。陶，42 × 23 厘米。市立库房借展。与 18、31 并置。</div></div>
-        <div class="cap"><span class="k">18 — Pair</span><div class="t">Vessel, thrown, 2024</div><div class="s">Stoneware, 39 × 21 cm. Made for this pairing. The sequence runs old, new, old.</div><div class="zh">器皿，拉坯，2024 年。炻器，39 × 21 厘米。为本次并置而作。序列：旧、新、旧。</div></div>
-        <div class="cap"><span class="k">Sequence</span><div class="t">Interleaved in pairs</div><div class="s">Odd numbers historic, even numbers contemporary. Plates face their caption across the fold.</div><div class="zh">单号为历史物件，双号为当代物件。图版隔着折缝面对题注。</div></div>
-        <div class="cap"><span class="k">Paper</span><div class="t">Change at 31</div><div class="s">Plates on 150 g uncoated; the interview section on 60 g newsprint, sewn in.</div><div class="zh">图版用 150 克非涂布纸；访谈部分用 60 克新闻纸，线缝装入。</div></div>
+      <div class="num">017</div>
+      <div class="fields">
+        <div><span>Accession</span><span>017</span></div>
+        <div><span>Date</span><span>c. 1923</span></div>
+        <div><span>Place</span><span>Lower valley, east bank</span></div>
+        <div><span>Technique</span><span>Thrown earthenware, iron-bearing slip, wood-fired</span></div>
+        <div><span>Dimensions</span><span>41 × 22 cm · 2.9 kg</span></div>
+        <div><span>Acquired</span><span>1961, from a farm sale; maker not recorded</span></div>
       </div>
-      <div class="folio r">17 / 44</div>
+      <div class="entry">
+        <p>A storage jar with a short, upright neck and a body that swells to its widest point just below the shoulder. The slip was applied by dipping; the line where the maker's fingers held the foot is left uncovered, and the glaze pooled there in firing. Two kiln scars on the shoulder show that it was stacked.</p>
+        <p>The jar was sold with its lid missing and has never been given one. Its weight and the thickness of the wall suggest a workshop that made for the local market rather than for shipping. Of the sixty vessels in this record it is the only one whose place of making is known to within a few kilometres, because the clay was tested in 1988.</p>
+      </div>
+      <div class="note">Plinth 017 in both cities · Chronology, p. 126</div>
     </section>
   </div>
 </div>
