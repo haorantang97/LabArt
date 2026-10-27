@@ -70,6 +70,12 @@ sets minimum legibility at use scale and forbids grid lines through type; `mater
 requires object views to read as objects (thickness, edge, binding, the surface they rest on);
 `qa.md` adds work gates for object views, legibility, record fidelity and a formulaic monument.
 
+A flaw in this round's blinding: the judge was allowed to open the board HTML files to find the
+full-size images, and their paths named the output folders (`out-A`, `out-B`, `out-C`). The letters do
+not say which folder used which skill, and the judge reported naming rows only by their board letter,
+but the folder names were visible. The stage-1 handoff tools copy images into the judge room under
+blinded names to remove this.
+
 What this round shows: on images, the method's advantage narrows to the derivation of one exact rule
 from the brief; it does not by itself produce better-looking work, and its form rules can harden into
 a house formula. Layout moves that depend on photographs (asymmetric spreads, collage, grid walls)
