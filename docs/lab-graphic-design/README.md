@@ -7,6 +7,20 @@ brands, in a quiet, exact, material style. Every element has a reason: the lette
 the grid, the colour, and the printing all trace back to one concrete fact about the
 subject.
 
+## How It Is Different
+
+This is not a skill that imitates a look. It does not start from a look at all.
+
+It starts from the brief, with nothing decided. It researches the subject for real:
+its history, how it is made, where it lives, what it has printed before. It lists
+many concrete facts and weighs several possible starting points before it commits to
+one. From there, every decision has a reason you can ask for — why this letterform,
+this colour, this paper, this size — and the answer always points back to something
+true about the subject.
+
+That is why two projects made with it look nothing alike, and why neither could be
+swapped onto another client.
+
 ## The Style
 
 - **Letters grown from the subject.** One detail you can point at — a strip of oiled
