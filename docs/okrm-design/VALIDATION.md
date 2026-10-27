@@ -40,10 +40,44 @@ Checks performed on 2026-10-27:
   stock, cover, plate rule and proof all changed, so it is not severable.
 - Rendered images were inspected at full size.
 
-Not claimed: 0.4.0 has not been through a blind round of its own. The three rounds below tested the
-upstream as proposals; whether the derivation table produces better *pages* than a form-first or
-no-skill agent would need a round in which the proposals are rendered and the judge sees images. The
-other caveats below still hold.
+### Round 4 — judged from images
+
+After 0.4.0, two references were added from a visual study of the contact sheets — `layout.md`
+(fourteen layout moves) and `material-and-line.md` (material moves, five identities of a line, how
+material may be shown in an object view) — and the package was tested on images for the first time.
+Six briefs in different media (a two-ink screen-printed poster series in an emptied pool; a fashion
+book built from railway workwear; a bookshop and press in a former pharmacy; exhibition graphics for
+212 beach finds; a community radio archive website; eight field-recording record sleeves), three
+directions (no skill, 0.2.0, current), two images each, each half written by a fresh agent. No
+photographs were available to anyone; all three suggested them with tonal shapes. A fresh judge saw
+only shuffled boards and the full-size images.
+
+Result: the no-skill direction ranked first on three briefs (poster, identity, exhibition), the
+current skill on two (book, sleeves), 0.2.0 on one (website); the current skill ranked last on two
+(identity, exhibition). The no-skill direction was also named "the safe one" on five of six.
+
+What the judge credited to the current skill: on its two wins, one rule taken from the brief's own
+record and obeyed by every element, with its numbers right (a timesheet whose cells add up to the
+120 frames and whose spreads follow the half-hours; eight dawns placed on one UTC clock). What it
+faulted: object views that did not read as objects (a cover that is a loose sheet, sleeves that are
+flat squares); presentation boards with empty cells; small type cut by a grid; a cropped case; and,
+visible across the set, the same formula — a giant number over a hairline form — in five of six.
+The no-skill direction found the same readymades (tiles, timesheets, prescription pads, exercise
+books, spreadsheets, site logs) and rendered them with more material and presentation polish.
+
+Folded in: `layout.md` now says the monument need not be a number and asks for a reason when it is,
+sets minimum legibility at use scale and forbids grid lines through type; `material-and-line.md`
+requires object views to read as objects (thickness, edge, binding, the surface they rest on);
+`qa.md` adds work gates for object views, legibility, record fidelity and a formulaic monument.
+
+What this round shows: on images, the method's advantage narrows to the derivation of one exact rule
+from the brief; it does not by itself produce better-looking work, and its form rules can harden into
+a house formula. Layout moves that depend on photographs (asymmetric spreads, collage, grid walls)
+could not be tested without images; a round with generated imagery (see `recipes.md` 5a) is the next
+test.
+
+Not claimed: the image round used drawn placeholders for every photograph and one judge; the other
+caveats below still hold.
 
 ## 0.3.0 — from form to path
 

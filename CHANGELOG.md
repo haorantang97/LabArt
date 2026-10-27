@@ -2,6 +2,14 @@
 
 ## okrm-design 0.4.0 - 2026-10-27
 
+- Added `references/layout.md` (fourteen layout moves from a visual study of the evidence) and
+  `references/material-and-line.md` (material moves, five identities of a line, material in object
+  views), wired into the derivation table and the gates.
+- Added image-generation guidance (`recipes.md` 5a): when a tool or a local bridge can generate
+  images, the model makes assets and type stays in HTML.
+- Ran a fourth blind round judged from images across six media; the no-skill direction won three
+  briefs, the current skill two, 0.2.0 one. Folded in: the monument need not be a number, object
+  views must read as objects, legibility at use scale, record fidelity. Recorded in VALIDATION.md.
 - Carried the chain through to the work. The deliverable is now the design itself with a
   derivation document beside it; type, scale, structure, colour, image and sequence are each
   written as "decision | because | the conventional move", the "because" pointing back to the key
