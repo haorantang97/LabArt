@@ -109,6 +109,15 @@ Measured on the studio's published photographs with a 0.1 grid (about ±1% of th
   [typography.md](../../plugins/okrm-design/skills/okrm-design/references/typography.md): a table of
   readymades and the type they are set in, serif/sans/mono as a question of who is speaking, a
   five-question procedure, named faces and fallback stacks per medium, and three worked derivations.
+- [Layout](../../plugins/okrm-design/skills/okrm-design/references/layout.md): fourteen layout moves
+  seen repeatedly in the evidence (asymmetric spread, scatter, grid wall, piled collage, rotation, a
+  tracked-out line, the cropped monument, extreme leading, dense against empty, table as layout, strip
+  and panel, pairs, frames, change of paper), each with when it holds; the monument need not be a number.
+- [Material and line](../../plugins/okrm-design/skills/okrm-design/references/material-and-line.md):
+  material moves, five identities of a line (structure, diagram, frame, hand, physical), and how material
+  is shown in an object view that reads as an object.
+- With an image-generation tool or a local bridge, [recipes.md](../../plugins/okrm-design/skills/okrm-design/references/recipes.md)
+  section 5a: the model makes assets (photo stand-ins, material close-ups, blank objects), type stays in HTML.
 - [Cases](../../plugins/okrm-design/skills/okrm-design/references/cases.md): 34 project paths by type
   and year, each ending with the decision a conventional designer would have rejected.
 - [Deviation operators](../../plugins/okrm-design/skills/okrm-design/references/deviation-operators.md):

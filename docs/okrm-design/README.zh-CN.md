@@ -81,6 +81,11 @@
   [下游](../../plugins/okrm-design/skills/okrm-design/references/form-derivation.md)：第 5–11 步各问什么、推自哪里、常规做法长什么样，加推导表模板；
   [字体怎么选](../../plugins/okrm-design/skills/okrm-design/references/typography.md)：现成物与它本来的字的对照表、衬线／无衬线／等宽是「谁在说话」的问题、
   五问程序、按媒介指名的字体与回退栈、三个推导示例。
+- [排列](../../plugins/okrm-design/skills/okrm-design/references/layout.md)：证据里反复出现的 14 个排列动作（不对称对页、散放、网格墙、堆叠拼贴、旋转、放开字距、
+  被裁切的纪念碑、极大行距、密与空、表格即版面、条与板、成对、框与边、换纸），各写明何时成立；纪念碑不一定是数字。
+- [材质与线条](../../plugins/okrm-design/skills/okrm-design/references/material-and-line.md)：材质动作、线条的五种身份（结构、图表、框、手、物理），
+  以及物件视图怎样读得出是物件。
+- 有生图工具或本地 bridge 时，见 [recipes.md](../../plugins/okrm-design/skills/okrm-design/references/recipes.md) 第 5a 节：模型出资产，字留在 HTML。
 - [案例](../../plugins/okrm-design/skills/okrm-design/references/cases.md)：34 个按类型与年份记录的项目路径，每个以常规设计师会否决的那个决定收尾。
 - [偏离算子](../../plugins/okrm-design/skills/okrm-design/references/deviation-operators.md)：从这些决定归纳的操作，按改格式、换现成物、改序列、改语境、改界面分组，附条件与迁移示例。
 - [秩序系统](../../plugins/okrm-design/skills/okrm-design/references/design-system.md)：装置来源、框架、带证据的声部表、
