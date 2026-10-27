@@ -1,6 +1,6 @@
 # LabArt
 
-Black-pen illustrations, animated pixel art, and deadpan watercolor illustrations. Explore each plugin below.
+Black-pen illustrations, animated pixel art, deadpan watercolor illustrations, and graphic identities. Explore each plugin below.
 
 ## Antibes Holiday
 
@@ -42,6 +42,20 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 </table>
 
 [Explore Deadpan Doodles →](docs/deadpan-doodles/README.md) · [中文介绍](docs/deadpan-doodles/README.zh-CN.md)
+
+## Lab Graphic Design · Lab 平面设计
+
+Quiet, exact, material graphic identities. Letters grow from one detail of the
+subject, and every element has a reason.
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/lab-graphic-design/README.md"><img src="plugins/lab-graphic-design/assets/examples/sun-prints.jpg" alt="Exhibition identity for Anna Atkins: Sun Prints in translucent strip letters"></a></td>
+    <td width="50%"><a href="docs/lab-graphic-design/README.md"><img src="plugins/lab-graphic-design/assets/examples/shenguang-enamel.jpg" alt="Identity for a Shanghai enamelware workshop with a hanging point on 申"></a></td>
+  </tr>
+</table>
+
+[Explore Lab Graphic Design →](docs/lab-graphic-design/README.md) · [中文介绍](docs/lab-graphic-design/README.zh-CN.md)
 
 ## Marketplace
 

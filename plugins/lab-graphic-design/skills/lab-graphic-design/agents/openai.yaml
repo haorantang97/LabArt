@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lab 平面设计 · Lab Graphic Design"
+  short_description: "安静、精确、有物质感的平面识别：字从对象身上长出来，每样东西都有出处"
+  default_prompt: "用 $lab-graphic-design 为这个展览做一套识别：识别总图、海报、导视、网站首屏和书封。"

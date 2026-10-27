@@ -1,0 +1,38 @@
+{
+  "name": "lab-graphic-design",
+  "version": "0.1.0",
+  "description": "Quiet, exact, material graphic identities where every letterform, grid, colour, and print choice traces back to one fact about the subject.",
+  "author": {
+    "name": "Haoran Tang",
+    "url": "https://github.com/haorantang97"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "visual-identity",
+    "typography",
+    "graphic-design",
+    "research",
+    "branding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lab 平面设计 · Lab Graphic Design",
+    "shortDescription": "Quiet, material identities with letters grown from the subject",
+    "longDescription": "Graphic identities in a quiet, exact, material style for exhibitions, publishing, cultural institutions, and craft brands. A custom letterform grows from one detail of the subject, one rule organises every layout, colour comes from materials, print and material carry meaning, and the first look stays calm while the second finds where each detail came from.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/sun-prints.jpg",
+      "./assets/examples/shenguang-enamel.jpg"
+    ],
+    "defaultPrompt": [
+      "Design an identity for this exhibition.",
+      "Find one detail in this brand's craft and grow a wordmark from it.",
+      "Design a poster, sign, website, and book cover for this museum."
+    ]
+  }
+}

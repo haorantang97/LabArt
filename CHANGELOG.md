@@ -1,5 +1,12 @@
 # Changelog
 
+## lab-graphic-design 0.1.0 - 2026-10-27
+
+- Added Lab Graphic Design: quiet, exact, material graphic identities where the
+  letterform, grid, colour, and printing trace back to one fact about the subject.
+  The Skill text is in Chinese.
+- Added two example sets made by the Skill from fictional briefs.
+
 ## plugin packages 0.2.1 - 2026-10-15
 
 - Moved plugin introductions and validation history to `docs/<plugin>/`, Deadpan
