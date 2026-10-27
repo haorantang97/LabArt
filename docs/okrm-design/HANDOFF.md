@@ -61,12 +61,13 @@ Returned as `okrm-return-01` and audited in [AUDIT-01.md](AUDIT-01.md). Tool fix
 judge's output must not be named `judge.md` beside `JUDGE.md` (case-insensitive file systems), the
 judge-room script needs a font fallback for macOS, and the parent folder should have a neutral name.
 
-## Stage 2 — context transfer (after the audit)
+## Stage 2 — context transfer (2026-10-27)
 
-Built from the audit and the cloud session's archive (`okrm-window-archive.zip`, kept by the owner;
-the owner re-attaches it to the auditing session): the research method and source list, the four
-earlier blind rounds and what each changed, practices that were tried and disproved, the boundaries
-(no copying of layouts, marks, folds, typefaces or photographs; no studio or designer names in prompts
-or credits; no third-party images in the repository), the current direction and open questions, the
-revised skill, and a starting brief for the local session. Until then the local session must not see
-any of it, or the control is no longer blank.
+The context is now in the repository rather than in a separate archive: [CONTEXT.md](CONTEXT.md) (goal,
+research basis, version history, every validation round, practices tried and disproved, the owner's
+taste, boundaries, open questions) and [NEXT.md](NEXT.md) (the next phase: distil the work again by
+project series, with emphasis on material, paper, print technique and line; sources, dossier template,
+outputs for 0.7, how to test). Fixed experiment tools are in [handoff-tools/](handoff-tools/).
+`okrm-handoff-stage2.zip` (kept by the owner) holds only a start-here note for the local session and a
+note for the owner. The cloud session ended after this handoff; further fetching and distillation run
+locally.

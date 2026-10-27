@@ -1,0 +1,49 @@
+{
+  "package": "okrm-return",
+  "return_id": "02",
+  "stage": "<stage name>",
+  "skill_version": "<version>",
+  "skill_commit": "<commit>",
+  "operator": "",
+  "machine": {
+    "os": "",
+    "fonts_note": ""
+  },
+  "runs": {
+    "A1": {
+      "arm": "A (no skill)",
+      "tool": "Claude Code | Codex | other",
+      "model": "",
+      "image_generation": "none | <tool/bridge name>",
+      "web_access": "none | attempted | used",
+      "started": "",
+      "finished": "",
+      "interventions": 0,
+      "fresh_session": true,
+      "fresh_folder_outside_any_repo": true,
+      "global_skills_or_memory_present": "none | <describe>",
+      "notes": ""
+    },
+    "C1": {
+      "arm": "C (okrm-design 0.5.0)",
+      "tool": "",
+      "model": "",
+      "image_generation": "",
+      "web_access": "",
+      "started": "",
+      "finished": "",
+      "interventions": 0,
+      "fresh_session": true,
+      "fresh_folder_outside_any_repo": true,
+      "global_skills_or_memory_present": "",
+      "notes": ""
+    }
+  },
+  "judge": {
+    "tool": "",
+    "model": "",
+    "fresh_session": true,
+    "saw_only_judge_room": true,
+    "notes": ""
+  }
+}
