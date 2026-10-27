@@ -1,6 +1,6 @@
 {
   "name": "okrm-design",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A method for taking a graphic or interface design from zero to one and making it: position, question, key point, framework with a readymade from the brief, object before layout, one strange decision that follows from the content; then the same chain carried into type (serif or sans, which one, why), scale, structure, colour, image and sequence, each decision with its reason, rendered as pages or a spec.",
   "author": {
     "name": "Haoran Tang",

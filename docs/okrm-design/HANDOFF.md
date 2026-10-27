@@ -55,6 +55,12 @@ attachment or on a branch `handoff/okrm-return-<id>` under `handoff/`.
 7. Write `AUDIT-<id>.md` beside this file; fold confirmed findings into the skill with a version bump;
    update `VALIDATION.md` and the changelog.
 
+## Stage 1 result
+
+Returned as `okrm-return-01` and audited in [AUDIT-01.md](AUDIT-01.md). Tool fixes for any rerun: the
+judge's output must not be named `judge.md` beside `JUDGE.md` (case-insensitive file systems), the
+judge-room script needs a font fallback for macOS, and the parent folder should have a neutral name.
+
 ## Stage 2 — context transfer (after the audit)
 
 Built from the audit and the cloud session's archive (`okrm-window-archive.zip`, kept by the owner;

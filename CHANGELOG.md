@@ -1,5 +1,19 @@
 # Changelog
 
+## okrm-design 0.6.0 - 2026-10-27
+
+- Audited the first local blank-control experiment (`docs/okrm-design/AUDIT-01.md`): two runs without the
+  skill against two with 0.5.0, six new briefs, the same image-generation bridge for both arms. On the
+  owner's blind ranking the skill met the criterion fixed in advance (4/6 and 6/6 briefs above the
+  same-run control); on the model judge's it did not (2/6 against 6/6). Run-to-run spread was as large
+  as the effect, and the skill was only partly read.
+- `SKILL.md` now names a required reading list per kind of task and carries ten core rules inline.
+- White space is a decision (`layout.md` 1a): one thing per page, excerpts rather than whole records,
+  a measured empty area, at most seven text blocks per page.
+- Generated imagery and object views carry no styled props or mood lighting unless the derivation table
+  names them; no handwriting set in a font; the process named in the brief is respected in the render.
+- Applicability notes that the evidence is strongest for print and its extension to the web.
+
 ## okrm-design 0.5.0 - 2026-10-27
 
 - Added `references/layout.md` (fourteen layout moves from a visual study of the evidence) and

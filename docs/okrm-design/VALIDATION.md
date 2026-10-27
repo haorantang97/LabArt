@@ -1,5 +1,23 @@
 # Validation scope
 
+## 0.6.0 — first local blank-control experiment
+
+Run on the owner's machine after the handoff, without any of this session's context: two runs without
+the skill, two with 0.5.0, the same six new briefs, the same model, tool and image-generation bridge,
+a fresh judge, and the owner's blind ranking taken before the key was opened. The audit, with the
+isolation checks made against the transcripts, is in [AUDIT-01.md](AUDIT-01.md).
+
+On the owner's ranking the skill met the criterion fixed in advance (C above the same-run A on 4/6 and
+6/6 briefs); on the model judge's it did not (2/6 and 6/6, contradicting). The judge preferred polish and
+completeness, the owner restraint and white space; both put one skill run consistently high and one
+control run consistently last, and the spread between two runs of the same condition matched the
+difference between conditions. Neither skill run read the image-generation guidance, and one skipped the
+layout and material references; the run that read them was the owner's first on five of six briefs.
+0.6.0 answers the audit's findings: a required reading list and inline core rules, white space as a
+decision, no props in generated object views, respect for the brief's print process.
+
+Not claimed: 0.6.0 itself has not been run against a control.
+
 ## 0.4.0 — the chain carried through to the work
 
 0.3.0 stopped at the proposal: the generation document ended with "form comes after step 6, see the
