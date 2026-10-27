@@ -1,5 +1,14 @@
 # Changelog
 
+## apfel-research-led-identity 0.1.0 - 2026-10-27
+
+- Added a six-step method for research-led visual identities, distilled from the
+  working method of A Practice for Everyday Life: thesis from one researched fact,
+  custom letterform, dominant grid rule, one controlled tension per piece, tests
+  across media, and a 16-point evaluation. The Skill text is in Chinese.
+- Added two example sets made by the Skill from fictional test briefs. See
+  `docs/apfel-research-led-identity/VALIDATION.md` for how the method was chosen.
+
 ## plugin packages 0.2.1 - 2026-10-15
 
 - Moved plugin introductions and validation history to `docs/<plugin>/`, Deadpan

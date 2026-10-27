@@ -1,6 +1,6 @@
 # LabArt
 
-Black-pen illustrations, animated pixel art, and deadpan watercolor illustrations. Explore each plugin below.
+Black-pen illustrations, animated pixel art, deadpan watercolor illustrations, and research-led visual identities. Explore each plugin below.
 
 ## Antibes Holiday
 
@@ -42,6 +42,20 @@ Draw portraits, animals, plants, objects, and quietly absurd little scenes.
 </table>
 
 [Explore Deadpan Doodles →](docs/deadpan-doodles/README.md) · [中文介绍](docs/deadpan-doodles/README.zh-CN.md)
+
+## APFEL Research-Led Identity
+
+Find one researched fact and grow a custom letterform, a dominant grid rule, and a
+full identity from it. A method distilled from A Practice for Everyday Life.
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/apfel-research-led-identity/README.md"><img src="plugins/apfel-research-led-identity/assets/examples/sun-prints.jpg" alt="Exhibition identity for Anna Atkins: Sun Prints in translucent strip letters"></a></td>
+    <td width="50%"><a href="docs/apfel-research-led-identity/README.md"><img src="plugins/apfel-research-led-identity/assets/examples/shenguang-enamel.jpg" alt="Identity for a Shanghai enamelware workshop with a hanging point on 申"></a></td>
+  </tr>
+</table>
+
+[Explore APFEL Research-Led Identity →](docs/apfel-research-led-identity/README.md) · [中文介绍](docs/apfel-research-led-identity/README.zh-CN.md)
 
 ## Marketplace
 

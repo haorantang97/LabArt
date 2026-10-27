@@ -1,0 +1,4 @@
+interface:
+  display_name: "APFEL Research-Led Identity"
+  short_description: "从对象里找一个事实，长出定制字形和一条主导网格规则，做研究驱动的视觉识别"
+  default_prompt: "用 $apfel-research-led-identity 为这个展览做一套识别：识别总图、海报、导视、网站首屏和书封。"

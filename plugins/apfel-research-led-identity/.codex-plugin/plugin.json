@@ -1,0 +1,38 @@
+{
+  "name": "apfel-research-led-identity",
+  "version": "0.1.0",
+  "description": "Build research-led visual identities: one researched fact grows a custom letterform, a dominant grid rule, and one controlled tension per piece.",
+  "author": {
+    "name": "Haoran Tang",
+    "url": "https://github.com/haorantang97"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "visual-identity",
+    "typography",
+    "graphic-design",
+    "research",
+    "branding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "APFEL Research-Led Identity",
+    "shortDescription": "Research-led identities with a custom letterform and one grid rule",
+    "longDescription": "A six-step method distilled from how A Practice for Everyday Life works, not from how its projects look: research the object, pick one fact you can point at, draw a custom letterform and a dominant grid rule from it, keep one traceable tension per piece, and carry the system across poster, signage, web, and book. For cultural institutions, exhibitions, publishing, and craft brands.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/sun-prints.jpg",
+      "./assets/examples/shenguang-enamel.jpg"
+    ],
+    "defaultPrompt": [
+      "Build a research-led identity for this exhibition.",
+      "Find one fact in this brand's craft and grow a logo and grid from it.",
+      "Design a poster, sign, website, and book cover from one researched seed."
+    ]
+  }
+}

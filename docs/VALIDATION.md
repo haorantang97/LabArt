@@ -1,5 +1,13 @@
 # Package validation
 
+## apfel-research-led-identity 0.1.0 — new plugin
+
+Added `plugins/apfel-research-led-identity` (4 plugin files beyond the Skill: manifest,
+license, two declared interface screenshots; standalone Skill: 3 files). The other
+three plugins are unchanged. On 2026-10-27 `scripts/check_packages.py` passed for all
+four marketplace sources, and the new Skill passed the installed official
+`quick_validate.py`. No marketplace installation or client activation is claimed.
+
 ## 0.2.1 — installation boundaries
 
 LabArt distributes three independent plugins. The marketplace continues to select
