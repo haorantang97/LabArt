@@ -1,5 +1,29 @@
 # Package validation
 
+## x-ray 0.1.0 — new plugin
+
+On 2026-10-30, added X-ray with 13 plugin files, an 8-file standalone Skill,
+and four declared interface screenshots: hand/ball, player/keys, folded shirt,
+and frontal handbag. The shirt screenshot is bundled in the Skill as a labelled
+generated appearance anchor; the other three are plugin-level presentation images.
+
+- All five marketplace sources passed scripts/check_packages.py.
+- The new source Skill passed the installed official quick_validate.py.
+- A clean copy retained the plugin's complete inventory and SHA-256 hashes and
+  passed the plugin checker.
+- GitHub CLI installed the new Skill by name from the staged local checkout into
+  an isolated custom directory. Its eight-file inventory, unchanged resource
+  hashes, package links, and official Skill format validation passed. The CLI
+  adds source-tracking metadata to SKILL.md.
+- The four selected screenshot PNGs match their original generated files byte
+  for byte. Repository Markdown/image links and Git whitespace checks passed.
+- All 12 existing Deadpan tests passed; existing plugin contents were unchanged.
+
+The first exact-path local install attempt did not discover the untracked Skill;
+staging the files and selecting x-ray by name installed it successfully.
+No global plugin installation or client activation is claimed. The visual tests
+and unresolved limits are recorded in [X-ray validation](x-ray/VALIDATION.md).
+
 ## lab-graphic-design 0.1.0 — new plugin
 
 Added `plugins/lab-graphic-design` (4 plugin files beyond the Skill: manifest,

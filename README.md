@@ -1,6 +1,6 @@
 # LabArt
 
-Black-pen illustrations, animated pixel art, deadpan watercolor illustrations, and graphic identities. Explore each plugin below.
+Black-pen illustrations, animated pixel art, deadpan watercolor illustrations, graphic identities, and radiographic images. Explore each plugin below.
 
 ## Antibes Holiday
 
@@ -56,6 +56,24 @@ subject, and every element has a reason.
 </table>
 
 [Explore Lab Graphic Design →](docs/lab-graphic-design/README.md) · [中文介绍](docs/lab-graphic-design/README.zh-CN.md)
+
+## X-ray
+
+Radiographic images with layered density, coherent transmission, and visible
+internal structure. Explore objects, textiles, and living gestures.
+
+<table>
+  <tr>
+    <td width="50%"><a href="docs/x-ray/README.md"><img src="plugins/x-ray/assets/examples/hand-and-ball.png" alt="Hand and ball"></a></td>
+    <td width="50%"><a href="docs/x-ray/README.md"><img src="plugins/x-ray/assets/examples/player-and-keys.png" alt="Player and keys"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="docs/x-ray/README.md"><img src="plugins/x-ray/skills/x-ray/assets/style/folded-shirt.png" alt="Folded shirt"></a></td>
+    <td width="50%"><a href="docs/x-ray/README.md"><img src="plugins/x-ray/assets/examples/handbag-front.png" alt="Handbag, front view"></a></td>
+  </tr>
+</table>
+
+[Explore X-ray →](docs/x-ray/README.md) · [中文介绍](docs/x-ray/README.zh-CN.md)
 
 ## Marketplace
 

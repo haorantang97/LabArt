@@ -1,0 +1,40 @@
+{
+  "name": "x-ray",
+  "version": "0.1.0",
+  "description": "Create original radiographic images with coherent transmission, layered density, and visible internal structure.",
+  "author": {
+    "name": "Haoran Tang",
+    "url": "https://github.com/haorantang97"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": [
+    "x-ray",
+    "radiography",
+    "transparency",
+    "image-generation",
+    "visual-art"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X-ray",
+    "shortDescription": "Radiographic images with layered density and internal structure",
+    "longDescription": "A transferable visual workflow for X-ray transmission imagery across objects, textiles, people, animals, and actions. Separate subject and gesture from projection, material attenuation, display polarity, and image texture, then inspect realism and structural limits.",
+    "developerName": "Haoran Tang",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "screenshots": [
+      "./assets/examples/hand-and-ball.png",
+      "./assets/examples/player-and-keys.png",
+      "./skills/x-ray/assets/style/folded-shirt.png",
+      "./assets/examples/handbag-front.png"
+    ],
+    "defaultPrompt": [
+      "Create an X-ray image of this subject.",
+      "Turn this action into a coherent radiographic scene.",
+      "Keep this X-ray reference consistent while changing one detail."
+    ]
+  }
+}

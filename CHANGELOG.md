@@ -1,5 +1,16 @@
 # Changelog
 
+## x-ray 0.1.0 - 2026-10-30
+
+- Added X-ray: radiographic visual creation with projection, attenuation, polarity,
+  reference-conditioned changes, and action/contact checks.
+- Added four selected generated examples: hand/ball, player/keys, folded shirt,
+  and frontal handbag, plus English/Chinese introduction pages.
+- Kept generation prompts and validation history outside installation packages;
+  bundled two labelled synthetic appearance anchors inside the standalone Skill.
+- Recorded known realism and structural limits without claiming physics simulation
+  or general generation stability.
+
 ## lab-graphic-design 0.1.0 - 2026-10-27
 
 - Added Lab Graphic Design: quiet, exact, material graphic identities where the

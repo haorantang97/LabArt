@@ -1,0 +1,4 @@
+interface:
+  display_name: "X-ray"
+  short_description: "Create radiographic images with coherent internal layers"
+  default_prompt: "Use $x-ray to create an original radiographic image of this subject or action, preserving transmission and checking structural limits."
